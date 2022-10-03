@@ -7,7 +7,7 @@
 .left-part_signup {
   width: 45%;
   min-height: 92vh;
-  background-color: #f7f7f7;
+  background-color: var(--background-secondary);
   padding: 60px;
   display: flex;
   flex-direction: column;
@@ -36,7 +36,7 @@
   font-family: "Raleway", sans-serif;
   font-size: 1.52rem;
   font-weight: 900;
-  color: #000000;
+  color: var(--black-color);
 }
 
 .left-part_signup .top_signup p {
@@ -45,7 +45,7 @@
   font-size: 1.043rem;
   line-height: 19px;
   letter-spacing: -0.02em;
-  color: #566474;
+  color: var(--para-color);
 }
 
 .signup-banner_signup {
@@ -84,7 +84,7 @@
 
 .form-container_signup {
   width: 100%;
-  border: 1px solid #E4EBF1;
+  border: 1px solid var(--input-border);
   border-radius: 10px;
   padding: 35px 45px;
 }
@@ -97,25 +97,25 @@
 
 .right-part_signup .top_signup h2 {
   font-size: 1.35rem;
-  color: #000000;
+  color: var(--black-color);
 }
 
 .right-part_signup .top_signup a {
   font-weight: 700;
   font-size: 0.905rem;
   text-decoration: underline;
-  color: #ffb0b0;
+  color: var(--primary-dark);
   cursor: pointer;
 }
 
 .right-part_signup .top_signup a:hover {
-  color: #ffc3c3;
+  color: var(--primary-light);
 }
 
 .line_signup {
   width: 100%;
   height: 1px;
-  background-color: #E4EBF1;
+  background-color: var(--input-border);
   margin: 15px 5px;
 }
 
@@ -123,14 +123,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #f7f7f7;
+  background-color: var(--background-secondary);
   border-radius: 5px;
 }
 
 .main-msg_signup p {
   font-size: 18px;
   font-weight: 500;
-  color: red;
+  color: var(--warning-color);
 }
 
 .mid-part_signup {
@@ -175,7 +175,7 @@
   right: 10px;
   top: 38px;
   font-size: 20px;
-  color: #566474;
+  color: var(--para-color);
 }
 
 .box6_signup {
@@ -199,7 +199,7 @@
   line-height: 1.75rem;
   letter-spacing: -0.02em;
   margin-left: 10px;
-  color: #000000;
+  color: var(--black-color);
 }
 
 .box6_signup a {
@@ -208,7 +208,7 @@
   line-height: 1.25rem;
   letter-spacing: -0.02em;
   text-decoration: none;
-  color: #ffb0b0;
+  color: var(--primary-dark);
 }
 
 .box6_signup input[id="cb1"] + label {
@@ -224,7 +224,7 @@
   top: -3px;
   left: 2px;
   content: "\2714";
-  color: #566474;
+  color: var(--para-color);
   font-size: 14px;
   font-weight: 800;
 }
@@ -234,7 +234,7 @@
 
 .form-box_signup label {
   font-weight: 700;
-  color: #566474;
+  color: var(--para-color);
   font-size: 1rem;
   margin-left: 2px;
 }
@@ -243,29 +243,25 @@
   outline: none;
   padding: 12px 10px;
   width: 100%;
-  border: 1px solid #E4EBF1;
-  color: #1e272e;
+  border: 1px solid var(--input-border);
+  color: var(--input-color);
   border-radius: 5px;
   font-size: 1rem;
   margin: 3px 0;
   transition: 0.1s;
-  background-color: #ffffff;
+  background-color: var(--white-color);
 }
 
 .form-box_signup input:hover {
-  border: 1px solid #CAD7E3;
+  border: 1px solid var(--input-hover);
 }
 
 .form-box_signup input:focus {
-  border-color: #7840f2;
-}
-
-input.active:focus {
-  border-color: red;
+  border-color: var(--input-focus);
 }
 
 .errors-msg_signup {
-  color: red;
+  color: var(--warning-color);
   font-size: 16px;
 }
 
@@ -281,8 +277,8 @@ input.active:focus {
   font-size: 1rem;
   border-radius: 5px;
   font-weight: 700;
-  background-color: #ffb0b0;
-  color: #000;
+  background-color: var(--primary-dark);
+  color: var(--white-color);
   cursor: pointer;
   font-style: normal;
   transition: 0.1s;
@@ -290,11 +286,11 @@ input.active:focus {
 }
 
 .create-btn_signup:hover {
-  background-color: #ffd8d8;
+  background-color: var(--primary-light);
 }
 
 .create-btn-logo_signup {
-  color: #000;
+  color: var(--white-color);
 }
 
 .google-btn_signup {
@@ -309,8 +305,8 @@ input.active:focus {
   font-size: 1rem;
   border-radius: 5px;
   font-weight: 700;
-  background-color: #f7f7f7;
-  color: #1e272e;
+  background-color: var(--background-secondary);
+  color: var(--input-color);
   cursor: pointer;
   font-style: normal;
   margin: 15px 2px;
@@ -318,14 +314,14 @@ input.active:focus {
 }
 
 .google-btn_signup:hover {
-  background-color: #E6EAEF;
+  background-color: var(--background-secondary-hover);
 }
 
 .google-btn_signup img {
   height: 20px;
   width: 20px;
   margin-right: 5px;
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 .bottom-part_signup {
@@ -337,13 +333,13 @@ input.active:focus {
 
 .bottom-part_signup p{
   font-size: 16px;
-  color: #000000;
+  color: var(--black-color);
 }
 
 .bottom-part_signup a{
   font-size: 16px;
   font-weight: 700;
-  color: #000000;
+  color: var(--black-color);
 }
 
 @media screen and (max-width: 1110px) {

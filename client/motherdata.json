@@ -1,0 +1,82 @@
+[
+  {
+    "week": 1,
+    "food": {
+      "title": "",
+      "description": "",
+      "fruits": [
+        {
+          "name": "",
+          "url": "",
+          "description": { "nutrients": [], "importance": "" }
+        }
+      ],
+      "vegetables": [
+        {
+          "name": "",
+          "url": "",
+          "description": { "nutrients": [], "importance": "" }
+        }
+      ],
+      "others": [
+        {
+          "name": "",
+          "url": "",
+          "description": { "nutrients": [], "importance": "" }
+        }
+      ],
+      "non-veg": [
+        {
+          "name": "",
+          "url": "",
+          "description": { "nutrients": [], "importance": "" }
+        }
+      ]
+    },
+    "checkups_scans": [
+      {
+        "scan": [
+          {
+            "image": "",
+            "title": "",
+            "description": ""
+          }
+        ],
+        "checkup": [
+          {
+            "image": "",
+            "title": "",
+            "description": ""
+          }
+        ],
+        "vaccines": [
+          {
+            "image": "",
+            "title": "",
+            "description": ""
+          }
+        ]
+      }
+    ],
+    "exercise": [
+      {
+        "image": "",
+        "title": "",
+        "description": ""
+      }
+    ],
+    "tips": [
+      {
+        "title": "",
+        "description": ""
+      }
+    ],
+    "symptoms": [
+      {
+        "image": "",
+        "title": "",
+        "description": ""
+      }
+    ]
+  }
+]

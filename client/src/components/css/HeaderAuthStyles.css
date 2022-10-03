@@ -3,14 +3,14 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0.9% 9% 0.7% 9%;
+    padding: 0.5% 9% 0.5% 9%;
     position: sticky;
     top: 0;
     /* left: 0; */
     z-index: 500;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1);
     margin: 0;
-    background-color: #ffeaea;
+    background-color: var(--white-color);
   }
   
   .left_section_headerauth {
@@ -28,7 +28,7 @@
     margin-left: 2.188rem;
     text-align: center;
     text-decoration: none;
-    color: #000000;
+    color: var(--black-color);
     font-weight: 500;
     font-size: 1rem;
     position: relative;
@@ -40,7 +40,7 @@
     width: 100%;
     height: 2px;
     border-radius: 4px;
-    background-color: #000000;
+    background-color: var(--black-color);
     bottom: 0;
     left: 0;
     transform-origin: right;
@@ -80,8 +80,8 @@
     transform: scaleX(1);
   }
   
-  img {
-    width: 100px;
+  .left_section_headerauth img {
+    width: 50px;
   }
   
   .intern2_headerauth,
@@ -107,7 +107,7 @@
     }
   
     .hamburger_icon_headerauth {
-      color: #000000;
+      color: var(--black-color);
     }
   
     .right_section_headerauth {
@@ -116,7 +116,7 @@
       left: 0;
       width: 100vw !important;
       z-index: 90;
-      background-color: #ffffff;
+      background-color: var(--white-color);
       padding: 20px 9%;
       display: none;
       justify-content: flex-start;
@@ -139,13 +139,6 @@
       display: flex;
       flex-direction: column-reverse;
       margin-top: 10px;
-    }
-  
-    .btn_light_headerauth,
-    .btn_primary_headerauth {
-      width: 100%;
-      margin-left: 0;
-      margin-bottom: 15px;
     }
   
     .right_section_headerauth a {
