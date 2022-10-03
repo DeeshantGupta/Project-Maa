@@ -1,17 +1,227 @@
 [
-    {
-       "week": 1,
-       "title":"Your baby is as big as a poppy seed.",
-       "baby_growth":"https://www.babycenter.com/ims/2015/01/pregnancy-week-2-fertilization.jpg",
-       "weight":"No baby yet",
-       "size":"No baby yet",
-       "baby_lookslike":"https://drive.google.com/file/d/1m68Bt7O8nGn8c0EfUIS2FAjkHGjWj_n8/view?usp=sharing",
-       "this_week_changes":[
-          {
-             "image":"",
-             "title":"",
-             "description":""
-          }
-       ]
-    }
- ]
+   {
+      "week": 1,
+      "title": "Your baby is as big as a poppy seed.",
+      "baby_growth": "https://www.babycenter.com/ims/2015/01/pregnancy-week-2-fertilization.jpg",
+      "weight": "No baby yet",
+      "size": "No baby yet",
+      "baby_lookslike": "https://drive.google.com/file/d/1m68Bt7O8nGn8c0EfUIS2FAjkHGjWj_n8/view?usp=sharing",
+      "this_week_changes": [
+         {
+            "image": "",
+            "title": "",
+            "description": ""
+         },
+         {
+            "image": "",
+            "title": "",
+            "description": ""
+         },
+         {
+            "image": "",
+            "title": "",
+            "description": ""
+         }
+      ]
+   },
+   {
+      "week": 1,
+      "title": "Your baby is as big as a poppy seed.",
+      "baby_growth": "https://www.babycenter.com/ims/2015/01/pregnancy-week-2-fertilization.jpg",
+      "weight": "No baby yet",
+      "size": "No baby yet",
+      "baby_lookslike": "https://drive.google.com/file/d/1m68Bt7O8nGn8c0EfUIS2FAjkHGjWj_n8/view?usp=sharing",
+      "this_week_changes": [
+         {
+            "image": "https://images.agoramedia.com/wte3.0/gcms/pregnancy-week1-baby-development-image-a.svg",
+            "title": "Baby brain boost",
+            "description": "Protect unborn brains! Women who get 400 micrograms of folic acid daily this early on reduce baby’s risk of neural tube defects by up to 70 percent."
+         },
+         {
+            "image": "https://images.agoramedia.com/wte3.0/gcms/pregnancy-week1-baby-development-image-b.svg",
+            "title": "Chance of twins?",
+            "description": "Twin alert! If you’re over the age of 35 you produce lots of follicle-stimulating hormones and more follicles, upping the chance that two or more eggs will be released during ovulation."
+         },
+         {
+            "image": "https://images.agoramedia.com/wte3.0/gcms/pregnancy-week1-baby-development-image-c.svg",
+            "title": "You're pregnant! Or are you?",
+            "description": "Surprise: You’re not actually pregnant during your first week of pregnancy! Your due date is calculated from the first day of your last period."
+         }
+      ]
+   },
+   {
+      "week": 2,
+      "title": "Your baby is as big as a poppy seed.",
+      "baby_growth": "https://www.babycenter.com/ims/2015/01/pregnancy-week-2-fertilization.jpg",
+      "weight": "No baby yet",
+      "size": "No baby yet",
+      "baby_lookslike": "https://drive.google.com/file/d/1m68Bt7O8nGn8c0EfUIS2FAjkHGjWj_n8/view?usp=sharing",
+      "this_week_changes": [
+         {
+            "image": "https://images.agoramedia.com/wte3.0/gcms/pregnancy-week1-baby-development-image-a.svg",
+            "title": "Baby brain boost",
+            "description": "Protect unborn brains! Women who get 400 micrograms of folic acid daily this early on reduce baby’s risk of neural tube defects by up to 70 percent."
+         },
+         {
+            "image": "https://images.agoramedia.com/wte3.0/gcms/pregnancy-week1-baby-development-image-b.svg",
+            "title": "Chance of twins?",
+            "description": "Twin alert! If you’re over the age of 35 you produce lots of follicle-stimulating hormones and more follicles, upping the chance that two or more eggs will be released during ovulation."
+         },
+         {
+            "image": "https://images.agoramedia.com/wte3.0/gcms/pregnancy-week1-baby-development-image-c.svg",
+            "title": "You're pregnant! Or are you?",
+            "description": "Surprise: You’re not actually pregnant during your first week of pregnancy! Your due date is calculated from the first day of your last period."
+         }
+      ]
+   },
+   {
+      "week": 3,
+      "title": "Your baby is as big as a poppy seed.",
+      "baby_growth": "https://www.babycenter.com/ims/2015/01/pregnancy-week-2-fertilization.jpg",
+      "weight": "No baby yet",
+      "size": "No baby yet",
+      "baby_lookslike": "https://drive.google.com/file/d/1m68Bt7O8nGn8c0EfUIS2FAjkHGjWj_n8/view?usp=sharing",
+      "this_week_changes": [
+         {
+            "image": "https://images.agoramedia.com/wte3.0/gcms/pregnancy-week3-baby-development-image-a.svg",
+            "title": "Baby on board!",
+            "description": "We have an embryo! Your soon-to-be fetus is still a cluster of cells that are growing and multiplying. It’s about the size of a pinhead."
+         },
+         {
+            "image": "https://images.agoramedia.com/wte3.0/gcms/pregnancy-week3-baby-development-image-b.svg",
+            "title": "The journey begins",
+            "description": "It takes about four days for your fertilized egg — now dubbed a blastocyst — to reach your uterus and another two to three days to implant."
+         },
+         {
+            "image": "https://images.agoramedia.com/wte3.0/gcms/pregnancy-week3-baby-development-image-c.svg",
+            "title": "Boy or girl?",
+            "description": "You probably won’t know if you’re having a baby boy or girl for about 14 more weeks, but sex is determined at the moment of fertilization."
+         }
+      ]
+   },
+   {
+      "week": 4,
+      "title": "Your baby is as big as a poppy seed.",
+      "baby_growth": "https://www.babycenter.com/ims/2015/01/pregnancy-week-2-fertilization.jpg",
+      "weight": "No baby yet",
+      "size": "No baby yet",
+      "baby_lookslike": "https://drive.google.com/file/d/1m68Bt7O8nGn8c0EfUIS2FAjkHGjWj_n8/view?usp=sharing",
+      "this_week_changes": [
+         {
+            "image": "https://images.agoramedia.com/wte3.0/gcms/pregnancy-week4-baby-development-image-a.svg",
+            "title": "Two sets of cells",
+            "description": "Your itty bitty embryo has two layers of cells called the epiblast and the hypoblast. Soon they’ll develop into all of your baby’s body parts and systems."
+         },
+         {
+            "image": "https://images.agoramedia.com/wte3.0/gcms/pregnancy-week4-baby-development-image-b.svg",
+            "title": "Seeing double",
+            "description": "You normally don't have your first ultrasound until at least week 6, but you might be able to spot the gestational sac as early as halfway through week 4 — and if you're having twins, you'll likely see two of them!"
+         },
+         {
+            "image": "https://images.agoramedia.com/wte3.0/gcms/pregnancy-week4-baby-development-image-c.svg",
+            "title": "Baby's yolk sac",
+            "description": "Before the placenta forms, you develop a yolk sac, which can be visible next week. This sac produces blood and helps to nourish your young embryo."
+         }
+      ]
+   },
+   {
+      "week": 5,
+      "title": "Your baby is as big as a poppy seed.",
+      "baby_growth": "https://www.babycenter.com/ims/2015/01/pregnancy-week-2-fertilization.jpg",
+      "weight": "No baby yet",
+      "size": "No baby yet",
+      "baby_lookslike": "https://drive.google.com/file/d/1m68Bt7O8nGn8c0EfUIS2FAjkHGjWj_n8/view?usp=sharing",
+      "this_week_changes": [
+         {
+            "image": "https://images.agoramedia.com/wte3.0/gcms/pregnancy-week5-baby-development-image-a.svg",
+            "title": "The placenta forms",
+            "description": "The placenta is under construction and will finish forming by the end of the first trimester. It’s an organ that will soon connect your developing fetus to your uterine wall, providing baby-to-be with nutrients and oxygen."
+         },
+         {
+            "image": "https://images.agoramedia.com/wte3.0/gcms/pregnancy-week5-baby-development-image-b.svg",
+            "title": "Positive pregnancy test",
+            "description": "Your hCG hormone levels are now high enough to confirm you're having a baby in a home pregnancy test."
+         },
+         {
+            "image": "https://images.agoramedia.com/wte3.0/gcms/pregnancy-week5-baby-development-image-c.svg",
+            "title": "From embryo to fetus",
+            "description": "That mass of cells we call an embryo is starting to look like a fetus, with a forming neural tube (pre-spinal cord and brain) running from head to rump."
+         }
+      ]
+   },
+   {
+      "week": 6,
+      "title": "Your baby is as big as a poppy seed.",
+      "baby_growth": "https://www.babycenter.com/ims/2015/01/pregnancy-week-2-fertilization.jpg",
+      "weight": "No baby yet",
+      "size": "No baby yet",
+      "baby_lookslike": "https://drive.google.com/file/d/1m68Bt7O8nGn8c0EfUIS2FAjkHGjWj_n8/view?usp=sharing",
+      "this_week_changes": [
+         {
+            "image": "https://images.agoramedia.com/wte3.0/gcms/pregnancy-week6-baby-development-image-a.svg",
+            "title": "Smile!",
+            "description": "Your little one’s face is taking shape this week, with cheeks, chin and jaws beginning to form."
+         },
+         {
+            "image": "https://images.agoramedia.com/wte3.0/gcms/pregnancy-week6-baby-development-image-b.svg",
+            "title": "Baby's heart is gearing up!",
+            "description": "The cluster of cells that will become your baby's heart starts to pulse sometime after week 5. From week 6 of pregnancy or later, you may be able to see (and/or hear) cardiac activity for the first time on an ultrasound, though the exact timing of when it can be detected varies a little."
+         },
+         {
+            "image": "https://images.agoramedia.com/wte3.0/gcms/pregnancy-week6-baby-development-image-c.svg",
+            "title": "Fetal position",
+            "description": "It’s not called the fetal position for nothing: Your baby-to-be, who looks like a tiny tadpole complete with teeny\"tail,\" is curled up with the leg buds tucked in toward the torso. No plans to move soon!"
+         }
+      ]
+   },
+   {
+      "week": 7,
+      "title": "Your baby is as big as a poppy seed.",
+      "baby_growth": "https://www.babycenter.com/ims/2015/01/pregnancy-week-2-fertilization.jpg",
+      "weight": "No baby yet",
+      "size": "No baby yet",
+      "baby_lookslike": "https://drive.google.com/file/d/1m68Bt7O8nGn8c0EfUIS2FAjkHGjWj_n8/view?usp=sharing",
+      "this_week_changes": [
+         {
+            "image": "https://images.agoramedia.com/wte3.0/gcms/pregnancy-week7-baby-development-image-a.svg",
+            "title": "Baby's lifeline",
+            "description": "Umbilical cord, welcome to the womb! This tube joins baby and placenta, delivering oxygen and nutrients and even eliminating waste into your bloodstream."
+         },
+         {
+            "image": "https://images.agoramedia.com/wte3.0/gcms/pregnancy-week7-baby-development-image-b.svg",
+            "title": "The mucus plug develops",
+            "description": "Your mucus plug debuts at the week’s close, settling into the opening of your cervix. This natural cork seals and protects your womb from bacteria."
+         },
+         {
+            "image": "https://images.agoramedia.com/wte3.0/gcms/pregnancy-week7-baby-development-image-c.svg",
+            "title": "Webbed hands and feet",
+            "description": "Your baby-to-be has developed web-like hand and feet stubs. Soon enough, hands will grow and change to have fingers and toes, but right now, they look like little paddles."
+         }
+      ]
+   },
+   {
+      "week": 1,
+      "title": "Your baby is as big as a poppy seed.",
+      "baby_growth": "https://www.babycenter.com/ims/2015/01/pregnancy-week-2-fertilization.jpg",
+      "weight": "No baby yet",
+      "size": "No baby yet",
+      "baby_lookslike": "https://drive.google.com/file/d/1m68Bt7O8nGn8c0EfUIS2FAjkHGjWj_n8/view?usp=sharing",
+      "this_week_changes": [
+         {
+            "image": "",
+            "title": "",
+            "description": ""
+         },
+         {
+            "image": "",
+            "title": "",
+            "description": ""
+         },
+         {
+            "image": "",
+            "title": "",
+            "description": ""
+         }
+      ]
+   }
+]
