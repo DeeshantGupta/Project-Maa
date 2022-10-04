@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "../components/css/DetailsOneStyles.css";
 import { BsArrowRightShort } from "react-icons/bs";
-import { FaLinkedin } from "react-icons/fa";
 import HeaderAuth from "../components/jsx/HeaderAuth";
 import { useNavigate,useParams } from "react-router-dom";
 import axios from 'axios'

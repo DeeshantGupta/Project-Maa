@@ -1,5 +1,6 @@
 import React from "react";
 import { Route, Routes, BrowserRouter } from "react-router-dom";
+import Dashboard from "./pages/Dashboard";
 import DetailsOne from "./pages/DetailsOne";
 import EmailVerify from "./pages/EmailVerify";
 import Error404 from "./pages/Error404";
@@ -21,6 +22,7 @@ const App = () => {
         <Route exact path="/forgotpassword/:email" element={<ForgotPassword />} />        
         <Route exact path="*" element={<Error404 />} />
         <Route exact path="/student/detailsone" element={<DetailsOne />} />
+        <Route exact path="/dashboard" element={<Dashboard />} />
  
       </Routes>
     </BrowserRouter>
