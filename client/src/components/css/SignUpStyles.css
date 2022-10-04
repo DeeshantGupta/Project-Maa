@@ -141,7 +141,7 @@
 .form-main-box_signup {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
   grid-column-gap: 20px;
   grid-row-gap: 20px;
 }
@@ -168,6 +168,10 @@
   grid-area: 3 / 1 / 4 / 3;
 }
 
+.box6_signup {
+  grid-area: 4 / 1 / 5 / 3;
+}
+
 .hide_password_signup {
   cursor: pointer;
   position: absolute;
@@ -178,8 +182,8 @@
   color: var(--para-color);
 }
 
-.box6_signup {
-  grid-area: 4 / 1 / 5 / 3;
+.box7_signup {
+  grid-area: 5 / 1 / 6 / 3;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -187,13 +191,13 @@
   margin-top: -35px;
 }
 
-.box6_signup div {
+.box7_signup div {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.box6_signup span {
+.box7_signup span {
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.75rem;
@@ -202,7 +206,7 @@
   color: var(--black-color);
 }
 
-.box6_signup a {
+.box7_signup a {
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.25rem;
@@ -211,7 +215,7 @@
   color: var(--primary-dark);
 }
 
-.box6_signup input[id="cb1"] + label {
+.box7_signup input[id="cb1"] + label {
   display: inline-block;
   width: 20px;
   height: 20px;
@@ -219,7 +223,7 @@
   border-radius: 5px;
   cursor: pointer;
 }
-.box6_signup input[id="cb1"]:checked + label:after {
+.box7_signup input[id="cb1"]:checked + label:after {
   position: relative;
   top: -3px;
   left: 2px;
@@ -228,7 +232,7 @@
   font-size: 14px;
   font-weight: 800;
 }
-.box6_signup input[id="cb1"] {
+.box7_signup input[id="cb1"] {
   display: none;
 }
 
@@ -361,7 +365,7 @@
     width: 100%;
   }
 
-  .box6_signup {
+  .box7_signup {
     margin-top: 10px;
     margin-bottom: 30px;
   }

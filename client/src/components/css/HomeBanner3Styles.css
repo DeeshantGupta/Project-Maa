@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;500;600;700&display=swap');
+
+.main_container_homebanner3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-gap: 50px;
+    padding: 50px 100px;
+}
+
+.top_section_homebanner3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-gap: 5px;
+}
+
+.top_section_homebanner3 h2 {
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 56px;
+    line-height: 58px;
+    font-weight: 700;
+    color: var(--heading-color);
+    text-align: center;
+}
+
+.top_section_homebanner3 p {
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--para-color);
+    text-align: center;
+}
+
+.bottom_section_homebanner3 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video_homebanner3 {
+    width: 75%;
+    height: 420px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+}

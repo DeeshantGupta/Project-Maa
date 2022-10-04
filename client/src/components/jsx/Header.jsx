@@ -26,6 +26,7 @@ const Header = () => {
       <div className="left_section_header">
           <Link to="/">
             <img src={Logo} alt="pregrad" />
+            <p><span className="hindi_header">माँ</span><span className="english_header">tri</span></p>
           </Link>
         {/* <Link to="/" className="intern_header">Top Internships</Link> */}
       </div>
