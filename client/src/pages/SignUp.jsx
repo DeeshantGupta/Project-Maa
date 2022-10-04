@@ -11,12 +11,15 @@ import HeaderAuth from "../components/jsx/HeaderAuth";
 import { AiOutlineEye, AiOutlineEyeInvisible } from "react-icons/ai";
 
 const SignUp = () => {
+
   const navigate = useNavigate();
 
   const [showPassword, setShowPassword] = useState(true);
 
   const [formErrors, setFormErrors] = useState({});
+
   const [isSubmit, setIsSubmit] = useState(false);
+
   const [checkboxCheck, setCheckboxCheck] = useState(false);
 
   const type = "register"
@@ -27,6 +30,7 @@ const SignUp = () => {
     password: "",
     confirmpassword: "",
     mobile: "",
+    address: ""
   });
 
   const handleForm = (e) => {
@@ -45,7 +49,7 @@ const SignUp = () => {
 
   useEffect(() => {
     if( Object.keys(formErrors).length === 0 && isSubmit ){
-      axios.post("http://localhost:8000/signup", user)
+      axios.post("http://localhost:5000/auth/signup", user)
       .then( res => {
         if(res.data.errors){
           setFormErrors(res.data.errors)
@@ -95,6 +99,10 @@ const SignUp = () => {
       errors.mobile = "Mobile number required"
     }else if(values.mobile.length !== 10){
       errors.mobile = "Mobile number is Invalid";
+    }
+
+    if(!values.address){
+      errors.address = "Home address required"
     }
 
     if(!checkboxCheck){
@@ -184,12 +192,18 @@ const SignUp = () => {
                 </div>
 
                 <div className="form-box_signup box5_signup">
-                  <label style={{paddingBottom: "5px"}}>Mobile Number</label>
+                  <label>Mobile Number</label>
                   <input type="text" name="mobile" placeholder="Your Mobile Number" value={user.mobile} onChange={handleForm} />
                   <p className="errors-msg_signup">{formErrors.mobile}</p>
                 </div>
 
-                <div className="box6_signup">
+                <div className="form-box_signup box6_signup">
+                  <label>Home Address</label>
+                  <input type="text" name="address" placeholder="Your Home Address" value={user.address} onChange={handleForm} />
+                  <p className="errors-msg_signup">{formErrors.address}</p>
+                </div>
+
+                <div className="box7_signup">
                   <div>
                   <input type="checkbox" id="cb1" onClick={() => setCheckboxCheck(!checkboxCheck)} />
                   <label for="cb1"></label>

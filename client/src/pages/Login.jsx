@@ -43,7 +43,7 @@ const Login = () => {
   useEffect(() => {
   
     if( Object.keys(formErrors).length === 0 && isSubmit ){
-      axios.post("http://localhost:8000/login",
+      axios.post("http://localhost:5000/auth/login",
       { 
         ...user
       },{
@@ -189,8 +189,8 @@ const Login = () => {
               <div className="line_login"></div>
 
               <div className="bottom-part_login">
-                <p>New to Pregrad ?&nbsp;</p>
-                <Link to="/company/signup">Register as a Company</Link>
+                <p>New to Maatri ?&nbsp;</p>
+                <Link to="/company/signup">Register as new User</Link>
               </div>
             </div>
           </div>

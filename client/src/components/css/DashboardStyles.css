@@ -1,0 +1,197 @@
+.main_container_dashboard {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 100px;
+    padding: 50px 150px;
+}
+
+.top_section_dashboard {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.top_heading_section_dashboard {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    grid-gap: 10px;
+    background-color: var(--primary-color);
+    padding: 40px 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.top_heading_section_dashboard h2 {
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--heading-color);
+    cursor: auto;
+    text-align: center;
+}
+
+.top_heading_section_dashboard p {
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+    color: var(--primary-dark);
+    cursor: auto;
+    text-align: center;
+}
+
+.top_detail_section_dashboard {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: -90px;
+}
+
+.detail_first_section_dashboard, .detail_second_section_dashboard, .detail_third_section_dashboard {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.detail_first_section_dashboard img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 15px solid var(--white-color);
+}
+
+.detail_first_section_dashboard p, .detail_third_section_dashboard p {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--para-color);
+    cursor: auto;
+    text-align: center;
+}
+
+.detail_second_section_dashboard {
+    margin-top: -50px;
+}
+
+.detail_second_section_dashboard img {
+    width: 240px;
+    height: 240px;
+    object-fit: contain;
+    border-radius: 50%;
+    border: 15px solid var(--white-color);
+    background-color: var(--primary-lightest);
+}
+
+.third_top_section_dashboard {
+    width: 180px;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 15px solid var(--white-color);
+    background-color: #c1b1e1;
+}
+
+.third_top_section_dashboard p {
+    font-size: 55px;
+    font-weight: 600;
+    color: var(--heading-color);
+    cursor: auto;
+}
+
+.middle_section_dashboard {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 70px;
+}
+
+.middle_upper_section_dashboard {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.middle_upper_section_dashboard h2 {
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 56px;
+    line-height: 58px;
+    font-weight: 700;
+    color: var(--heading-color);
+    text-align: center;
+}
+
+.middle_upper_section_dashboard p {
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--para-color);
+    text-align: center;
+}
+
+.cards_container_dashboard {
+    width: 100%;
+    display: grid;
+grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 100px;
+grid-row-gap: 50px;
+}
+
+.card_box_dashboard {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: var(--primary-lightest);
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+    /* border: 1px solid var(--primary-dark); */
+    padding: 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+.card_box_dashboard:hover {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card_top_section_dashboard {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.card_top_section_dashboard h3 {
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--menu-link);
+    cursor: auto;
+}
+
+.card_image_section_dashboard {
+    position: absolute;
+    top: -90px;
+    left: -80px;
+}
+
+.card_image_section_dashboard img {
+    width: 220px;
+}
+
+.card_image_section2_dashboard {
+    position: absolute;
+    top: -110px;
+    left: -70px;
+}
+
+.card_image_section2_dashboard img {
+    width: 180px;
+}

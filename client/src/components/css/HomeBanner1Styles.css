@@ -8,6 +8,7 @@
     overflow-x: hidden;
     overflow-y: hidden;
     position: relative;
+    background-color: var(--white-color);
 }
 
 .background_image_container_homebanner1 {
