@@ -1,175 +1,215 @@
 [
   {
-    "week": 1,
+    "week": 3,
     "Data":[
       {
           "nutrient_id": "Vitamin-C",
           "need": [
-                "It help mom maintain a healthy immune system",
-                "It is required for mom\u2019s body to make collagen to help baby\u2019s skin, cartilage, tendons, and bone growth.",
-                "It also acts as an antioxidant in the body, helps to prevent cell damage.",
-                "It also helps your body absorb iron."
+              "It help mom maintain a healthy immune system",
+              "It is required for mom\u2019s body to make collagen to help baby\u2019s skin, cartilage, tendons, and bone growth.",
+              "It also acts as an antioxidant in the body, helps to prevent cell damage.",
+              "It also helps your body absorb iron."
           ],
           "Dosage": [
-                "Pregnant women ages 18 and younger: 80 milligrams (mg) per day",
-                "Breastfeeding women ages 18 and younger: 115 mg per day",
-                "Pregnant women ages 19 and older: 85 mg per day",
-                "As high doses of vitamin C can upset your stomach and cause diarrhea and nausea"
+              "Pregnant women ages 18 and younger: 80 milligrams (mg) per day",
+              "Breastfeeding women ages 18 and younger: 115 mg per day",
+              "Pregnant women ages 19 and older: 85 mg per day",
+              "As high doses of vitamin C can upset your stomach and cause diarrhea and nausea"
           ],
-          "Food": {
-                "Fruit": {
-                    "Oranges": {
-                        "Oranges": ""
-                    },
-                    "Berries": {
-                        "Berries": ""
-                    },
-                    "Mangoes": {
-                        "Mangoes": ""
-                    },
-                    "Kiwi": {
-                        "Kiwi": ""
-                    },
-                    "Strawberries": {
-                        "Strawberries": ""
-                    },
-                    "Melons": {
-                        "Melons": ""
-                    },
-                    "Tomato": {
-                        "Tomato": ""
-                    }
-                },
-                "Vegetable": {
-                    "Bell peppers": {
-                        "Bell peppers": ""
-                    },
-                    "Asparagus": {
-                        "Asparagus": ""
-                    }
-                },
-                "Non-Veg": {},
-                "Dairy": {},
-                "Others": {}
+          "food": {
+              "Fruit": [
+                  {
+                      "name": "Orange",
+                      "url": "https://drive.google.com/uc?id=1uCxKCnKJz9epn6UivYFy4ARHDKQA5-9q"
+                  },
+                  {
+                      "name": "Berries",
+                      "url": "https://drive.google.com/uc?id=1ggDWGqWZYjhHNDRWc3rj1cl7HfLJ6XVH"
+                  },
+                  {
+                      "name": "Kiwi",
+                      "url": "https://drive.google.com/uc?id=1CAj1YZ_lC7oGBV-iXXBKnLi0JawmKybW"
+                  },
+                  {
+                      "name": "Mango",
+                      "url": "https://drive.google.com/uc?id=11pk8rFqNGCfw9fBTCTlqw-BTw7J-n-Mj"
+                  },
+                  {
+                      "name": "Melons",
+                      "url": "https://drive.google.com/uc?id=1HHdJZHsVdRaTrMS8Eua2icRrh7CmoT6h"
+                  },
+                  {
+                      "name": "Strawberry",
+                      "url": "https://drive.google.com/uc?id=1WsXu6Jhnqv_eND4NqSEyZLTyCoStWeks"
+                  },
+                  {
+                      "name": "Tomato",
+                      "url": "https://drive.google.com/uc?id=14Ci4MAiVW4rr_x_qkJOODfmgkSvdu6Eo"
+                  }
+              ],
+              "Vegetables": [
+                  {
+                      "name": "Asparagus",
+                      "url": "https://drive.google.com/uc?id=1CaTi6rQlb-k9U-IJgbyw__Wy9-T5VigJ"
+                  },
+                  {
+                      "name": "Bell peppers",
+                      "url": "https://drive.google.com/uc?id=1mZTeCJybqxWq8UdsYJI0eNo5dUHxM43-"
+                  }
+              ],
+              "Non-Veg": [],
+              "Dairy": [],
+              "Others": []
           }
       },
       {
-          "nutrient_id":"Iron",
+          "nutrient_id": "Iron",
           "need": [
-                "Approximately half of mom\u2019s iron intake will go toward the developing fetus and placenta. The other half will be used to help support mom\u2019s increased blood volume."
+              "Approximately half of mom\u2019s iron intake will go toward the developing     fetus and placenta. The other half will be used to help support mom\u2019s increased blood volume."
           ],
           "Dosage": [
-                "The average pregnant woman needs about 30 mg of elemental iron per day to meet the new demands of extra blood volume, the developing placenta, and growing fetus."
+              "The average pregnant woman needs about 30 mg of elemental iron per day to meet the new demands of extra blood volume, the developing placenta, and growing fetus."
           ],
-          "Food": {
-                "Fruit": {
-                    "Kiwi": {
-                        "Kiwi": ""
-                    }
-                },
-                "Vegetable": {},
-                "Non-Veg": {
-                    "Beef": {
-                        "Beef": ""
-                    },
-                    "Poultry": {
-                        "Poultry": ""
-                    }
-                },
-                "Dairy": {},
-                "Others": {
-                    "Soy products": {
-                        "Soy products": ""
-                    },
-                    "Dried-fruit": {
-                        "Dried-fruit": ""
-                    }
-                }
+          "food": {
+              "Fruit": [
+                  {
+                      "name": "Kiwi",
+                      "url": "https://drive.google.com/uc?id=1CAj1YZ_lC7oGBV-iXXBKnLi0JawmKybW"
+                  }
+              ],
+              "Vegetables": [],
+              "Non-Veg": [
+                  {
+                      "name": "Beef",
+                      "url": "https://drive.google.com/uc?id=16y2QNGi_KRJghvVjHDFv63pSm7JXl5kW"
+                  },
+                  {
+                      "name": "Poultry",
+                      "url": "https://drive.google.com/uc?id=1TWnEUpOH2De-o53qG2JJFz3zUtpvgMP0"
+                  }
+              ],
+              "Dairy": [],
+              "Others": [
+                  {
+                      "name": "Dried fruit",
+                      "url": "https://drive.google.com/uc?id=1lNcaE_QR5X2ZecIsIphUP24i8-2dHJRK"
+                  },
+                  {
+                      "name": "Soy products",
+                      "url": "https://drive.google.com/uc?id=1JyY6cjo-fOTuWQDG9fLt2WLPhZwGkr-u"
+                  }
+              ]
           }
       },
       {
-          "nutrient_id":"Fluid",
+          "nutrient_id": "Fluid",
           "need": [
-                "If your morning sickness is accompanied by cramps, fever or diarrhea, you may be dealing with a stomach bug or food poisoning rather than pregnancy nausea.",
-                "But whether your stomach is churning from hormones, a virus or that egg salad you had for lunch, the treatment is the same: Rest up and focus on fluids \u2014 especially if you're losing them through vomiting or diarrhea."
+              "If your morning sickness is accompanied by cramps, fever or diarrhea, you may be dealing with a stomach bug or food poisoning rather than pregnancy nausea.",
+              "But whether your stomach is churning from hormones, a virus or that egg salad you had for lunch, the treatment is the same: Rest up and focus on fluids \u2014 especially if you're losing them through vomiting or diarrhea."
           ],
           "Dosage": [
-                "No Fixed Dosage"
+              "No Fixed Dosage"
           ],
-          "Food": {
-                "Drinking water": "",
-                "Diluted juice": "",
-                "Clear broth": "",
-                "Weak decaffeinated tea or hot water with lemon": ""
+          "food": {
+              "Fruit": [],
+              "Vegetables": [],
+              "Non-Veg": [],
+              "Dairy": [],
+              "Others": [
+                  {
+                      "name": "Clear broth",
+                      "url": "https://drive.google.com/uc?id=1wYz826iNMWe7cMf09c8Hips8URsr9KZO"
+                  },
+                  {
+                      "name": "Diluted juice",
+                      "url": "https://drive.google.com/uc?id=1-avOCY7dsGpCzTryrt9gT0leADviqBks"
+                  },
+                  {
+                      "name": "Hot water with lemon",
+                      "url": "https://drive.google.com/uc?id=1L1x4WnSILX9i4bYFSt2bEDeXPWBauuiR"
+                  },
+                  {
+                      "name": "Drinking water",
+                      "url": "https://drive.google.com/uc?id=1g4A8wX7MmxzcjBDioKTQnLV4J13IAMik"
+                  }
+              ]
           }
       },
-      {  
-        "nutrient_id":"Protein",
-        "need": [
-                "Protein helps your baby grow. The amino acids contained within protein are essential to healthy cell growth.",
-                "Protein helps keep you healthy, too, and is important for the development of your own tissues."
-        ],
-        "Dosage": [
-                "And as your belly increases in size to grow a healthy baby, your protein requirement also increases, especially during your second and third trimesters, when baby grows rapidly.",
-                "In first trimester, eat three servings of protein daily to help spur new tissue for your baby-to-be."
-        ],
-        "Food": {
-                "Fruit": {},
-                "Vegetable": {},
-                "Non-Veg": {
-                    "Beef": {
-                        "Beef": ""
-                    },
-                    "Poultry": {
-                        "Poultry": ""
-                    },
-                    "Eggs": {
-                        "Eggs": ""
-                    }
-                },
-                "Dairy": {},
-                "Others": {
-                    "Nuts and seeds": {
-                        "Nuts and seeds": ""
-                    },
-                    "Whole grains": {
-                        "Whole grains": ""
-                    }
-                }
-        }
-      },
       {
-          "nutrient_id":"Calcium",
+          "nutrient_id": "Protein",
           "need": [
-                "Calcium helps you and your developing baby build and maintain strong, healthy bones",
-                "Plus It's essential for heart, nerve and muscle health.",
-                "If you don\u2019t consume enough calcium during pregnancy, your baby will take it from your bones!"
+              "Protein helps your baby grow. The amino acids contained within protein are essential to healthy cell growth.",
+              "Protein helps keep you healthy, too, and is important for the development of your own tissues."
           ],
           "Dosage": [
-                "Your body can't make calcium, so you need to get it from food or supplements.",
-                "While you're pregnant, try to get at least 1,000 mg of calcium every day.",
-                "If you're 18 or younger, then you need at least 1,300 mg of calcium every day."
+              "And as your belly increases in size to grow a healthy baby, your protein requirement also increases, especially during your second and third trimesters, when baby grows rapidly.",
+              "In first trimester, eat three servings of protein daily to help spur new tissue for your baby-to-be."
           ],
-          "Food": {
-                "Fruit": {},
-                "Vegetable": {},
-                "Non-Veg": {},
-                "Dairy": {
-                    "Yogurt": {
-                        "Yogurt": ""
-                    },
-                    "Hard or pasteurized cheese": {
-                        "Hard or pasteurized cheese": ""
-                    }
-                },
-                "Others": {
-                    "Calcium-fortified cereal": {
-                        "Calcium-fortified cereal": ""
-                    }
-                }
+          "food": {
+              "Fruit": [],
+              "Vegetables": [],
+              "Non-Veg": [
+                  {
+                      "name": "Beef",
+                      "url": "https://drive.google.com/uc?id=16y2QNGi_KRJghvVjHDFv63pSm7JXl5kW"
+                  },
+                  {
+                      "name": "Egg",
+                      "url": "https://drive.google.com/uc?id=1UArW3R2Y6Dw0YuNGN_26uRVNpoiSwdSR"
+                  },
+                  {
+                      "name": "Poultry",
+                      "url": "https://drive.google.com/uc?id=1TWnEUpOH2De-o53qG2JJFz3zUtpvgMP0"
+                  }
+              ],
+              "Dairy": [],
+              "Others": [
+                  {
+                      "name": "Nuts and seeds",
+                      "url": "https://drive.google.com/uc?id=1b_UdZfQHiobXSCtyXuhCWaAcpVrs7Gey"
+                  },
+                  {
+                      "name": "Whole grains",
+                      "url": "https://drive.google.com/uc?id=1xbtuiyiPAxdZnveFEREN1OuSnTYUYBYQ"
+                  }
+              ]
+          }
+      },
+      {
+          "nutrient_id": "Calcium",
+          "need": [
+              "Calcium helps you and your developing baby build and maintain strong, healthy bones",
+              "Plus It's essential for heart, nerve and muscle health.",
+              "If you don\u2019t consume enough calcium during pregnancy, your baby will take it from your bones!"
+          ],
+          "Dosage": [
+              "Your body can't make calcium, so you need to get it from food or supplements.",
+              "While you're pregnant, try to get at least 1,000 mg of calcium every day.",
+              "If you're 18 or younger, then you need at least 1,300 mg of calcium every day."
+          ],
+          "food": {
+              "Fruit": [],
+              "Vegetables": [],
+              "Non-Veg": [],
+              "Dairy": [
+                  {
+                      "name": "Cheese",
+                      "url": "https://drive.google.com/uc?id=1aITk524Ig9oesWNpLu-rNy0Mq-i3CTJ0"
+                  },
+                  {
+                      "name": "Yogurt",
+                      "url": "https://drive.google.com/uc?id=194eS8G6thFU0AuMa3s7VVop0iBcR_Qbr"
+                  }
+              ],
+              "Others": [
+                  {
+                      "name": "Calcium-fortified cereals",
+                      "url": "https://drive.google.com/uc?id=1YdTD-cmAnRAQ4XJA5hWZLGXKrUhU0w9P"
+                  }
+              ]
           }
       }
-    ]
+  ]
   },
     
   "checkups_scans": [
