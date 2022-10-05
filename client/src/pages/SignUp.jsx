@@ -11,12 +11,15 @@ import HeaderAuth from "../components/jsx/HeaderAuth";
 import { AiOutlineEye, AiOutlineEyeInvisible } from "react-icons/ai";
 
 const SignUp = () => {
+
   const navigate = useNavigate();
 
   const [showPassword, setShowPassword] = useState(true);
 
   const [formErrors, setFormErrors] = useState({});
+
   const [isSubmit, setIsSubmit] = useState(false);
+
   const [checkboxCheck, setCheckboxCheck] = useState(false);
 
   const type = "register"
@@ -46,7 +49,7 @@ const SignUp = () => {
 
   useEffect(() => {
     if( Object.keys(formErrors).length === 0 && isSubmit ){
-      axios.post("http://localhost:8000/signup", user)
+      axios.post("http://localhost:5000/auth/signup", user)
       .then( res => {
         if(res.data.errors){
           setFormErrors(res.data.errors)

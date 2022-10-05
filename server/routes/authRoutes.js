@@ -6,8 +6,10 @@ const CONSTANTS = require("../utils/constants/appContants");
 
 const CTRLS = require("../controllers/authControllers");
 
-router.route(CONSTANTS.AUTH.REGISTER).post(CTRLS.register);
+const VALIDATOR = require("../middlewares/Validations/authValidations");
 
-router.route(CONSTANTS.AUTH.LOGIN).post(CTRLS.login);
+router.route(CONSTANTS.AUTH.REGISTER).post(VALIDATOR.register,CTRLS.register);
+
+router.route(CONSTANTS.AUTH.LOGIN).post(VALIDATOR.login,CTRLS.login);
 
 module.exports = router;

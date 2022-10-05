@@ -3,20 +3,20 @@
     "week": 1,
     "Data":[
       {
-        "Vitamin-C": {
-            "need": [
+          "nutrient_id": "Vitamin-C",
+          "need": [
                 "It help mom maintain a healthy immune system",
                 "It is required for mom\u2019s body to make collagen to help baby\u2019s skin, cartilage, tendons, and bone growth.",
                 "It also acts as an antioxidant in the body, helps to prevent cell damage.",
                 "It also helps your body absorb iron."
-            ],
-            "Dosage": [
+          ],
+          "Dosage": [
                 "Pregnant women ages 18 and younger: 80 milligrams (mg) per day",
                 "Breastfeeding women ages 18 and younger: 115 mg per day",
                 "Pregnant women ages 19 and older: 85 mg per day",
                 "As high doses of vitamin C can upset your stomach and cause diarrhea and nausea"
-            ],
-            "Food": {
+          ],
+          "Food": {
                 "Fruit": {
                     "Oranges": {
                         "Oranges": ""
@@ -39,28 +39,28 @@
                     "Tomato": {
                         "Tomato": ""
                     }
-                },
-                "Vegetable": {
-                    "Bell peppers": {
-                        "Bell peppers": ""
-                    },
-                    "Asparagus": {
-                        "Asparagus": ""
+                ],
+                "Vegetable":[
+                    {
+                        "name":"Orange",
+                        "description":"",
+                        "image":""
                     }
                 },
                 "Non-Veg": {},
                 "Dairy": {},
                 "Others": {}
-            }
-        },
-        "Iron": {
-            "need": [
+          }
+      },
+      {
+          "nutrient_id":"Iron",
+          "need": [
                 "Approximately half of mom\u2019s iron intake will go toward the developing fetus and placenta. The other half will be used to help support mom\u2019s increased blood volume."
-            ],
-            "Dosage": [
+          ],
+          "Dosage": [
                 "The average pregnant woman needs about 30 mg of elemental iron per day to meet the new demands of extra blood volume, the developing placenta, and growing fetus."
-            ],
-            "Food": {
+          ],
+          "Food": {
                 "Fruit": {
                     "Kiwi": {
                         "Kiwi": ""
@@ -84,33 +84,35 @@
                         "Dried-fruit": ""
                     }
                 }
-            }
-        },
-        "Fluid": {
-            "need": [
+          }
+      },
+      {
+          "nutrient_id":"Fluid",
+          "need": [
                 "If your morning sickness is accompanied by cramps, fever or diarrhea, you may be dealing with a stomach bug or food poisoning rather than pregnancy nausea.",
                 "But whether your stomach is churning from hormones, a virus or that egg salad you had for lunch, the treatment is the same: Rest up and focus on fluids \u2014 especially if you're losing them through vomiting or diarrhea."
-            ],
-            "Dosage": [
+          ],
+          "Dosage": [
                 "No Fixed Dosage"
-            ],
-            "Food": {
+          ],
+          "Food": {
                 "Drinking water": "",
                 "Diluted juice": "",
                 "Clear broth": "",
                 "Weak decaffeinated tea or hot water with lemon": ""
-            }
-        },
-        "Protein": {
-            "need": [
+          }
+      },
+      {  
+        "nutrient_id":"Protein",
+        "need": [
                 "Protein helps your baby grow. The amino acids contained within protein are essential to healthy cell growth.",
                 "Protein helps keep you healthy, too, and is important for the development of your own tissues."
-            ],
-            "Dosage": [
+        ],
+        "Dosage": [
                 "And as your belly increases in size to grow a healthy baby, your protein requirement also increases, especially during your second and third trimesters, when baby grows rapidly.",
                 "In first trimester, eat three servings of protein daily to help spur new tissue for your baby-to-be."
-            ],
-            "Food": {
+        ],
+        "Food": {
                 "Fruit": {},
                 "Vegetable": {},
                 "Non-Veg": {
@@ -133,20 +135,21 @@
                         "Whole grains": ""
                     }
                 }
-            }
-        },
-        "Calcium": {
-            "need": [
+        }
+      },
+      {
+          "nutrient_id":"Calcium",
+          "need": [
                 "Calcium helps you and your developing baby build and maintain strong, healthy bones",
                 "Plus It's essential for heart, nerve and muscle health.",
                 "If you don\u2019t consume enough calcium during pregnancy, your baby will take it from your bones!"
-            ],
-            "Dosage": [
+          ],
+          "Dosage": [
                 "Your body can't make calcium, so you need to get it from food or supplements.",
                 "While you're pregnant, try to get at least 1,000 mg of calcium every day.",
                 "If you're 18 or younger, then you need at least 1,300 mg of calcium every day."
-            ],
-            "Food": {
+          ],
+          "Food": {
                 "Fruit": {},
                 "Vegetable": {},
                 "Non-Veg": {},
@@ -163,12 +166,12 @@
                         "Calcium-fortified cereal": ""
                     }
                 }
-            }
-        }
-    }
+          }
+      }
     ]
-    ,
-    "checkups_scans": [
+  },
+    
+  "checkups_scans": [
       {
         "scan": [
           {
