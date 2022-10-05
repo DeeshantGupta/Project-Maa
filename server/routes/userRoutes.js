@@ -10,7 +10,7 @@ const VALIDATOR = require("../middlewares/Validations/userValidations");
 
 const VERIFY = require("../middlewares/Auth/userAuth");
 
-router.route(CONSTANTS.USER.CHECKUSER).get(VERIFY.checkUser);
+router.route(CONSTANTS.USER.CHECKUSER).post(VERIFY.checkUser);
 
 router.route(CONSTANTS.USER.GETUSER).get(CTRLS.getUser);
 

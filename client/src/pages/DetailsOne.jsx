@@ -74,7 +74,7 @@ const DetailsOne = () => {
     if(!cookies.jwt){
       navigate('/login')
     }else{
-      axios.get(`http://localhost:5000/user/checkuser`,{},{
+      axios.post(`http://localhost:5000/user/checkuser`,{},{
         withCredentials:true,
       }).then(({data})=>{
         if(data.id != id){

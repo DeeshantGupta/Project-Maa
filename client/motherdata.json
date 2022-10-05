@@ -1,7 +1,35 @@
 [
+    {
+        "week":1,
+        "data":[],
+        "symptoms":[
+            {
+                "image":"",
+                "title":"",
+                "description":""
+            }
+        ],
+        "tips":[
+            {
+                "title":"",
+                "descrition":""
+            }
+        ],
+        "checkups_test_vaccines":[],
+        "exercises":[]
+
+    },
+    {
+        "week":2,
+        "data":[],
+        "symptoms":[],
+        "tips":[],
+        "checkups_test_vaccines":[],
+        "exercises":[]
+    },
   {
     "week": 3,
-    "Data":[
+    "data":[
         {
             "nutrient_id": "Vitamin-C",
             "need": [
@@ -10,14 +38,14 @@
                 "It also acts as an antioxidant in the body, helps to prevent cell damage.",
                 "It also helps your body absorb iron."
             ],
-            "Dosage": [
+            "dosage": [
                 "Pregnant women ages 18 and younger: 80 milligrams (mg) per day",
                 "Breastfeeding women ages 18 and younger: 115 mg per day",
                 "Pregnant women ages 19 and older: 85 mg per day",
                 "As high doses of vitamin C can upset your stomach and cause diarrhea and nausea"
             ],
             "food": {
-                "Fruit": [
+                "fruit": [
                     {
                         "name": "Orange",
                         "url": "https://drive.google.com/uc?id=1uCxKCnKJz9epn6UivYFy4ARHDKQA5-9q"
@@ -47,7 +75,7 @@
                         "url": "https://drive.google.com/uc?id=14Ci4MAiVW4rr_x_qkJOODfmgkSvdu6Eo"
                     }
                 ],
-                "Vegetables": [
+                "vegetables": [
                     {
                         "name": "Asparagus",
                         "url": "https://drive.google.com/uc?id=1CaTi6rQlb-k9U-IJgbyw__Wy9-T5VigJ"
@@ -57,9 +85,9 @@
                         "url": "https://drive.google.com/uc?id=1mZTeCJybqxWq8UdsYJI0eNo5dUHxM43-"
                     }
                 ],
-                "Non-Veg": [],
-                "Dairy": [],
-                "Others": []
+                "non-veg": [],
+                "dairy": [],
+                "others": []
             }
         },
         {
@@ -67,18 +95,18 @@
             "need": [
                 "Approximately half of mom\u2019s iron intake will go toward the developing     fetus and placenta. The other half will be used to help support mom\u2019s increased blood volume."
             ],
-            "Dosage": [
+            "dosage": [
                 "The average pregnant woman needs about 30 mg of elemental iron per day to meet the new demands of extra blood volume, the developing placenta, and growing fetus."
             ],
             "food": {
-                "Fruit": [
+                "fruit": [
                     {
                         "name": "Kiwi",
                         "url": "https://drive.google.com/uc?id=1CAj1YZ_lC7oGBV-iXXBKnLi0JawmKybW"
                     }
                 ],
-                "Vegetables": [],
-                "Non-Veg": [
+                "vegetables": [],
+                "non-veg": [
                     {
                         "name": "Beef",
                         "url": "https://drive.google.com/uc?id=16y2QNGi_KRJghvVjHDFv63pSm7JXl5kW"
@@ -88,8 +116,8 @@
                         "url": "https://drive.google.com/uc?id=1TWnEUpOH2De-o53qG2JJFz3zUtpvgMP0"
                     }
                 ],
-                "Dairy": [],
-                "Others": [
+                "dairy": [],
+                "others": [
                     {
                         "name": "Dried fruit",
                         "url": "https://drive.google.com/uc?id=1lNcaE_QR5X2ZecIsIphUP24i8-2dHJRK"
@@ -107,15 +135,15 @@
                 "If your morning sickness is accompanied by cramps, fever or diarrhea, you may be dealing with a stomach bug or food poisoning rather than pregnancy nausea.",
                 "But whether your stomach is churning from hormones, a virus or that egg salad you had for lunch, the treatment is the same: Rest up and focus on fluids \u2014 especially if you're losing them through vomiting or diarrhea."
             ],
-            "Dosage": [
-                "No Fixed Dosage"
+            "dosage": [
+                "No Fixed dosage"
             ],
             "food": {
-                "Fruit": [],
-                "Vegetables": [],
-                "Non-Veg": [],
-                "Dairy": [],
-                "Others": [
+                "fruit": [],
+                "vegetables": [],
+                "non-veg": [],
+                "dairy": [],
+                "others": [
                     {
                         "name": "Clear broth",
                         "url": "https://drive.google.com/uc?id=1wYz826iNMWe7cMf09c8Hips8URsr9KZO"
@@ -141,14 +169,14 @@
                 "Protein helps your baby grow. The amino acids contained within protein are essential to healthy cell growth.",
                 "Protein helps keep you healthy, too, and is important for the development of your own tissues."
             ],
-            "Dosage": [
+            "dosage": [
                 "And as your belly increases in size to grow a healthy baby, your protein requirement also increases, especially during your second and third trimesters, when baby grows rapidly.",
                 "In first trimester, eat three servings of protein daily to help spur new tissue for your baby-to-be."
             ],
             "food": {
-                "Fruit": [],
-                "Vegetables": [],
-                "Non-Veg": [
+                "fruit": [],
+                "vegetables": [],
+                "non-veg": [
                     {
                         "name": "Beef",
                         "url": "https://drive.google.com/uc?id=16y2QNGi_KRJghvVjHDFv63pSm7JXl5kW"
@@ -162,8 +190,8 @@
                         "url": "https://drive.google.com/uc?id=1TWnEUpOH2De-o53qG2JJFz3zUtpvgMP0"
                     }
                 ],
-                "Dairy": [],
-                "Others": [
+                "dairy": [],
+                "others": [
                     {
                         "name": "Nuts and seeds",
                         "url": "https://drive.google.com/uc?id=1b_UdZfQHiobXSCtyXuhCWaAcpVrs7Gey"
@@ -182,16 +210,16 @@
                 "Plus It's essential for heart, nerve and muscle health.",
                 "If you don\u2019t consume enough calcium during pregnancy, your baby will take it from your bones!"
             ],
-            "Dosage": [
+            "dosage": [
                 "Your body can't make calcium, so you need to get it from food or supplements.",
                 "While you're pregnant, try to get at least 1,000 mg of calcium every day.",
                 "If you're 18 or younger, then you need at least 1,300 mg of calcium every day."
             ],
             "food": {
-                "Fruit": [],
-                "Vegetables": [],
-                "Non-Veg": [],
-                "Dairy": [
+                "fruit": [],
+                "vegetables": [],
+                "non-veg": [],
+                "dairy": [
                     {
                         "name": "Cheese",
                         "url": "https://drive.google.com/uc?id=1aITk524Ig9oesWNpLu-rNy0Mq-i3CTJ0"
@@ -201,7 +229,7 @@
                         "url": "https://drive.google.com/uc?id=194eS8G6thFU0AuMa3s7VVop0iBcR_Qbr"
                     }
                 ],
-                "Others": [
+                "others": [
                     {
                         "name": "Calcium-fortified cereals",
                         "url": "https://drive.google.com/uc?id=1YdTD-cmAnRAQ4XJA5hWZLGXKrUhU0w9P"
@@ -215,6 +243,12 @@
             "image":"",
             "title":"",
             "description":""
+        }
+    ],
+    "tips":[
+        {
+            "title":"",
+            "descrition":""
         }
     ],
     "checkups_test_vaccines":[
@@ -231,5 +265,102 @@
             "description":""
         }
     ]
+    
+},
+{
+    "week":4,
+    "data":[],
+    "symptoms":[],
+    "tips":[],
+    "checkups_test_vaccines":[],
+    "exercises":[]
+},
+{
+    "week":5,
+    "data":[],
+    "symptoms":[],
+    "tips":[],
+    "checkups_test_vaccines":[],
+    "exercises":[]
+},
+{
+    "week":6,
+    "data":[],
+    "symptoms":[],
+    "tips":[],
+    "checkups_test_vaccines":[],
+    "exercises":[]
+},
+{
+    "week":7,
+    "data":[],
+    "symptoms":[],
+    "tips":[],
+    "checkups_test_vaccines":[],
+    "exercises":[]
+},
+{
+    "week":8,
+    "data":[],
+    "symptoms":[],
+    "tips":[],
+    "checkups_test_vaccines":[],
+    "exercises":[]
+},
+{
+    "week":9,
+    "data":[],
+    "symptoms":[],
+    "tips":[],
+    "checkups_test_vaccines":[],
+    "exercises":[]
+},
+{
+    "week":10,
+    "data":[],
+    "symptoms":[],
+    "tips":[],
+    "checkups_test_vaccines":[],
+    "exercises":[]
+},
+{
+    "week":11,
+    "data":[],
+    "symptoms":[],
+    "tips":[],
+    "checkups_test_vaccines":[],
+    "exercises":[]
+},
+{
+    "week":12,
+    "data":[],
+    "symptoms":[],
+    "tips":[],
+    "checkups_test_vaccines":[],
+    "exercises":[]
+},
+{
+    "week":13,
+    "data":[],
+    "symptoms":[],
+    "tips":[],
+    "checkups_test_vaccines":[],
+    "exercises":[]
+},
+{
+    "week":14,
+    "data":[],
+    "symptoms":[],
+    "tips":[],
+    "checkups_test_vaccines":[],
+    "exercises":[]
+},
+{
+    "week":15,
+    "data":[],
+    "symptoms":[],
+    "tips":[],
+    "checkups_test_vaccines":[],
+    "exercises":[]
 }
 ]

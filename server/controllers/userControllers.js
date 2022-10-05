@@ -7,7 +7,7 @@ module.exports = {
         try {
             const { id } = req.params;
 
-            const user = await User.fineById({ _id: id });
+            const user = await User.findById({ _id: id });
 
             if (user) {
                 res.send(user);
