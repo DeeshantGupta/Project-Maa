@@ -1,10 +1,12 @@
 import React from 'react'
 import "../components/css/DashboardStyles.css";
 import HeaderUser from '../components/jsx/HeaderUser';
+import Footer from "../components/jsx/Footer";
 import Fruit from "../img/banner-images/fruit-image.png";
 import Symptoms from "../img/banner-images/symptoms.png";
 import Excercise from "../img/banner-images/excercise.png";
 import Checkup from "../img/banner-images/checkup.png";
+import { Link } from 'react-router-dom';
 
 const Dashboard = () => {
     const image = "https://drive.google.com/file/d/1QtjuQz6Zb_xsUWZRIViGGX-dZtgijXgb/view?usp=sharing";
@@ -47,6 +49,7 @@ const Dashboard = () => {
           </div>
 
           <div className='cards_container_dashboard'>
+            <Link to="/food">
             <div className='card_box_dashboard'>
               <div className='card_top_section_dashboard'>
                 <h3>Fruits and Vegetables</h3>
@@ -58,7 +61,9 @@ const Dashboard = () => {
                 <img src={Fruit} alt='fruits' />
               </div>
             </div>
+            </Link>
 
+            <Link to="/symptoms">
             <div className='card_box_dashboard'>
               <div className='card_top_section_dashboard'>
                 <h3>Symptoms</h3>
@@ -70,7 +75,9 @@ const Dashboard = () => {
                 <img src={Symptoms} alt='fruits' />
               </div>
             </div>
+            </Link>
 
+            <Link to="/excercise">
             <div className='card_box_dashboard'>
               <div className='card_top_section_dashboard'>
                 <h3>Excercises</h3>
@@ -82,7 +89,9 @@ const Dashboard = () => {
                 <img src={Excercise} alt='excercise' />
               </div>
             </div>
+            </Link>
 
+            <Link to="checkups">
             <div className='card_box_dashboard'>
               <div className='card_top_section_dashboard'>
                 <h3>Checkup & Scans</h3>
@@ -94,9 +103,27 @@ const Dashboard = () => {
                 <img src={Checkup} alt='checkup' />
               </div>
             </div>
+            </Link>
+          </div>
+        </div>
+
+        <div className='bottom_section_dashboard'>
+          <h2>Tips for You This Week</h2>
+          <div className='tip_container_dashboard'>
+            <div className='tip_box_dashboard'>
+              <h4>Ask about inducing labor</h4>
+              <p>Baby is now officially late. Since your uterus is likely becoming less hospitable, if you don't go into labor on your own, your practitioner will likely schedule you to be induced sometime this week. Whether you have an induction, or baby makes an arrival without help, you'll have to be tested for COVID-19 before delivering.</p>
+            </div>
+
+            <div className='tip_box_dashboard'>
+              <h4>Ask about inducing labor</h4>
+              <p>Baby is now officially late. Since your uterus is likely becoming less hospitable, if you don't go into labor on your own, your practitioner will likely schedule you to be induced sometime this week. Whether you have an induction, or baby makes an arrival without help, you'll have to be tested for COVID-19 before delivering.</p>
+            </div>
           </div>
         </div>
       </div>
+
+      <Footer />
     </div>
   )
 }
