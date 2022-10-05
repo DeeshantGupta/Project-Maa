@@ -61,16 +61,16 @@ const {email,type} = useParams()
   useEffect(() => {
     if( Object.keys(formErrors).length === 0 && isSubmit ){
     
-      axios.post(`http://localhost:8000/verifyotp`, user)
+      axios.post(`http://localhost:5000/auth/verifyotp`, user)
       .then( res => {
         if(res.data.errors){
-          setFormErrors(res.data.errors)
+          setFormErrors(res.data.errors);
         }
         else if(res.data.message === "true"){
           if(type === 'register'){
           navigate("/login");
         }else{
-          navigate(`/forgotpassword/${email}`)
+          navigate(`/forgotpassword/${email}`);
         }
         }else {
           setFormErrors({final: res.data.message})

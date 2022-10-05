@@ -50,26 +50,18 @@ const Login = () => {
         withCredentials:true
       })
       .then( ({data}) => {
+        console.log(data);
         if(data.errors){
           setFormErrors(data.errors);
         }
-        else if(data.usertype === "superadmin" || data.usertype === "admin"){
-            navigate(`/admin/info/${data.id}/dashboard`);
+        else if(data.message && data.detailsFlag){
+             navigate(`/:id/dashboard`);
         }
-      else  if(data.usertype === "student" && data.verified == false){
-          navigate(`/student/${data.id}/detailsone`);
-        }else if(data.usertype === "student" && data.verified == true){
-         
-          navigate(`/student/${data.id}/internships`);
-        }else if(data.usertype === "company" && data.verified == false){
-          navigate(`/company/${data.id}/detailsone`);
-        }
-        else if(data.usertype === "company" && data.verified == true){
-        
-          navigate(`/company/info/${data.id}/dashboard`);
+        else if(data.message && !data.detailsFlag ){
+          navigate(`/user/${data.id}/detailsone`);
         }
         else {
-             setFormErrors({final: data.message})
+            setFormErrors({final: data.message})
         }
       });
     }
