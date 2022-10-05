@@ -12,7 +12,7 @@ const userSchema = new mongoose.Schema({
         type: String,
         trim: true
     },
-    phoneno: {
+    mobile: {
         type: Number
     },
     address: {

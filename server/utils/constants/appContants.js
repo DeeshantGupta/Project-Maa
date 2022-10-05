@@ -1,14 +1,24 @@
 
 module.exports = {
-    AUTH : {
-        REGISTER:"/register",
-        LOGIN:"/login"
+    AUTH: {
+        REGISTER: "/signup",
+        LOGIN: "/login",
+        VERIFYEMAIL:"/verifyemail",
+        VERIFYOTP:"/verifyotp",
+        NEWPASSWORD:"/newpassword"
     },
-    ROUTES:{
-        AUTH:"/auth"
+    USER:{
+        CHECKUSER:"/checkuser",
+        GETUSER:"/getuser/:id",
+        POSTDETAILS:"/postdetails/:id"
     },
-    MODELS:{
-        USER:"/Users",
-        BABY:"/Babies"
+    ROUTES: {
+        AUTH: "/auth",
+        USER:"/user"
+    },
+    MODELS: {
+        USER: "Users",
+        BABY: "Baby",
+        OTP: "Otp"
     }
 }

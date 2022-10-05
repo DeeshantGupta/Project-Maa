@@ -10,11 +10,11 @@ const DetailsOne = () => {
 
   const navigate = useNavigate()
 
-  const {id} = useParams()
+  const {id} = useParams();
 
   const [cookies,setCookie,removeCookie] = useCookies([])
 
-   const [companydetails,setCompanyDetails] = useState({})
+   const [userInfo,setUserInfo] = useState({})
 
    const disablePastDate = () => {
     const today = new Date();
@@ -57,62 +57,55 @@ const DetailsOne = () => {
     setIsSubmit(true);
   }
 
-  const getCompanyInfo = async()=>{
-    axios.get(`http://localhost:8000/company/getcompanyinfo/${id}`).then(({data})=>{
-      setCompanyDetails(data)
-      if(data.verified){
-        navigate(`/company/info/${id}/dashboard`)
-      }else{
-        navigate(`/company/${id}/detailsone`)
-       } 
+  const getUser = async()=>{
+    axios.get(`http://localhost:5000/user/getuser/${id}`).then(({data})=>{
+      setUserInfo(data);
     })
-    
   }
 
-//   const companyDetails = {
-//     user,
-//     selectedFood,
-//     selectedType
-//   }
+  const userDetails = {
+    user,
+    selectedFood
+  }
   
-//  useEffect(()=>{
+ useEffect(()=>{
 
-//   const verifyCompany = ()=>{
-//     if(!cookies.jwt){
-//       navigate('/login')
-//     }else{
-//       axios.post(`http://localhost:8000/company`,{},{
-//         withCredentials:true,
-//       }).then(({data})=>{
-//         if(data.id != id){
-//           removeCookie("jwt")
-//           navigate('/login')
-//         }else{ 
-//             getCompanyInfo()
-//         }
-//       })
-//     }
-//   }
+  const verifyUser = ()=>{
+    if(!cookies.jwt){
+      navigate('/login')
+    }else{
+      axios.post(`http://localhost:5000/user/checkuser`,{},{
+        withCredentials:true,
+      }).then(({data})=>{
+        if(data.id != id){
+          removeCookie("jwt");
+          navigate('/login');
+        }else{ 
+          getUser();
+        }
+      })
+    }
+  }
 
-//   verifyCompany()  
+  verifyUser() ;
 
-//   if( Object.keys(formErrors).length === 0 && isSubmit ){
-//       axios.post(`http://localhost:8000/company/companydetails/${id}`,{
-//         ...companyDetails
-//        }).then(({data})=>{
-//         if(data.errors){
-//           setFormErrors(data.errors);
-//         }
-//         else if(data.message == "true" && data.verified == true)
-//         {
-//           navigate(`/company/info/${id}/dashboard`)
-//         }else{
-//           navigate(`/company/${id}/detailsone`)
-//         }
-//        });
-//   }
+  if( Object.keys(formErrors).length === 0 && isSubmit ){
+      axios.post(`http://localhost:5000/user/postdetails/${id}`,{
+        ...userDetails
+       }).then(({data})=>{
+        if(data.errors){
+          setFormErrors(data.errors);
+        }
+        else if(data.message == "true" && data.verified == true)
+        {
+          navigate(`/${id}/dashboard`);
+        }else{
+          navigate(`/user/${id}/detailsone`);
+        }
+       });
+  }
 
-// },[formErrors,cookies,navigate,removeCookie])
+},[formErrors,cookies,navigate,removeCookie])
 
   const validate = (values) => {
     
@@ -159,9 +152,9 @@ const DetailsOne = () => {
         <div className="greeting_container_detailsOne">
           <div className="greeting_box_detailsOne">
             <div className="greeting_left_section_detailsOne">
-              <h4>Welcome to Pregrad</h4>
+              <h4>Welcome to Maatri</h4>
               <p>
-                <span>{companydetails.name}, ({companydetails.companyname})</span> build your profile to join our
+                <span>{userInfo.name}</span> build your profile to join our
                 community.
               </p>
             </div>

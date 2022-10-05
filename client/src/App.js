@@ -23,10 +23,10 @@ const App = () => {
         <Route exact path="/otpverify/:email/:type" element={<OTPVerify />} /> 
         <Route exact path="/forgotpassword/:email" element={<ForgotPassword />} />        
         <Route exact path="*" element={<Error404 />} />
-        <Route exact path="/student/detailsone" element={<DetailsOne />} />
-        <Route exact path="/dashboard" element={<Dashboard />} />
         <Route exact path="/food" element={<Food />} />
         <Route exact path="/symptoms" element={<Symptoms />} />
+        <Route exact path="/user/:id/detailsone" element={<DetailsOne />} />
+        <Route exact path="/:id/dashboard" element={<Dashboard />} />
 
       </Routes>
     </BrowserRouter>
