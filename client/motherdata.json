@@ -2,8 +2,8 @@
   {
     "week": 1,
     "Data":[
-      {
-        "Vitamin-C": {
+         {
+            "nutrient_id":"Vitamin-C",
             "need": [
                 "It help mom maintain a healthy immune system",
                 "It is required for mom\u2019s body to make collagen to help baby\u2019s skin, cartilage, tendons, and bone growth.",
@@ -17,42 +17,28 @@
                 "As high doses of vitamin C can upset your stomach and cause diarrhea and nausea"
             ],
             "Food": {
-                "Fruit": {
-                    "Oranges": {
-                        "Oranges": ""
-                    },
-                    "Berries": {
-                        "Berries": ""
-                    },
-                    "Mangoes": {
-                        "Mangoes": ""
-                    },
-                    "Kiwi": {
-                        "Kiwi": ""
-                    },
-                    "Strawberries": {
-                        "Strawberries": ""
-                    },
-                    "Melons": {
-                        "Melons": ""
-                    },
-                    "Tomato": {
-                        "Tomato": ""
+                "Fruit":[
+                    {
+                        "name":"Orange",
+                        "description":"",
+                        "image":""
                     }
-                },
-                "Vegetable": {
-                    "Bell peppers": {
-                        "Bell peppers": ""
-                    },
-                    "Asparagus": {
-                        "Asparagus": ""
+                ],
+                "Vegetable":[
+                    {
+                        "name":"Orange",
+                        "description":"",
+                        "image":""
                     }
-                },
-                "Non-Veg": {},
-                "Dairy": {},
-                "Others": {}
-            }
-        },
+                ],
+                "Others":[
+                    {
+                        "name":"Orange",
+                        "description":"",
+                        "image":""
+                    }
+                ]
+            },
         "Iron": {
             "need": [
                 "Approximately half of mom\u2019s iron intake will go toward the developing fetus and placenta. The other half will be used to help support mom\u2019s increased blood volume."
