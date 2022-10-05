@@ -2,7 +2,9 @@ import React from 'react'
 import "../components/css/DashboardStyles.css";
 import HeaderUser from '../components/jsx/HeaderUser';
 import Fruit from "../img/banner-images/fruit-image.png";
-import Symptoms from "../img/banner-images/symptoms.png"
+import Symptoms from "../img/banner-images/symptoms.png";
+import Excercise from "../img/banner-images/excercise.png";
+import Checkup from "../img/banner-images/checkup.png";
 
 const Dashboard = () => {
     const image = "https://drive.google.com/file/d/1QtjuQz6Zb_xsUWZRIViGGX-dZtgijXgb/view?usp=sharing";
@@ -26,7 +28,7 @@ const Dashboard = () => {
                 <div className='detail_second_section_dashboard'>
                 {/* https://drive.google.com/uc?id=1xD2WGWVlYRKccD4cXpsh4WT0vYAdUDR */}
 
-                    <img src="https://drive.google.com/uc?id=1nRECmAxancPuVp9v2kPRD4IeNMFiGj3f" alt="fruit size" />
+                    <img src="https://drive.google.com/uc?id=1-8ZQhXwwFnwTxdBx5oEYz-w9Rlo4WXKn" alt="fruit size" />
                 </div>
 
                 <div className='detail_third_section_dashboard'>
@@ -71,25 +73,25 @@ const Dashboard = () => {
 
             <div className='card_box_dashboard'>
               <div className='card_top_section_dashboard'>
-                <h3>Fruits and Vegetables</h3>
+                <h3>Excercises</h3>
               </div>
               <div className='card_bottom_section_dashboard'>
                 <p></p>
               </div>
-              <div className='card_image_section_dashboard'>
-                <img src={Fruit} alt='fruits' />
+              <div className='card_image_section3_dashboard'>
+                <img src={Excercise} alt='excercise' />
               </div>
             </div>
 
             <div className='card_box_dashboard'>
               <div className='card_top_section_dashboard'>
-                <h3>Fruits and Vegetables</h3>
+                <h3>Checkup & Scans</h3>
               </div>
               <div className='card_bottom_section_dashboard'>
                 <p></p>
               </div>
-              <div className='card_image_section_dashboard'>
-                <img src={Fruit} alt='fruits' />
+              <div className='card_image_section4_dashboard'>
+                <img src={Checkup} alt='checkup' />
               </div>
             </div>
           </div>
