@@ -142,7 +142,7 @@
     display: grid;
 grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 100px;
-grid-row-gap: 50px;
+grid-row-gap: 100px;
 }
 
 .card_box_dashboard {
@@ -178,7 +178,7 @@ grid-row-gap: 50px;
 
 .card_image_section_dashboard {
     position: absolute;
-    top: -90px;
+    top: -80px;
     left: -80px;
 }
 
@@ -194,4 +194,26 @@ grid-row-gap: 50px;
 
 .card_image_section2_dashboard img {
     width: 180px;
+}
+
+.card_image_section3_dashboard {
+    position: absolute;
+    top: -70px;
+    left: -70px;
+}
+
+.card_image_section3_dashboard img {
+    width: 160px;
+    height: 140px;
+}
+
+.card_image_section4_dashboard {
+    position: absolute;
+    top: -60px;
+    left: -50px;
+}
+
+.card_image_section4_dashboard img {
+    width: 150px;
+    height: 140px;
 }
