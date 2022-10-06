@@ -34,7 +34,7 @@ const DetailsOne = () => {
   const [formErrors, setFormErrors] = useState({});
   const [isSubmit, setIsSubmit] = useState(false);
 
-  const type = "register"
+  const type = "register";
 
   const [user, setUser] = useState({
     age: "",
@@ -72,7 +72,7 @@ const DetailsOne = () => {
 
   const verifyUser = ()=>{
     if(!cookies.jwt){
-      navigate('/login')
+      navigate('/login');
     }else{
       axios.post(`http://localhost:5000/user/checkuser`,{},{
         withCredentials:true,
@@ -80,8 +80,14 @@ const DetailsOne = () => {
         if(data.id != id){
           removeCookie("jwt");
           navigate('/login');
-        }else{ 
-          getUser();
+        }else{
+          if(data.flag){
+            navigate(`/${data.id}/dashboard`);
+            getUser();
+          } 
+          else{
+            navigate(`user/${data.id}/detailsone`);
+          }
         }
       })
     }

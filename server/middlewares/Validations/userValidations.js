@@ -3,33 +3,31 @@ module.exports = {
     detailsOne(req, res, next) {
         const errors = {};
 
-        const { age, expecteddate, childnumber, currentweek, selectedFood } = req.body;
-
-        if (!age) {
+        if (!req.body.user.age) {
             errors.age = "Mother's age required";
-        } else if (age < 0) {
+        } else if (req.body.user.age < 0) {
             errors.age = "Invalid Age";
         }
 
-        if (!expecteddate) {
+        if (!req.body.user.expecteddate) {
             errors.expecteddate = "Expected date required";
         }
 
-        if (!childnumber) {
+        if (!req.body.user.childnumber) {
             errors.childnumber = "Child number required";
-        } else if (childnumber < 0) {
+        } else if (req.body.user.childnumber < 0) {
             errors.childnumber = "Invalid child number";
         }
 
-        if (!currentweek) {
+        if (!req.body.user.currentweek) {
             errors.currentweek = "Current week required";
-        } else if (currentweek < 0) {
+        } else if (req.body.user.currentweek < 0) {
             errors.currentweek = "Current week should be greater than or equal to 0";
-        } else if (currentweek > 42) {
+        } else if (req.body.user.currentweek > 42) {
             errors.currentweek = "Current week should be less than 42";
         }
 
-        if (!selectedFood) {
+        if (!req.body.selectedFood) {
             errors.food = "Food Category required";
         }
 

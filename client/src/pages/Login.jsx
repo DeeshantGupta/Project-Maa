@@ -52,15 +52,19 @@ const Login = () => {
       .then( ({data}) => {
         console.log(data);
         if(data.errors){
+          console.log("Errors");
           setFormErrors(data.errors);
         }
-        else if(data.message && data.detailsFlag){
-             navigate(`/:id/dashboard`);
+        else if(data.message == true && data.flag == true){
+          console.log("Dashboard");
+             navigate(`/${data.id}/dashboard`);
         }
-        else if(data.message && !data.detailsFlag ){
+        else if(data.message && data.flag == false ){
+          console.log("Detailsone");
           navigate(`/user/${data.id}/detailsone`);
         }
         else {
+          console.log("Final");
             setFormErrors({final: data.message})
         }
       });
