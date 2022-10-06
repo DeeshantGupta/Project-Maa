@@ -1,4 +1,4 @@
-    [
+[
     {
     "week": 1,
     "data": 
@@ -856,9 +856,9 @@
         "exercises": []
     },
     {
-    "week":6,
-    "data":[
-            {
+"week":6,
+    "data":[    
+        {
                 "nutrient_id": "DHA",
                 "need": [
                     "It's adequate consumption is vitally important during pregnancy as they are critical building blocks of fetal brain and retina."
@@ -1050,9 +1050,8 @@
                 "non-veg": [],
                 "dairy": [],
                 "others": []
-            }
-        }
-    ],
+            }}
+        ],            
     "symptoms":[
         {
             "image":"https://images.agoramedia.com/wte3.0/gcms/pregnancy-wbw-symptoms-frequent-urination.jpg?width=150",
