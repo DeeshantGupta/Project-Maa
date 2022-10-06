@@ -8,13 +8,13 @@ import {useCookies} from 'react-cookie'
 
 const DetailsOne = () => {
 
-  const navigate = useNavigate()
+  const navigate = useNavigate();
 
   const {id} = useParams();
 
-  const [cookies,setCookie,removeCookie] = useCookies([])
+  const [cookies,setCookie,removeCookie] = useCookies([]);
 
-   const [userInfo,setUserInfo] = useState({})
+   const [userInfo,setUserInfo] = useState({});
 
    const disablePastDate = () => {
     const today = new Date();
@@ -22,7 +22,7 @@ const DetailsOne = () => {
     const mm = String(today.getMonth() + 1).padStart(2, "0"); //January is 0!
     const yyyy = today.getFullYear();
     return yyyy + "-" + mm + "-" + dd;
-  };
+  }
 
   const foodData = ["Vegetarian", "Both (Veg & Non-Veg)"]
   const [selectedFood, setSelectedFood] = useState("");

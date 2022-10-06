@@ -10,7 +10,8 @@ module.exports = {
     USER:{
         CHECKUSER:"/checkuser",
         GETUSER:"/getuser/:id",
-        POSTDETAILS:"/postdetails/:id"
+        POSTDETAILS:"/postdetails/:id",
+        MOTHERCHILDINFO:"/motherchildinfo/:id"
     },
     ROUTES: {
         AUTH: "/auth",

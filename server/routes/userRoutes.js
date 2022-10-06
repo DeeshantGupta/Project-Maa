@@ -16,4 +16,6 @@ router.route(CONSTANTS.USER.GETUSER).get(CTRLS.getUser);
 
 router.route(CONSTANTS.USER.POSTDETAILS).post(VALIDATOR.detailsOne,CTRLS.postDetails);
 
+router.route(CONSTANTS.USER.MOTHERCHILDINFO).get(CTRLS.motherChildInfo);
+
 module.exports = router;

@@ -6,39 +6,92 @@ import Fruit from "../img/banner-images/fruit-image.png";
 import Symptoms from "../img/banner-images/symptoms.png";
 import Excercise from "../img/banner-images/excercise.png";
 import Checkup from "../img/banner-images/checkup.png";
-import { Link } from 'react-router-dom';
+import { Link ,useNavigate , useParams} from 'react-router-dom';
+import { useCookies } from 'react-cookie';
+import { useEffect,useState } from 'react';
+import axios from "axios";
 
 const Dashboard = () => {
     const image = "https://drive.google.com/file/d/1QtjuQz6Zb_xsUWZRIViGGX-dZtgijXgb/view?usp=sharing";
+
+    const navigate = useNavigate();
+
+    const {id} = useParams();
+  
+    const [cookies,setCookie,removeCookie] = useCookies([]);
+
+    const [userInfo,setUserInfo] = useState({});
+
+    const [motherChild,setMotherChild] = useState([]);
+
+    const getUser = async()=>{
+      axios.get(`http://localhost:5000/user/getuser/${id}`).then(({data})=>{
+        setUserInfo(data);
+      }) 
+    }
+
+    const motherChildInfo = async()=>{
+      axios.get(`http://localhost:5000/user/motherchildinfo/${id}`).then(({data})=>{
+        setMotherChild(data.info);
+      }) 
+    }
+
+    console.log(motherChild);
+
+    useEffect(()=>{
+      const verifyUser = ()=>{
+        if(!cookies.jwt){
+          navigate('/login');
+        }else{
+          axios.post(`http://localhost:5000/user/checkuser`,{},{
+            withCredentials:true,
+          }).then(({data})=>{
+            if(data.id != id){
+              removeCookie("jwt");
+              navigate('/login');
+            }else{
+             
+              getUser();
+              motherChildInfo();
+            }
+          })
+        }
+      }
+    
+      verifyUser() ;
+    
+    },[cookies,navigate,removeCookie]);
+
+
   return (
     <div>
-      <HeaderUser />
+      <HeaderUser name={userInfo.name}/>
 
       <div className='main_container_dashboard'>
         <div className='top_section_dashboard'>
             <div className='top_heading_section_dashboard'>
-                <h2>Week 5</h2>
-                <p>Your baby is as big as a pomegranate seed.</p>
+                <h2>Week {motherChild[0].week}</h2>
+                <p>{motherChild[0].title}</p>
             </div>
 
             <div className='top_detail_section_dashboard'>
                 <div className='detail_first_section_dashboard'>
-                    <img src="https://www.babycenter.com/ims/2015/01/pregnancy-week-5-amniotic-sac_4x3.jpg" alt="baby" />
-                    <p>27 cm<br></br>0.31 - 0.35 kg</p>
+                    <img src={motherChild[0].baby_growth} alt="baby" />
+                    <p>{motherChild[0].size} cm<br></br>{motherChild[0].weight}</p>
                 </div>
 
                 <div className='detail_second_section_dashboard'>
                 {/* https://drive.google.com/uc?id=1xD2WGWVlYRKccD4cXpsh4WT0vYAdUDR */}
 
-                    <img src="https://drive.google.com/uc?id=1-8ZQhXwwFnwTxdBx5oEYz-w9Rlo4WXKn" alt="fruit size" />
+                    <img src={motherChild[0].baby_lookslike} alt="fruit size" />
                 </div>
 
                 <div className='detail_third_section_dashboard'>
                     <div className='third_top_section_dashboard'>
-                        <p>37</p>
+                        <p>{42 - motherChild[0].week}</p>
                     </div>
-                    <p>37 Weeks Left</p>
-                </div>
+                    <p>{42 - motherChild[0].week} Weeks Left</p>
+                </div> 
             </div>
         </div>
 
