@@ -668,7 +668,63 @@
     },
     {
         "week": 6,
-        "data": [],
+        "data": 
+        [
+            {
+                "nutrient_id": "DHA",
+                "need": [
+                    "It's adequate consumption is vitally important during pregnancy as they are critical building blocks of fetal brain and retina."
+                ],
+                "Dosage": [
+                    "Pregnant people should take at least 200 milligrams (mg) of DHA before, during, and after pregnancy."
+                ],
+                "food": {
+                    "Fruit": [],
+                    "Vegetables": [],
+                    "Non-Veg": [
+                        {
+                            "name": "Omega-3 enriched eggs",
+                            "url": "https://drive.google.com/uc?id=1GpeFdSe2Z8enL_h1eQl-eXjin3vfu4uP"
+                        },
+                        {
+                            "name": "Lobsters",
+                            "url": "https://drive.google.com/uc?id=1q_Xv6VvhThMM-Jzb9wDMg9vh5UIxwfuK"
+                        },
+                        {
+                            "name": "Salmon",
+                            "url": "https://drive.google.com/uc?id=1s5k5T9O4Mh_2rUXRgogRUEXfX80yc2BQ"
+                        },
+                        {
+                            "name": "Sea bass",
+                            "url": "https://drive.google.com/uc?id=1WXVFXjoqbGyleVzB_FmciuohCk5cz7kf"
+                        },
+                        {
+                            "name": "Shrimp",
+                            "url": "https://drive.google.com/uc?id=13-d2EKy912Lk6rv__6ahQCK9V8TkOQ3u"
+                        },
+                        {
+                            "name": "Well-cooked shellfish",
+                            "url": "https://drive.google.com/uc?id=1r5lnuPKpiQA-qHasNQ8_mjoaTjOZAKVo"
+                        },
+                        {
+                            "name": "Canned light tuna",
+                            "url": "https://drive.google.com/uc?id=1IWW047egtWT54xXZozGCCwbvE8iSsSFU"
+                        },
+                        {
+                            "name": "Cod",
+                            "url": "https://drive.google.com/uc?id=1w61w65AgfVYSMD1AxXNWyakF1NBpGeC9"
+                        }
+                    ],
+                    "Dairy": [
+                        {
+                            "name": "Fortified-dairy products",
+                            "url": "https://drive.google.com/uc?id=15G9GFE5G9fMRyqLXrw-x_mBmtesthf3c"
+                        }
+                    ],
+                    "Others": []
+                }
+            }
+        ],
         "symptoms": [],
         "tips": [],
         "checkups_test_vaccines": [
@@ -697,7 +753,69 @@
     },
     {
         "week": 7,
-        "data": [],
+        "data": 
+        [
+            {
+                "nutrient_id": "Vitamin-C",
+                "need": [
+                    "It help mom maintain a healthy immune system",
+                    "It is required for mom\u2019s body to make collagen to help baby\u2019s skin, cartilage, tendons, and bone growth.",
+                    "It also acts as an antioxidant in the body, helps to prevent cell damage.",
+                    "It also helps your body absorb iron."
+                ],
+                "dosage": [
+                    "Pregnant women ages 18 and younger: 80 milligrams (mg) per day",
+                    "Breastfeeding women ages 18 and younger: 115 mg per day",
+                    "Pregnant women ages 19 and older: 85 mg per day",
+                    "As high doses of vitamin C can upset your stomach and cause diarrhea and nausea"
+                ],
+                "food": {
+                    "fruit": [
+                        {
+                            "name": "Orange",
+                            "url": "https://drive.google.com/uc?id=1uCxKCnKJz9epn6UivYFy4ARHDKQA5-9q"
+                        },
+                        {
+                            "name": "Berries",
+                            "url": "https://drive.google.com/uc?id=1ggDWGqWZYjhHNDRWc3rj1cl7HfLJ6XVH"
+                        },
+                        {
+                            "name": "Kiwi",
+                            "url": "https://drive.google.com/uc?id=1CAj1YZ_lC7oGBV-iXXBKnLi0JawmKybW"
+                        },
+                        {
+                            "name": "Mango",
+                            "url": "https://drive.google.com/uc?id=11pk8rFqNGCfw9fBTCTlqw-BTw7J-n-Mj"
+                        },
+                        {
+                            "name": "Melons",
+                            "url": "https://drive.google.com/uc?id=1HHdJZHsVdRaTrMS8Eua2icRrh7CmoT6h"
+                        },
+                        {
+                            "name": "Strawberry",
+                            "url": "https://drive.google.com/uc?id=1WsXu6Jhnqv_eND4NqSEyZLTyCoStWeks"
+                        },
+                        {
+                            "name": "Tomato",
+                            "url": "https://drive.google.com/uc?id=14Ci4MAiVW4rr_x_qkJOODfmgkSvdu6Eo"
+                        }
+                    ],
+                    "vegetables": [
+                        {
+                            "name": "Asparagus",
+                            "url": "https://drive.google.com/uc?id=1CaTi6rQlb-k9U-IJgbyw__Wy9-T5VigJ"
+                        },
+                        {
+                            "name": "Bell peppers",
+                            "url": "https://drive.google.com/uc?id=1mZTeCJybqxWq8UdsYJI0eNo5dUHxM43-"
+                        }
+                    ],
+                    "non-veg": [],
+                    "dairy": [],
+                    "others": []
+                }
+            }            
+        ],
         "symptoms": [],
         "tips": [],
         "checkups_test_vaccines": [
@@ -726,7 +844,76 @@
     },
     {
         "week": 8,
-        "data": [],
+        "data": 
+        [
+            {
+                "nutrient_id": "Complex Carbohydrates",
+                "need": [
+                    "It provide essential fuel for both you and your baby during pregnancy.",
+                    "The glucose provided by carbohydrates is the optimal fuel for the maintenance of maternal and foetal brain function.",
+                    "It is also an important source of folate, a B group vitamin needed for the healthy development of babies in early pregnancy."
+                ],
+                "Dosage": [
+                    "However, the daily intake of carbs should not exceed more than 100 gms or else it could cause ketosis",
+                    "Ideally, 10 to 11 servings of healthy carbs per day may be sufficient in pregnancy."
+                ],
+                "food": {
+                    "Fruit": [
+                        {
+                            "name": "Banana",
+                            "url": "https://drive.google.com/uc?id=1NidQmOEe7MtIJle0UPCO-r58lkwKqFkQ"
+                        }
+                    ],
+                    "Vegetables": [
+                        {
+                            "name": "Beans",
+                            "url": "https://drive.google.com/uc?id=1FF2OwOLa-5OFf1McnN0lQOdLbhcCRGWm"
+                        },
+                        {
+                            "name": "Green vegetables",
+                            "url": "https://drive.google.com/uc?id=1WmfQ7gPRSevyg4pwcLKWeb32EGqjq8y7"
+                        },
+                        {
+                            "name": "Sweet potatoes",
+                            "url": "https://drive.google.com/uc?id=1BK0CXxPGGex8LZnYiS-YEUtqi6FNNbNH"
+                        },
+                        {
+                            "name": "Peas",
+                            "url": "https://drive.google.com/uc?id=1Ut2Yj6Qp4HsJ3iapXZsc3DJVIBmYgMrI"
+                        }
+                    ],
+                    "Non-Veg": [],
+                    "Dairy": [
+                        {
+                            "name": "Yogurt",
+                            "url": "https://drive.google.com/uc?id=1HkR2lbbCAK4gW9hg6-3u5YDPW6cy-JsS"
+                        }
+                    ],
+                    "Others": [
+                        {
+                            "name": "Brown rice",
+                            "url": "https://drive.google.com/uc?id=1p_G_SXqenrNjeconBarSutPvfG5bittA"
+                        },
+                        {
+                            "name": "Oatmeal",
+                            "url": "https://drive.google.com/uc?id=11xgbs1fWaBKr7KTngfSzBSCvJB77yRj6"
+                        },
+                        {
+                            "name": "Sweet corn",
+                            "url": "https://drive.google.com/uc?id=1zg70hzeEIwvrY79-oo59jwEUafxOKBWR"
+                        },
+                        {
+                            "name": "Wholegrain products",
+                            "url": "https://drive.google.com/uc?id=1WF6YfWpNlZyM8y2hpRmXLkA3QsyiXdAA"
+                        },
+                        {
+                            "name": "Crackers",
+                            "url": "https://drive.google.com/uc?id=1OtrhFdCgAlVUnH_PkU2ORXPv4CdPBxFW"
+                        }
+                    ]
+                }
+            }
+        ],
         "symptoms": [],
         "tips": [],
         "checkups_test_vaccines": [
@@ -755,7 +942,77 @@
     },
     {
         "week": 9,
-        "data": [],
+        "data": 
+        [
+            {
+                "nutrient_id": "Fiber",
+                "need": [
+                    "Consuming lots of fiber can help fight off constipation and keep you regular, which also goes a ways toward preventing hemorrhoids.",
+                    "will help you eliminate waste that could be detrimental for your health, whether pregnant or not."
+                ],
+                "Dosage": [
+                    "Aim for 25 to 30 grams of fiber a day, and drink plenty of water to help the fiber move through your system."
+                ],
+                "food": {
+                    "Fruit": [
+                        {
+                            "name": "Apple",
+                            "url": "https://drive.google.com/uc?id=1y7ypJeddFtUvHMKA34fBNPLHlLvzxN97"
+                        },
+                        {
+                            "name": "Banana",
+                            "url": "https://drive.google.com/uc?id=1cYn2KYegccfTX9i7vBiOggUKniZUVj1t"
+                        },
+                        {
+                            "name": "Orange",
+                            "url": "https://drive.google.com/uc?id=19GBazXDIlTHR2Aefyj-jBjT3yWyL_5Xl"
+                        },
+                        {
+                            "name": "Rasberries",
+                            "url": "https://drive.google.com/uc?id=1-5IttiuL3h7BMK2lgRJoqd7JuuVMQoAp"
+                        },
+                        {
+                            "name": "Strawberry",
+                            "url": "https://drive.google.com/uc?id=1Ey8cbl-7gjPgcVhwagnmEoECRRvuZQuu"
+                        }
+                    ],
+                    "Vegetables": [
+                        {
+                            "name": "Broccoli",
+                            "url": "https://drive.google.com/uc?id=1YYG5mLNAtwgZRqULhABf77gcnV3s09Nn"
+                        },
+                        {
+                            "name": "Peas",
+                            "url": "https://drive.google.com/uc?id=1vvERVGdCeG2qw8Nu16uDovsAhBNgDYGQ"
+                        }
+                    ],
+                    "Non-Veg": [],
+                    "Dairy": [],
+                    "Others": [
+                        {
+                            "name": "Brown rice",
+                            "url": "https://drive.google.com/uc?id=1sD-IgRygJhe3aHEJqVpTp_IX9LGLLDIZ"
+                        },
+                        {
+                            "name": "Lentils",
+                            "url": "https://drive.google.com/uc?id=1evIh8pi7PuP5rJTJ4BxEJX2Kq9ED4S72"
+                        },
+                        {
+                            "name": "Oatmeal",
+                            "url": "https://drive.google.com/uc?id=1WtcuXTocaWTuS86URccxmzq2WsFjUVJJ"
+                        },
+                        {
+                            "name": "Popcorn",
+                            "url": "https://drive.google.com/uc?id=1YLerRN8AmxotzcW86S6U3t8Sv1KowkgA"
+                        },
+                        {
+                            "name": "Spaghetti",
+                            "url": "https://drive.google.com/uc?id=1fLPYOlrq3e2yn0ZKn2g1BpIQJRmi74Mt"
+                        }
+                    ]
+                }
+            }
+        ],
         "symptoms": [],
         "tips": [],
         "checkups_test_vaccines": [
@@ -779,7 +1036,119 @@
     },
     {
         "week": 10,
-        "data": [],
+        "data": 
+        [
+            {
+                "nutrient_id": "Fiber",
+                "need": [
+                    "Consuming lots of fiber can help fight off constipation and keep you regular, which also goes a ways toward preventing hemorrhoids.",
+                    "will help you eliminate waste that could be detrimental for your health, whether pregnant or not."
+                ],
+                "Dosage": [
+                    "Aim for 25 to 30 grams of fiber a day, and drink plenty of water to help the fiber move through your system."
+                ],
+                "food": {
+                    "Fruit": [
+                        {
+                            "name": "Apple",
+                            "url": "https://drive.google.com/uc?id=1y7ypJeddFtUvHMKA34fBNPLHlLvzxN97"
+                        },
+                        {
+                            "name": "Banana",
+                            "url": "https://drive.google.com/uc?id=1cYn2KYegccfTX9i7vBiOggUKniZUVj1t"
+                        },
+                        {
+                            "name": "Orange",
+                            "url": "https://drive.google.com/uc?id=19GBazXDIlTHR2Aefyj-jBjT3yWyL_5Xl"
+                        },
+                        {
+                            "name": "Rasberries",
+                            "url": "https://drive.google.com/uc?id=1-5IttiuL3h7BMK2lgRJoqd7JuuVMQoAp"
+                        },
+                        {
+                            "name": "Strawberry",
+                            "url": "https://drive.google.com/uc?id=1Ey8cbl-7gjPgcVhwagnmEoECRRvuZQuu"
+                        }
+                    ],
+                    "Vegetables": [
+                        {
+                            "name": "Broccoli",
+                            "url": "https://drive.google.com/uc?id=1YYG5mLNAtwgZRqULhABf77gcnV3s09Nn"
+                        },
+                        {
+                            "name": "Peas",
+                            "url": "https://drive.google.com/uc?id=1vvERVGdCeG2qw8Nu16uDovsAhBNgDYGQ"
+                        }
+                    ],
+                    "Non-Veg": [],
+                    "Dairy": [],
+                    "Others": [
+                        {
+                            "name": "Brown rice",
+                            "url": "https://drive.google.com/uc?id=1sD-IgRygJhe3aHEJqVpTp_IX9LGLLDIZ"
+                        },
+                        {
+                            "name": "Lentils",
+                            "url": "https://drive.google.com/uc?id=1evIh8pi7PuP5rJTJ4BxEJX2Kq9ED4S72"
+                        },
+                        {
+                            "name": "Oatmeal",
+                            "url": "https://drive.google.com/uc?id=1WtcuXTocaWTuS86URccxmzq2WsFjUVJJ"
+                        },
+                        {
+                            "name": "Popcorn",
+                            "url": "https://drive.google.com/uc?id=1YLerRN8AmxotzcW86S6U3t8Sv1KowkgA"
+                        },
+                        {
+                            "name": "Spaghetti",
+                            "url": "https://drive.google.com/uc?id=1fLPYOlrq3e2yn0ZKn2g1BpIQJRmi74Mt"
+                        }
+                    ]
+                }
+            },
+            {
+                "nutrient_id": "DHA",
+                "need": [
+                    "It's adequate consumption is vitally important during pregnancy as they are critical building blocks of fetal brain and retina."
+                ],
+                "Dosage": [
+                    "Pregnant people should take at least 200 milligrams (mg) of DHA before, during, and after pregnancy."
+                ],
+                "food": {
+                    "Fruit": [],
+                    "Vegetables": [],
+                    "Non-Veg": [
+                        {
+                            "name": "Omega-3 enriched eggs",
+                            "url": "https://drive.google.com/uc?id=1GpeFdSe2Z8enL_h1eQl-eXjin3vfu4uP"
+                        },
+                        {
+                            "name": "Lobsters",
+                            "url": "https://drive.google.com/uc?id=1q_Xv6VvhThMM-Jzb9wDMg9vh5UIxwfuK"
+                        },
+                        {
+                            "name": "Salmon",
+                            "url": "https://drive.google.com/uc?id=1s5k5T9O4Mh_2rUXRgogRUEXfX80yc2BQ"
+                        },
+                        {
+                            "name": "Sea bass",
+                            "url": "https://drive.google.com/uc?id=1WXVFXjoqbGyleVzB_FmciuohCk5cz7kf"
+                        },
+                        {
+                            "name": "Shrimp",
+                            "url": "https://drive.google.com/uc?id=13-d2EKy912Lk6rv__6ahQCK9V8TkOQ3u"
+                        }
+                    ],
+                    "Dairy": [
+                        {
+                            "name": "Fortified-dairy products",
+                            "url": "https://drive.google.com/uc?id=15G9GFE5G9fMRyqLXrw-x_mBmtesthf3c"
+                        }
+                    ],
+                    "Others": []
+                }
+            }
+        ],
         "symptoms": [],
         "tips": [],
         "checkups_test_vaccines": [
