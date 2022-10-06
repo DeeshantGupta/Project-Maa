@@ -8,13 +8,13 @@ import {useCookies} from 'react-cookie'
 
 const DetailsOne = () => {
 
-  const navigate = useNavigate()
+  const navigate = useNavigate();
 
   const {id} = useParams();
 
-  const [cookies,setCookie,removeCookie] = useCookies([])
+  const [cookies,setCookie,removeCookie] = useCookies([]);
 
-   const [userInfo,setUserInfo] = useState({})
+   const [userInfo,setUserInfo] = useState({});
 
    const disablePastDate = () => {
     const today = new Date();
@@ -22,7 +22,7 @@ const DetailsOne = () => {
     const mm = String(today.getMonth() + 1).padStart(2, "0"); //January is 0!
     const yyyy = today.getFullYear();
     return yyyy + "-" + mm + "-" + dd;
-  };
+  }
 
   const foodData = ["Vegetarian", "Both (Veg & Non-Veg)"]
   const [selectedFood, setSelectedFood] = useState("");
@@ -34,7 +34,7 @@ const DetailsOne = () => {
   const [formErrors, setFormErrors] = useState({});
   const [isSubmit, setIsSubmit] = useState(false);
 
-  const type = "register"
+  const type = "register";
 
   const [user, setUser] = useState({
     age: "",
@@ -72,7 +72,7 @@ const DetailsOne = () => {
 
   const verifyUser = ()=>{
     if(!cookies.jwt){
-      navigate('/login')
+      navigate('/login');
     }else{
       axios.post(`http://localhost:5000/user/checkuser`,{},{
         withCredentials:true,
@@ -80,8 +80,14 @@ const DetailsOne = () => {
         if(data.id != id){
           removeCookie("jwt");
           navigate('/login');
-        }else{ 
-          getUser();
+        }else{
+          if(data.flag){
+            navigate(`/${data.id}/dashboard`);
+            getUser();
+          } 
+          else{
+            navigate(`user/${data.id}/detailsone`);
+          }
         }
       })
     }

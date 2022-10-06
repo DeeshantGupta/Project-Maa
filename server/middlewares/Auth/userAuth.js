@@ -18,7 +18,7 @@ module.exports = {
                     const user = await User.findById(decodedToken.id);
 
                     if (user) {
-                        res.send({ status: true, user: user.email, id: decodedToken.id });
+                        res.send({ status: true, user: user.email, id: decodedToken.id,flag: user.detailsFlag });
                     }
 
                     next();

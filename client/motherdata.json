@@ -1,5 +1,6 @@
 [
     {
+<<<<<<< HEAD
         "week":1,
         "data":[],
         "symptoms":[
@@ -259,6 +260,339 @@
                 ],
                 "food": {
                     "fruit": [],
+=======
+        "week": 1,
+        "data": 
+        [
+            {
+                "nutrient_id": "Folic Acid",
+                "need": [
+                    " It assists in the formation of baby's heart and circulatory system.",
+                    "It helps in lower the chance your baby will have certain birth defects known as neural tube defects and also a mouth defect in which the lip has opening in it and doesn't form correctly.",
+                    "A diet that\u2019s rich in folic acid may help prevent labor before 37 weeks."
+                ],
+                "Dosage": [
+                    "All women who could become pregnant or who are actively planning a family consume at least 0.4 to 0.8 mg of folic acid in a daily supplement.",
+                    "Preconception folic acid supplementation may be even more important than prenatal folic acid supplementation, so be sure to discuss your nutritional needs with your OB/GYN well before you start trying to conceive.",
+                    "Ideally, a pregnant woman's daily dose should be 600 mcg from all sources, including foods and prenatal vitamins."
+                ],
+                "food": {
+                    "Fruit": [
+                        {
+                            "name": "Avocado",
+                            "url": "https://drive.google.com/uc?id=11Lp4V96HUbajHQFce747SMt9Avb4XWJw"
+                        },
+                        {
+                            "name": "Orange",
+                            "url": "https://drive.google.com/uc?id=1uRol827GlwZ2SmoxUshQ5cyl40E3fXf-"
+                        }
+                    ],
+                    "Vegetables": [
+                        {
+                            "name": "Asparagus",
+                            "url": "https://drive.google.com/uc?id=1eQ46Vmsyu_zFqw0VqRkL6hAK2R3RYtRX"
+                        },
+                        {
+                            "name": "Broccoli",
+                            "url": "https://drive.google.com/uc?id=1kagPeB_wi4h-72X7dmMh4SqkR1XiducX"
+                        },
+                        {
+                            "name": "Legumes (such as- kidney beans, etc)",
+                            "url": "https://drive.google.com/uc?id=1fV4CzIuJqdn4MAdAVXC4Nu2ZBshL4rMY"
+                        },
+                        {
+                            "name": "Dark leafy green vegetables",
+                            "url": "https://drive.google.com/uc?id=151OVauwNdfNYHLaLE12utyuKViCGPchw"
+                        }
+                    ],
+                    "Non-Veg": [],
+                    "Dairy": [],
+                    "Others": [
+                        {
+                            "name": "Foods fortified with folic acid",
+                            "url": "https://drive.google.com/uc?id=1wJwAXSqlyhqxwPavOAvCIZn-lvuISutW"
+                        }
+                    ]
+                }
+            }
+        ],
+        "symptoms": [
+            {
+                "image": "",
+                "title": "",
+                "description": ""
+            }
+        ],
+        "tips": [
+            {
+                "title": "",
+                "descrition": ""
+            }
+        ],
+        "checkups_test_vaccines": [
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-ultrasound-probe-icon-pink.svg",
+                "title": "Dating Ultrasound Pregnancy Scan",
+                "description": "It is recommended to undergo a 'dating ultrasound pregnancy scan' during the early stage of pregnancy. This scan confirms the pregnancy and accurately dates it."
+            },
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-medical-test-icon-pink.svg",
+                "title": "Urine HCG Test",
+                "description": "Home pregnancy tests are very sensitive.That means, sometimes your positive result can be a false positive urine hCG test which is commonly used is sensitive up to 75% to 91%."
+            }
+        ],
+        "exercises": []
+    },
+    {
+        "week": 2,
+        "data": 
+        [
+            {
+                "nutrient_id": "Folic Acid",
+                "need": [
+                    " It assists in the formation of baby's heart and circulatory system.",
+                    "It helps in lower the chance your baby will have certain birth defects known as neural tube defects and also a mouth defect in which the lip has opening in it and doesn't form correctly.",
+                    "A diet that\u2019s rich in folic acid may help prevent labor before 37 weeks."
+                ],
+                "Dosage": [
+                    "All women who could become pregnant or who are actively planning a family consume at least 0.4 to 0.8 mg of folic acid in a daily supplement.",
+                    "Preconception folic acid supplementation may be even more important than prenatal folic acid supplementation, so be sure to discuss your nutritional needs with your OB/GYN well before you start trying to conceive.",
+                    "Ideally, a pregnant woman's daily dose should be 600 mcg from all sources, including foods and prenatal vitamins."
+                ],
+                "food": {
+                    "Fruit": [
+                        {
+                            "name": "Avocado",
+                            "url": "https://drive.google.com/uc?id=11Lp4V96HUbajHQFce747SMt9Avb4XWJw"
+                        },
+                        {
+                            "name": "Orange",
+                            "url": "https://drive.google.com/uc?id=1uRol827GlwZ2SmoxUshQ5cyl40E3fXf-"
+                        }
+                    ],
+                    "Vegetables": [
+                        {
+                            "name": "Asparagus",
+                            "url": "https://drive.google.com/uc?id=1eQ46Vmsyu_zFqw0VqRkL6hAK2R3RYtRX"
+                        },
+                        {
+                            "name": "Broccoli",
+                            "url": "https://drive.google.com/uc?id=1kagPeB_wi4h-72X7dmMh4SqkR1XiducX"
+                        },
+                        {
+                            "name": "Legumes (such as- kidney beans, etc)",
+                            "url": "https://drive.google.com/uc?id=1fV4CzIuJqdn4MAdAVXC4Nu2ZBshL4rMY"
+                        },
+                        {
+                            "name": "Dark leafy green vegetables",
+                            "url": "https://drive.google.com/uc?id=151OVauwNdfNYHLaLE12utyuKViCGPchw"
+                        }
+                    ],
+                    "Non-Veg": [],
+                    "Dairy": [],
+                    "Others": [
+                        {
+                            "name": "Foods fortified with folic acid",
+                            "url": "https://drive.google.com/uc?id=1wJwAXSqlyhqxwPavOAvCIZn-lvuISutW"
+                        }
+                    ]
+                }
+            }
+        ],
+        "symptoms": [],
+        "tips": [],
+        "checkups_test_vaccines": [
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-ultrasound-probe-icon-pink.svg",
+                "title": "Dating Ultrasound Pregnancy Scan",
+                "description": "It is recommended to undergo a 'dating ultrasound pregnancy scan' during the early stage of pregnancy. This scan confirms the pregnancy and accurately dates it."
+            },
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-medical-test-icon-pink.svg",
+                "title": "Urine HCG Test",
+                "description": "Home pregnancy tests are very sensitive.That means, sometimes your positive result can be a false positive urine hCG test which is commonly used is sensitive up to 75% to 91%."
+            }
+        ],
+        "exercises": []
+    },
+    {
+        "week": 3,
+        "data": [
+            {
+                "nutrient_id": "Vitamin-C",
+                "need": [
+                    "It help mom maintain a healthy immune system",
+                    "It is required for mom\u2019s body to make collagen to help baby\u2019s skin, cartilage, tendons, and bone growth.",
+                    "It also acts as an antioxidant in the body, helps to prevent cell damage.",
+                    "It also helps your body absorb iron."
+                ],
+                "dosage": [
+                    "Pregnant women ages 18 and younger: 80 milligrams (mg) per day",
+                    "Breastfeeding women ages 18 and younger: 115 mg per day",
+                    "Pregnant women ages 19 and older: 85 mg per day",
+                    "As high doses of vitamin C can upset your stomach and cause diarrhea and nausea"
+                ],
+                "food": {
+                    "fruit": [
+                        {
+                            "name": "Orange",
+                            "url": "https://drive.google.com/uc?id=1uCxKCnKJz9epn6UivYFy4ARHDKQA5-9q"
+                        },
+                        {
+                            "name": "Berries",
+                            "url": "https://drive.google.com/uc?id=1ggDWGqWZYjhHNDRWc3rj1cl7HfLJ6XVH"
+                        },
+                        {
+                            "name": "Kiwi",
+                            "url": "https://drive.google.com/uc?id=1CAj1YZ_lC7oGBV-iXXBKnLi0JawmKybW"
+                        },
+                        {
+                            "name": "Mango",
+                            "url": "https://drive.google.com/uc?id=11pk8rFqNGCfw9fBTCTlqw-BTw7J-n-Mj"
+                        },
+                        {
+                            "name": "Melons",
+                            "url": "https://drive.google.com/uc?id=1HHdJZHsVdRaTrMS8Eua2icRrh7CmoT6h"
+                        },
+                        {
+                            "name": "Strawberry",
+                            "url": "https://drive.google.com/uc?id=1WsXu6Jhnqv_eND4NqSEyZLTyCoStWeks"
+                        },
+                        {
+                            "name": "Tomato",
+                            "url": "https://drive.google.com/uc?id=14Ci4MAiVW4rr_x_qkJOODfmgkSvdu6Eo"
+                        }
+                    ],
+                    "vegetables": [
+                        {
+                            "name": "Asparagus",
+                            "url": "https://drive.google.com/uc?id=1CaTi6rQlb-k9U-IJgbyw__Wy9-T5VigJ"
+                        },
+                        {
+                            "name": "Bell peppers",
+                            "url": "https://drive.google.com/uc?id=1mZTeCJybqxWq8UdsYJI0eNo5dUHxM43-"
+                        }
+                    ],
+                    "non-veg": [],
+                    "dairy": [],
+                    "others": []
+                }
+            },
+            {
+                "nutrient_id": "Iron",
+                "need": [
+                    "Approximately half of mom\u2019s iron intake will go toward the developing     fetus and placenta. The other half will be used to help support mom\u2019s increased blood volume."
+                ],
+                "dosage": [
+                    "The average pregnant woman needs about 30 mg of elemental iron per day to meet the new demands of extra blood volume, the developing placenta, and growing fetus."
+                ],
+                "food": {
+                    "fruit": [
+                        {
+                            "name": "Kiwi",
+                            "url": "https://drive.google.com/uc?id=1CAj1YZ_lC7oGBV-iXXBKnLi0JawmKybW"
+                        }
+                    ],
+>>>>>>> 8565259880679b45a86534d3bc599d0f9ba97b9f
+                    "vegetables": [],
+                    "non-veg": [
+                        {
+                            "name": "Beef",
+                            "url": "https://drive.google.com/uc?id=16y2QNGi_KRJghvVjHDFv63pSm7JXl5kW"
+                        },
+                        {
+<<<<<<< HEAD
+                            "name": "Egg",
+                            "url": "https://drive.google.com/uc?id=1UArW3R2Y6Dw0YuNGN_26uRVNpoiSwdSR"
+                        },
+                        {
+=======
+>>>>>>> 8565259880679b45a86534d3bc599d0f9ba97b9f
+                            "name": "Poultry",
+                            "url": "https://drive.google.com/uc?id=1TWnEUpOH2De-o53qG2JJFz3zUtpvgMP0"
+                        }
+                    ],
+                    "dairy": [],
+                    "others": [
+                        {
+<<<<<<< HEAD
+                            "name": "Nuts and seeds",
+                            "url": "https://drive.google.com/uc?id=1b_UdZfQHiobXSCtyXuhCWaAcpVrs7Gey"
+                        },
+                        {
+                            "name": "Whole grains",
+                            "url": "https://drive.google.com/uc?id=1xbtuiyiPAxdZnveFEREN1OuSnTYUYBYQ"
+=======
+                            "name": "Dried fruit",
+                            "url": "https://drive.google.com/uc?id=1lNcaE_QR5X2ZecIsIphUP24i8-2dHJRK"
+                        },
+                        {
+                            "name": "Soy products",
+                            "url": "https://drive.google.com/uc?id=1JyY6cjo-fOTuWQDG9fLt2WLPhZwGkr-u"
+>>>>>>> 8565259880679b45a86534d3bc599d0f9ba97b9f
+                        }
+                    ]
+                }
+            },
+            {
+<<<<<<< HEAD
+                "nutrient_id": "Calcium",
+                "need": [
+                    "Calcium helps you and your developing baby build and maintain strong, healthy bones",
+                    "Plus It's essential for heart, nerve and muscle health.",
+                    "If you don\u2019t consume enough calcium during pregnancy, your baby will take it from your bones!"
+                ],
+                "dosage": [
+                    "Your body can't make calcium, so you need to get it from food or supplements.",
+                    "While you're pregnant, try to get at least 1,000 mg of calcium every day.",
+                    "If you're 18 or younger, then you need at least 1,300 mg of calcium every day."
+                ],
+=======
+                "nutrient_id": "Fluid",
+                "need": [
+                    "If your morning sickness is accompanied by cramps, fever or diarrhea, you may be dealing with a stomach bug or food poisoning rather than pregnancy nausea.",
+                    "But whether your stomach is churning from hormones, a virus or that egg salad you had for lunch, the treatment is the same: Rest up and focus on fluids \u2014 especially if you're losing them through vomiting or diarrhea."
+                ],
+                "dosage": [
+                    "No Fixed dosage"
+                ],
+                "food": {
+                    "fruit": [],
+                    "vegetables": [],
+                    "non-veg": [],
+                    "dairy": [],
+                    "others": [
+                        {
+                            "name": "Clear broth",
+                            "url": "https://drive.google.com/uc?id=1wYz826iNMWe7cMf09c8Hips8URsr9KZO"
+                        },
+                        {
+                            "name": "Diluted juice",
+                            "url": "https://drive.google.com/uc?id=1-avOCY7dsGpCzTryrt9gT0leADviqBks"
+                        },
+                        {
+                            "name": "Hot water with lemon",
+                            "url": "https://drive.google.com/uc?id=1L1x4WnSILX9i4bYFSt2bEDeXPWBauuiR"
+                        },
+                        {
+                            "name": "Drinking water",
+                            "url": "https://drive.google.com/uc?id=1g4A8wX7MmxzcjBDioKTQnLV4J13IAMik"
+                        }
+                    ]
+                }
+            },
+            {
+                "nutrient_id": "Protein",
+                "need": [
+                    "Protein helps your baby grow. The amino acids contained within protein are essential to healthy cell growth.",
+                    "Protein helps keep you healthy, too, and is important for the development of your own tissues."
+                ],
+                "dosage": [
+                    "And as your belly increases in size to grow a healthy baby, your protein requirement also increases, especially during your second and third trimesters, when baby grows rapidly.",
+                    "In first trimester, eat three servings of protein daily to help spur new tissue for your baby-to-be."
+                ],
+                "food": {
+                    "fruit": [],
                     "vegetables": [],
                     "non-veg": [
                         {
@@ -299,6 +633,7 @@
                     "While you're pregnant, try to get at least 1,000 mg of calcium every day.",
                     "If you're 18 or younger, then you need at least 1,300 mg of calcium every day."
                 ],
+>>>>>>> 8565259880679b45a86534d3bc599d0f9ba97b9f
                 "food": {
                     "fruit": [],
                     "vegetables": [],
@@ -322,6 +657,7 @@
                 }
             }
         ],
+<<<<<<< HEAD
     "symptoms":[
         {
             "image":"https://images.agoramedia.com/wte3.0/gcms/pregnancy-wbw-w3-abdominal-cramp-315x315.jpg?width=150",
@@ -1091,3 +1427,1042 @@
     "exercises":[]
 }
 ]
+=======
+        "symptoms": [
+            {
+                "image": "",
+                "title": "",
+                "description": ""
+            }
+        ],
+        "tips": [
+            {
+                "title": "",
+                "descrition": ""
+            }
+        ],
+        "checkups_test_vaccines": [
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-ultrasound-probe-icon-pink.svg",
+                "title": "Dating Ultrasound Pregnancy Scan",
+                "description": "It is recommended to undergo a 'dating ultrasound pregnancy scan' during the early stage of pregnancy. This scan confirms the pregnancy and accurately dates it."
+            },
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-medical-test-icon-pink.svg",
+                "title": "Urine HCG Test",
+                "description": "Home pregnancy tests are very sensitive.That means, sometimes your positive result can be a false positive urine hCG test which is commonly used is sensitive up to 75% to 91%."
+            }
+        ],
+        "exercises": [
+            {
+                "name": "",
+                "image": "",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "week": 4,
+        "data": 
+        [
+            {
+                "nutrient_id": "Vitamin-D",
+                "need": [
+                    "Vitamin D regulates the amount of calcium and phosphate in the body which are needed to keep bones, teeth and muscles healthy."
+                ],
+                "Dosage": [
+                    "You need 10 micrograms of vitamin D each day",
+                    "Do not take more than 100 micrograms (4,000 IU) of vitamin D a day as it could be harmful."
+                ],
+                "food": {
+                    "Fruit": [],
+                    "Vegetables": [
+                        {
+                            "name": "Certain mushrooms",
+                            "url": "https://drive.google.com/uc?id=1NeRttbeUojK9YXdbYBRH4m4miQbSg6Xy"
+                        }
+                    ],
+                    "Non-Veg": [
+                        {
+                            "name": "Eggs",
+                            "url": "https://drive.google.com/uc?id=1fKbnV27DK_aPOC8PfrrtzXJuqGgIOLSY"
+                        },
+                        {
+                            "name": "Oily fish",
+                            "url": "https://drive.google.com/uc?id=19076NF6iSoceSvrNGrQ_y5UhIe0jkrAY"
+                        },
+                        {
+                            "name": "Red meat",
+                            "url": "https://drive.google.com/uc?id=1q1_saKbhl6v6VDLOPdBlJo_CHKt5tj6V"
+                        }
+                    ],
+                    "Dairy": [
+                        {
+                            "name": "Cheese",
+                            "url": "https://drive.google.com/uc?id=1YjyPWh7sCvTtoW-xIy2fJjdCjVEvqob7"
+                        }
+                    ],
+                    "Others": []
+                }
+            },
+            {
+                "nutrient_id": "DHA",
+                "need": [
+                    "It's adequate consumption is vitally important during pregnancy as they are critical building blocks of fetal brain and retina."
+                ],
+                "Dosage": [
+                    "Pregnant people should take at least 200 milligrams (mg) of DHA before, during, and after pregnancy."
+                ],
+                "food": {
+                    "Fruit": [],
+                    "Vegetables": [],
+                    "Non-Veg": [
+                        {
+                            "name": "Omega-3 enriched eggs",
+                            "url": "https://drive.google.com/uc?id=1GpeFdSe2Z8enL_h1eQl-eXjin3vfu4uP"
+                        },
+                        {
+                            "name": "Lobsters",
+                            "url": "https://drive.google.com/uc?id=1q_Xv6VvhThMM-Jzb9wDMg9vh5UIxwfuK"
+                        },
+                        {
+                            "name": "Salmon",
+                            "url": "https://drive.google.com/uc?id=1s5k5T9O4Mh_2rUXRgogRUEXfX80yc2BQ"
+                        },
+                        {
+                            "name": "Sea bass",
+                            "url": "https://drive.google.com/uc?id=1WXVFXjoqbGyleVzB_FmciuohCk5cz7kf"
+                        },
+                        {
+                            "name": "Shrimp",
+                            "url": "https://drive.google.com/uc?id=13-d2EKy912Lk6rv__6ahQCK9V8TkOQ3u"
+                        }
+                    ],
+                    "Dairy": [
+                        {
+                            "name": "Fortified-dairy products",
+                            "url": "https://drive.google.com/uc?id=15G9GFE5G9fMRyqLXrw-x_mBmtesthf3c"
+                        }
+                    ],
+                    "Others": []
+                }
+            }
+        ],
+        "symptoms": [],
+        "tips": [],
+        "checkups_test_vaccines": [
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-ultrasound-probe-icon-pink.svg",
+                "title": "Dating Ultrasound Pregnancy Scan",
+                "description": "It is recommended to undergo a 'dating ultrasound pregnancy scan' during the early stage of pregnancy. This scan confirms the pregnancy and accurately dates it."
+            },
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-medical-test-icon-pink.svg",
+                "title": "Urine HCG Test",
+                "description": "Home pregnancy tests are very sensitive.That means, sometimes your positive result can be a false positive urine hCG test which is commonly used is sensitive up to 75% to 91%."
+            }
+        ],
+        "exercises": []
+    },
+    {
+        "week": 5,
+        "data": 
+        [
+            {
+                "nutrient_id": "Complex Carbohydrates",
+                "need": [
+                    "It provide essential fuel for both you and your baby during pregnancy.",
+                    "The glucose provided by carbohydrates is the optimal fuel for the maintenance of maternal and foetal brain function.",
+                    "It is also an important source of folate, a B group vitamin needed for the healthy development of babies in early pregnancy."
+                ],
+                "Dosage": [
+                    "However, the daily intake of carbs should not exceed more than 100 gms or else it could cause ketosis",
+                    "Ideally, 10 to 11 servings of healthy carbs per day may be sufficient in pregnancy."
+                ],
+                "food": {
+                    "Fruit": [
+                        {
+                            "name": "Banana",
+                            "url": "https://drive.google.com/uc?id=1NidQmOEe7MtIJle0UPCO-r58lkwKqFkQ"
+                        }
+                    ],
+                    "Vegetables": [
+                        {
+                            "name": "Beans",
+                            "url": "https://drive.google.com/uc?id=1FF2OwOLa-5OFf1McnN0lQOdLbhcCRGWm"
+                        },
+                        {
+                            "name": "Green vegetables",
+                            "url": "https://drive.google.com/uc?id=1WmfQ7gPRSevyg4pwcLKWeb32EGqjq8y7"
+                        },
+                        {
+                            "name": "Sweet potatoes",
+                            "url": "https://drive.google.com/uc?id=1BK0CXxPGGex8LZnYiS-YEUtqi6FNNbNH"
+                        }
+                    ],
+                    "Non-Veg": [],
+                    "Dairy": [
+                        {
+                            "name": "Yogurt",
+                            "url": "https://drive.google.com/uc?id=1HkR2lbbCAK4gW9hg6-3u5YDPW6cy-JsS"
+                        }
+                    ],
+                    "Others": [
+                        {
+                            "name": "Brown rice",
+                            "url": "https://drive.google.com/uc?id=1p_G_SXqenrNjeconBarSutPvfG5bittA"
+                        },
+                        {
+                            "name": "Oatmeal",
+                            "url": "https://drive.google.com/uc?id=11xgbs1fWaBKr7KTngfSzBSCvJB77yRj6"
+                        },
+                        {
+                            "name": "Sweet corn",
+                            "url": "https://drive.google.com/uc?id=1zg70hzeEIwvrY79-oo59jwEUafxOKBWR"
+                        },
+                        {
+                            "name": "Wholegrain products",
+                            "url": "https://drive.google.com/uc?id=1WF6YfWpNlZyM8y2hpRmXLkA3QsyiXdAA"
+                        }
+                    ]
+                }
+            },
+            {
+                "nutrient_id": "Fluid",
+                "need": [
+                    "If your morning sickness is accompanied by cramps, fever or diarrhea, you may be dealing with a stomach bug or food poisoning rather than pregnancy nausea.",
+                    "But whether your stomach is churning from hormones, a virus or that egg salad you had for lunch, the treatment is the same: Rest up and focus on fluids \u2014 especially if you're losing them through vomiting or diarrhea."
+                ],
+                "Dosage": [
+                    "No Fixed Dosage"
+                ],
+                "food": {
+                    "Fruit": [],
+                    "Vegetables": [],
+                    "Non-Veg": [],
+                    "Dairy": [],
+                    "Others": [
+                        {
+                            "name": "Ginger-carrot soup",
+                            "url": "https://drive.google.com/uc?id=1qwp8askZx5dC6Gaf3EujjGZMtdBJ544h"
+                        }
+                    ]
+                }
+            },
+            {
+                "nutrient_id": "Protein",
+                "need": [
+                    "Protein helps your baby grow. The amino acids contained within protein are essential to healthy cell growth.",
+                    "Protein helps keep you healthy, too, and is important for the development of your own tissues."
+                ],
+                "Dosage": [
+                    "The amount of protein you should eat while pregnant depends on a few different factors, such as how far along you are, your physical activity and your weight, but aiming for about 71 grams per day is a good goal.",
+                    "To estimate your daily needs, divide your pre-pregnancy weight by two, and always confirm with your practitioner (for example, a pregnant woman who weighs 150 pounds might need around 75 grams of protein a day)."
+                ],
+                "food": {
+                    "Fruit": [
+                        {
+                            "name": "Apricot",
+                            "url": "https://drive.google.com/uc?id=1tTAvHPsGIYven1rIAiSWGwaqj54G3zz8"
+                        },
+                        {
+                            "name": "Mango",
+                            "url": "https://drive.google.com/uc?id=1i1EY9FXFKolhVD0cJFualzCBEPTTOFjI"
+                        }],
+                    "Vegetables": [
+                        {
+                            "name": "Carrots",
+                            "url": "https://drive.google.com/uc?id=1hyV6RsbThxbKIoN7Iqrj38RIHmbbJbm9"
+                        }
+                    ],
+                    "Non-Veg": [],
+                    "Dairy": [
+                        {
+                            "name": "Cottage cheese",
+                            "url": "https://drive.google.com/uc?id=19wsVMCy1dEuR3pmkShRTa6tEdgKi6suy"
+                        },
+                        {
+                            "name": "Yogurt",
+                            "url": "https://drive.google.com/uc?id=1HkR2lbbCAK4gW9hg6-3u5YDPW6cy-JsS"
+                        }
+                    ],
+                    "Others": [
+                        {
+                            "name": "Nuts and seeds",
+                            "url": "https://drive.google.com/uc?id=1b_UdZfQHiobXSCtyXuhCWaAcpVrs7Gey"
+                        },
+                        {
+                            "name": "Whole grains",
+                            "url": "https://drive.google.com/uc?id=1xbtuiyiPAxdZnveFEREN1OuSnTYUYBYQ"
+                        },
+                        {
+                            "name": "Tofu",
+                            "url": "https://drive.google.com/uc?id=13nS7RlbuLjI_3phrkIR8Y5RmVSxltoZu"
+                        }
+                    ]
+                }
+            }
+        ],
+        "symptoms": [],
+        "tips": [],
+        "checkups_test_vaccines": [
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-stethoscope-icon-pink.svg",
+                "title": "Routine prenatal check up",
+                "description": "A regular blood pressure check up and weight are measured."
+            },
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-medical-test-icon-pink.svg",
+                "title": "Blood and urine test (ANC profile)",
+                "description": "The blood tests will identify your blood group, Rhesus status, Haemoglobin, thyroid function. You'll also get blood tests for infections, such as hepatitis B, HIV, syphilis and possibly the blood disorder thalassaemia. Blood sugar testing (either random sugar level or fasting and postprandial or OGCT) will be done to check for your diabetic status."
+            },
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-medical-test-icon-pink.svg",
+                "title": "Urine pregnancy test",
+                "description": " A urine test will be for traces of protein, which can be a sign of preeclampsia, and for a urine infection called asymptomatic bacteriuria (ASB), which can increase your risk of giving birth too early"
+            },
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-ultrasound-probe-icon-pink.svg",
+                "title": "Pregnancy ultrasound scan for cardiac activity",
+                "description": "The baby's heart develops from two tubes that join together in the middle to create a chamber with four tubes extending from it. It starts to beat between 5 and 6 weeks gestation and may be detected via ultrasound around this time as well. The heart of the embryo continues to develop over the next several weeks. It is fully formed around 10 weeks gestation."
+            }
+        ],
+        "exercises": []
+    },
+    {
+        "week": 6,
+        "data": [],
+        "symptoms": [],
+        "tips": [],
+        "checkups_test_vaccines": [
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-stethoscope-icon-pink.svg",
+                "title": "Routine prenatal check up",
+                "description": "A regular blood pressure check up and weight are measured."
+            },
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-medical-test-icon-pink.svg",
+                "title": "Blood and urine test (ANC profile)",
+                "description": "The blood tests will identify your blood group, Rhesus status, Haemoglobin, thyroid function. You'll also get blood tests for infections, such as hepatitis B, HIV, syphilis and possibly the blood disorder thalassaemia. Blood sugar testing (either random sugar level or fasting and postprandial or OGCT) will be done to check for your diabetic status."
+            },
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-medical-test-icon-pink.svg",
+                "title": "Urine pregnancy test",
+                "description": " A urine test will be for traces of protein, which can be a sign of preeclampsia, and for a urine infection called asymptomatic bacteriuria (ASB), which can increase your risk of giving birth too early"
+            },
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-ultrasound-probe-icon-pink.svg",
+                "title": "Pregnancy ultrasound scan for cardiac activity",
+                "description": "The baby's heart develops from two tubes that join together in the middle to create a chamber with four tubes extending from it. It starts to beat between 5 and 6 weeks gestation and may be detected via ultrasound around this time as well. The heart of the embryo continues to develop over the next several weeks. It is fully formed around 10 weeks gestation."
+            }
+        ],
+        "exercises": []
+    },
+    {
+        "week": 7,
+        "data": [],
+        "symptoms": [],
+        "tips": [],
+        "checkups_test_vaccines": [
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-stethoscope-icon-pink.svg",
+                "title": "Routine prenatal check up",
+                "description": "A regular blood pressure check up and weight are measured."
+            },
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-medical-test-icon-pink.svg",
+                "title": "Blood and urine test (ANC profile)",
+                "description": "The blood tests will identify your blood group, Rhesus status, Haemoglobin, thyroid function. You'll also get blood tests for infections, such as hepatitis B, HIV, syphilis and possibly the blood disorder thalassaemia. Blood sugar testing (either random sugar level or fasting and postprandial or OGCT) will be done to check for your diabetic status."
+            },
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-medical-test-icon-pink.svg",
+                "title": "Urine pregnancy test",
+                "description": " A urine test will be for traces of protein, which can be a sign of preeclampsia, and for a urine infection called asymptomatic bacteriuria (ASB), which can increase your risk of giving birth too early"
+            },
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-ultrasound-probe-icon-pink.svg",
+                "title": "Pregnancy ultrasound scan for cardiac activity",
+                "description": "The baby's heart develops from two tubes that join together in the middle to create a chamber with four tubes extending from it. It starts to beat between 5 and 6 weeks gestation and may be detected via ultrasound around this time as well. The heart of the embryo continues to develop over the next several weeks. It is fully formed around 10 weeks gestation."
+            }
+        ],
+        "exercises": []
+    },
+    {
+        "week": 8,
+        "data": [],
+        "symptoms": [],
+        "tips": [],
+        "checkups_test_vaccines": [
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-stethoscope-icon-pink.svg",
+                "title": "Routine prenatal check up",
+                "description": "A regular blood pressure check up and weight are measured."
+            },
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-medical-test-icon-pink.svg",
+                "title": "Blood and urine test (ANC profile)",
+                "description": "The blood tests will identify your blood group, Rhesus status, Haemoglobin, thyroid function. You'll also get blood tests for infections, such as hepatitis B, HIV, syphilis and possibly the blood disorder thalassaemia. Blood sugar testing (either random sugar level or fasting and postprandial or OGCT) will be done to check for your diabetic status."
+            },
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-medical-test-icon-pink.svg",
+                "title": "Urine pregnancy test",
+                "description": " A urine test will be for traces of protein, which can be a sign of preeclampsia, and for a urine infection called asymptomatic bacteriuria (ASB), which can increase your risk of giving birth too early"
+            },
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-ultrasound-probe-icon-pink.svg",
+                "title": "Pregnancy ultrasound scan for cardiac activity",
+                "description": "The baby's heart develops from two tubes that join together in the middle to create a chamber with four tubes extending from it. It starts to beat between 5 and 6 weeks gestation and may be detected via ultrasound around this time as well. The heart of the embryo continues to develop over the next several weeks. It is fully formed around 10 weeks gestation."
+            }
+        ],
+        "exercises": []
+    },
+    {
+        "week": 9,
+        "data": [],
+        "symptoms": [],
+        "tips": [],
+        "checkups_test_vaccines": [
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-stethoscope-icon-pink.svg",
+                "title": "Routine prenatal check up",
+                "description": "A regular blood pressure check up and weight are measured."
+            },
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-medical-test-icon-pink.svg",
+                "title": "First trimester combined test",
+                "description": "First trimester screening, also called the first trimester combined test, has two steps: 1.A blood test to measure levels of two pregnancy-specific substances in the mother's blood — pregnancy-associated plasma protein-A (PAPP-A) and human chorionic gonadotropin (HCG). 2.An ultrasound exam to measure the size of the clear space in the tissue at the back of the baby's neck (nuchal translucency)."
+            },
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-ultrasound-probe-icon-pink.svg",
+                "title": "NT ultrasound scan (sonography) and a double marker test",
+                "description": "Pregnancy ultrasound scan called Nuchal Translucency (NT) scan is the most important part during the 11 to 13 weeks check up timeline. The nuchal translucency scan measures the thickness of this fluid to assess the risk of Down's syndrome. The scan looks at and measures the thickness of your baby's nuchal fold, a fold of skin on the back of your baby's neck. Increased thickness might indicate a chromosomal abnormality, but it doesn't tell you that your baby has, or doesn't have an abnormality. The results will tell you if your baby is at high risk or low risk of chromosomal abnormality in comparison to the general population. The main purpose of the NT scan is to check chromosomal abnormalities like Down's syndrome."
+            }
+        ],
+        "exercises": []
+    },
+    {
+        "week": 10,
+        "data": [],
+        "symptoms": [],
+        "tips": [],
+        "checkups_test_vaccines": [
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-stethoscope-icon-pink.svg",
+                "title": "Routine prenatal check up",
+                "description": "A regular blood pressure check up and weight are measured."
+            },
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-medical-test-icon-pink.svg",
+                "title": "First trimester combined test",
+                "description": "First trimester screening, also called the first trimester combined test, has two steps: 1.A blood test to measure levels of two pregnancy-specific substances in the mother's blood — pregnancy-associated plasma protein-A (PAPP-A) and human chorionic gonadotropin (HCG). 2.An ultrasound exam to measure the size of the clear space in the tissue at the back of the baby's neck (nuchal translucency)."
+            },
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-ultrasound-probe-icon-pink.svg",
+                "title": "NT ultrasound scan (sonography) and a double marker test",
+                "description": "Pregnancy ultrasound scan called Nuchal Translucency (NT) scan is the most important part during the 11 to 13 weeks check up timeline. The nuchal translucency scan measures the thickness of this fluid to assess the risk of Down's syndrome. The scan looks at and measures the thickness of your baby's nuchal fold, a fold of skin on the back of your baby's neck. Increased thickness might indicate a chromosomal abnormality, but it doesn't tell you that your baby has, or doesn't have an abnormality. The results will tell you if your baby is at high risk or low risk of chromosomal abnormality in comparison to the general population. The main purpose of the NT scan is to check chromosomal abnormalities like Down's syndrome."
+            }
+        ],
+        "exercises": []
+    },
+    {
+        "week": 11,
+        "data": [],
+        "symptoms": [],
+        "tips": [],
+        "checkups_test_vaccines": [
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-stethoscope-icon-pink.svg",
+                "title": "Routine prenatal check up",
+                "description": "A regular blood pressure check up and weight are measured."
+            },
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-medical-test-icon-pink.svg",
+                "title": "First trimester combined test",
+                "description": "First trimester screening, also called the first trimester combined test, has two steps: 1.A blood test to measure levels of two pregnancy-specific substances in the mother's blood — pregnancy-associated plasma protein-A (PAPP-A) and human chorionic gonadotropin (HCG). 2.An ultrasound exam to measure the size of the clear space in the tissue at the back of the baby's neck (nuchal translucency)."
+            },
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-ultrasound-probe-icon-pink.svg",
+                "title": "NT ultrasound scan (sonography) and a double marker test",
+                "description": "Pregnancy ultrasound scan called Nuchal Translucency (NT) scan is the most important part during the 11 to 13 weeks check up timeline. The nuchal translucency scan measures the thickness of this fluid to assess the risk of Down's syndrome. The scan looks at and measures the thickness of your baby's nuchal fold, a fold of skin on the back of your baby's neck. Increased thickness might indicate a chromosomal abnormality, but it doesn't tell you that your baby has, or doesn't have an abnormality. The results will tell you if your baby is at high risk or low risk of chromosomal abnormality in comparison to the general population. The main purpose of the NT scan is to check chromosomal abnormalities like Down's syndrome."
+            }
+        ],
+        "exercises": []
+    },
+    {
+        "week": 12,
+        "data": [],
+        "symptoms": [],
+        "tips": [],
+        "checkups_test_vaccines": [
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-stethoscope-icon-pink.svg",
+                "title": "Routine prenatal check up",
+                "description": "A regular blood pressure check up and weight are measured."
+            },
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-medical-test-icon-pink.svg",
+                "title": "First trimester combined test",
+                "description": "First trimester screening, also called the first trimester combined test, has two steps: 1.A blood test to measure levels of two pregnancy-specific substances in the mother's blood — pregnancy-associated plasma protein-A (PAPP-A) and human chorionic gonadotropin (HCG). 2.An ultrasound exam to measure the size of the clear space in the tissue at the back of the baby's neck (nuchal translucency)."
+            },
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-ultrasound-probe-icon-pink.svg",
+                "title": "NT ultrasound scan (sonography) and a double marker test",
+                "description": "Pregnancy ultrasound scan called Nuchal Translucency (NT) scan is the most important part during the 11 to 13 weeks check up timeline. The nuchal translucency scan measures the thickness of this fluid to assess the risk of Down's syndrome. The scan looks at and measures the thickness of your baby's nuchal fold, a fold of skin on the back of your baby's neck. Increased thickness might indicate a chromosomal abnormality, but it doesn't tell you that your baby has, or doesn't have an abnormality. The results will tell you if your baby is at high risk or low risk of chromosomal abnormality in comparison to the general population. The main purpose of the NT scan is to check chromosomal abnormalities like Down's syndrome."
+            }
+        ],
+        "exercises": []
+    },
+    {
+        "week": 13,
+        "data": [],
+        "symptoms": [],
+        "tips": [],
+        "checkups_test_vaccines": [
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-stethoscope-icon-pink.svg",
+                "title": "Routine prenatal check up",
+                "description": "A regular blood pressure check up and weight are measured."
+            }
+        ],
+        "exercises": []
+    },
+    {
+        "week": 14,
+        "data": [],
+        "symptoms": [],
+        "tips": [],
+        "checkups_test_vaccines": [
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-stethoscope-icon-pink.svg",
+                "title": "Routine prenatal check up",
+                "description": "A regular blood pressure check up and weight are measured."
+            }
+        ],
+        "exercises": []
+    },
+    {
+        "week": 15,
+        "data": [],
+        "symptoms": [],
+        "tips": [],
+        "checkups_test_vaccines": [
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-stethoscope-icon-pink.svg",
+                "title": "Routine prenatal check up",
+                "description": "A regular blood pressure check up and weight are measured."
+            }
+        ],
+        "exercises": []
+    },
+    {
+        "week": 16,
+        "data": [],
+        "symptoms": [],
+        "tips": [],
+        "checkups_test_vaccines": [
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-stethoscope-icon-pink.svg",
+                "title": "Routine prenatal check up",
+                "description": "A regular blood pressure check up and weight are measured."
+            }
+        ],
+        "exercises": []
+    },
+    {
+        "week": 17,
+        "data": [],
+        "symptoms": [],
+        "tips": [],
+        "checkups_test_vaccines": [
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-stethoscope-icon-pink.svg",
+                "title": "Routine prenatal check up",
+                "description": "A regular blood pressure check up and weight are measured."
+            },
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-ultrasound-probe-icon-pink.svg",
+                "title": "Anomaly or ultrasound level II scan",
+                "description": "This scan helps you to understand how your baby is growing, check the foetal movement, see the growth of the baby's internal organs and detect birth defects in your baby. Many aspects of the baby's internal organs are checked including the shape and structure of the head, face, length and cross-section of spine, abdominal wall, heart, stomach, kidney, arms, legs, hands and feet. In addition to this detailed look at how your baby is growing, the doctor will check the placenta, the umbilical cord, and the amniotic fluid."
+            }
+        ],
+        "exercises": []
+    },
+    {
+        "week": 18,
+        "data": [],
+        "symptoms": [],
+        "tips": [],
+        "checkups_test_vaccines": [
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-stethoscope-icon-pink.svg",
+                "title": "Routine prenatal check up",
+                "description": "A regular blood pressure check up and weight are measured."
+            },
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-ultrasound-probe-icon-pink.svg",
+                "title": "Anomaly or ultrasound level II scan",
+                "description": "This scan helps you to understand how your baby is growing, check the foetal movement, see the growth of the baby's internal organs and detect birth defects in your baby. Many aspects of the baby's internal organs are checked including the shape and structure of the head, face, length and cross-section of spine, abdominal wall, heart, stomach, kidney, arms, legs, hands and feet. In addition to this detailed look at how your baby is growing, the doctor will check the placenta, the umbilical cord, and the amniotic fluid."
+            }
+        ],
+        "exercises": []
+    },
+    {
+        "week": 19,
+        "data": [],
+        "symptoms": [],
+        "tips": [],
+        "checkups_test_vaccines": [
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-stethoscope-icon-pink.svg",
+                "title": "Routine prenatal check up",
+                "description": "A regular blood pressure check up and weight are measured."
+            },
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-ultrasound-probe-icon-pink.svg",
+                "title": "Anomaly or ultrasound level II scan",
+                "description": "This scan helps you to understand how your baby is growing, check the foetal movement, see the growth of the baby's internal organs and detect birth defects in your baby. Many aspects of the baby's internal organs are checked including the shape and structure of the head, face, length and cross-section of spine, abdominal wall, heart, stomach, kidney, arms, legs, hands and feet. In addition to this detailed look at how your baby is growing, the doctor will check the placenta, the umbilical cord, and the amniotic fluid."
+            }
+        ],
+        "exercises": []
+    },
+    {
+        "week": 20,
+        "data": [],
+        "symptoms": [],
+        "tips": [],
+        "checkups_test_vaccines": [
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-stethoscope-icon-pink.svg",
+                "title": "Routine prenatal check up",
+                "description": "A regular blood pressure check up and weight are measured."
+            },
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-ultrasound-probe-icon-pink.svg",
+                "title": "Anomaly or ultrasound level II scan",
+                "description": "This scan helps you to understand how your baby is growing, check the foetal movement, see the growth of the baby's internal organs and detect birth defects in your baby. Many aspects of the baby's internal organs are checked including the shape and structure of the head, face, length and cross-section of spine, abdominal wall, heart, stomach, kidney, arms, legs, hands and feet. In addition to this detailed look at how your baby is growing, the doctor will check the placenta, the umbilical cord, and the amniotic fluid."
+            }
+        ],
+        "exercises": []
+    },
+    {
+        "week": 21,
+        "data": [],
+        "symptoms": [],
+        "tips": [],
+        "checkups_test_vaccines": [
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-stethoscope-icon-pink.svg",
+                "title": "Routine prenatal check up",
+                "description": "A regular blood pressure check up and weight are measured."
+            },
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-syringe-icon-pink.svg",
+                "title": "First dose of Tetanus Toxoid",
+                "description": "The first important vaccine is to protect from Tetanus. To protect you, your fetus, or newborn baby for the initial few months, you need to take:Either : 2 doses of TT injection in pregnancy at least 28 days apart.OR : One dose of TT injection and one dose of Tdap (Tetanus, Diphtheria, and Pertussis)"
+            },
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-syringe-icon-pink.svg",
+                "title": "Recommendation of Tdap Vaccine",
+                "description": "Tdap vaccine is a combination vaccine that gives triple protection against three bacterial infections. A single shot of this pregnancy vaccination, it protects you from Tetanus, diphtheria, and Pertussis.Pertussis is a highly contagious respiratory infection, commonly known as Whooping Cough.dap vaccine additionally protects against Pertussis, especially in newborns, through transplacental transfer of antibodies from mother to fetus."
+            }
+        ],
+        "exercises": []
+    },
+    {
+        "week": 22,
+        "data": [],
+        "symptoms": [],
+        "tips": [],
+        "checkups_test_vaccines": [
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-stethoscope-icon-pink.svg",
+                "title": "Routine prenatal check up",
+                "description": "A regular blood pressure check up and weight are measured."
+            },
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-syringe-icon-pink.svg",
+                "title": "First dose of Tetanus Toxoid",
+                "description": "The first important vaccine is to protect from Tetanus. To protect you, your fetus, or newborn baby for the initial few months, you need to take:Either : 2 doses of TT injection in pregnancy at least 28 days apart.OR : One dose of TT injection and one dose of Tdap (Tetanus, Diphtheria, and Pertussis)"
+            },
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-syringe-icon-pink.svg",
+                "title": "Recommendation of Tdap Vaccine",
+                "description": "Tdap vaccine is a combination vaccine that gives triple protection against three bacterial infections. A single shot of this pregnancy vaccination, it protects you from Tetanus, diphtheria, and Pertussis.Pertussis is a highly contagious respiratory infection, commonly known as Whooping Cough.dap vaccine additionally protects against Pertussis, especially in newborns, through transplacental transfer of antibodies from mother to fetus."
+            }
+        ],
+        "exercises": []
+    },
+    {
+        "week": 23,
+        "data": [],
+        "symptoms": [],
+        "tips": [],
+        "checkups_test_vaccines": [
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-stethoscope-icon-pink.svg",
+                "title": "Routine prenatal check up",
+                "description": "A regular blood pressure check up and weight are measured."
+            },
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-syringe-icon-pink.svg",
+                "title": "First dose of Tetanus Toxoid",
+                "description": "The first important vaccine is to protect from Tetanus. To protect you, your fetus, or newborn baby for the initial few months, you need to take:Either : 2 doses of TT injection in pregnancy at least 28 days apart.OR : One dose of TT injection and one dose of Tdap (Tetanus, Diphtheria, and Pertussis)"
+            },
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-syringe-icon-pink.svg",
+                "title": "Recommendation of Tdap Vaccine",
+                "description": "Tdap vaccine is a combination vaccine that gives triple protection against three bacterial infections. A single shot of this pregnancy vaccination, it protects you from Tetanus, diphtheria, and Pertussis.Pertussis is a highly contagious respiratory infection, commonly known as Whooping Cough.dap vaccine additionally protects against Pertussis, especially in newborns, through transplacental transfer of antibodies from mother to fetus."
+            }
+        ],
+        "exercises": []
+    },
+    {
+        "week": 24,
+        "data": [],
+        "symptoms": [],
+        "tips": [],
+        "checkups_test_vaccines": [
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-stethoscope-icon-pink.svg",
+                "title": "Routine prenatal check up",
+                "description": "A regular blood pressure check up and weight are measured."
+            },
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-syringe-icon-pink.svg",
+                "title": "First dose of Tetanus Toxoid",
+                "description": "The first important vaccine is to protect from Tetanus. To protect you, your fetus, or newborn baby for the initial few months, you need to take:Either : 2 doses of TT injection in pregnancy at least 28 days apart.OR : One dose of TT injection and one dose of Tdap (Tetanus, Diphtheria, and Pertussis)"
+            },
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-syringe-icon-pink.svg",
+                "title": "Recommendation of Tdap Vaccine",
+                "description": "Tdap vaccine is a combination vaccine that gives triple protection against three bacterial infections. A single shot of this pregnancy vaccination, it protects you from Tetanus, diphtheria, and Pertussis.Pertussis is a highly contagious respiratory infection, commonly known as Whooping Cough.dap vaccine additionally protects against Pertussis, especially in newborns, through transplacental transfer of antibodies from mother to fetus."
+            }
+        ],
+        "exercises": []
+    },
+    {
+        "week": 25,
+        "data": [],
+        "symptoms": [],
+        "tips": [],
+        "checkups_test_vaccines": [
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-stethoscope-icon-pink.svg",
+                "title": "Routine prenatal check up",
+                "description": "A regular blood pressure check up and weight are measured."
+            },
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-syringe-icon-pink.svg",
+                "title": "Second dose of Tetanus Toxoid (TT) injection",
+                "description": "The 2nd dose of TT injection in pregnancy should be completed 4 weeks before the delivery."
+            },
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-ultrasound-probe-icon-pink.svg",
+                "title": "Growth and fetal wellbeing ultrasound scan",
+                "description": "This scan helps to check how well your baby is growing. During this scan, the size of the baby is understood by measuring the circumference of baby's head (HC) and baby's tummy (AC), the length of baby's thigh bone (FL) and depth of the amniotic fluid around the baby. If the measurements are well within normal limits, your baby is likely to be doing just fine. In case, if your baby is either larger or small than expected, you will be advised to have a second scan two weeks later. These serial scans help to accurately track the baby's growth and take appropriate actions if required."
+            },
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-medical-test-icon-pink.svg",
+                "title": "Blood test (CBC/Urine R/OGCT)",
+                "description": "You may be requested to go for a blood test to check the haemoglobin level. Based on the haemoglobin level in the blood, the appropriate iron supplement will be suggested. If your blood group is negative (Rh negative), you would be offered an anti-D injection to deal with any antibodies in your blood after checking your immune status (ICT test)."
+            }
+        ],
+        "exercises": []
+    },
+    {
+        "week": 26,
+        "data": [],
+        "symptoms": [],
+        "tips": [],
+        "checkups_test_vaccines": [
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-stethoscope-icon-pink.svg",
+                "title": "Routine prenatal check up",
+                "description": "A regular blood pressure check up and weight are measured."
+            },
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-syringe-icon-pink.svg",
+                "title": "Second dose of Tetanus Toxoid (TT) injection",
+                "description": "The 2nd dose of TT injection in pregnancy should be completed 4 weeks before the delivery."
+            },
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-ultrasound-probe-icon-pink.svg",
+                "title": "Growth and fetal wellbeing ultrasound scan",
+                "description": "This scan helps to check how well your baby is growing. During this scan, the size of the baby is understood by measuring the circumference of baby's head (HC) and baby's tummy (AC), the length of baby's thigh bone (FL) and depth of the amniotic fluid around the baby. If the measurements are well within normal limits, your baby is likely to be doing just fine. In case, if your baby is either larger or small than expected, you will be advised to have a second scan two weeks later. These serial scans help to accurately track the baby's growth and take appropriate actions if required."
+            },
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-medical-test-icon-pink.svg",
+                "title": "Blood test (CBC/Urine R/OGCT)",
+                "description": "You may be requested to go for a blood test to check the haemoglobin level. Based on the haemoglobin level in the blood, the appropriate iron supplement will be suggested. If your blood group is negative (Rh negative), you would be offered an anti-D injection to deal with any antibodies in your blood after checking your immune status (ICT test)."
+            }
+        ],
+        "exercises": []
+    },
+    {
+        "week": 27,
+        "data": [],
+        "symptoms": [],
+        "tips": [],
+        "checkups_test_vaccines": [
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-stethoscope-icon-pink.svg",
+                "title": "Routine prenatal check up",
+                "description": "A regular blood pressure check up and weight are measured."
+            },
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-syringe-icon-pink.svg",
+                "title": "Second dose of Tetanus Toxoid (TT) injection",
+                "description": "The 2nd dose of TT injection in pregnancy should be completed 4 weeks before the delivery."
+            },
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-ultrasound-probe-icon-pink.svg",
+                "title": "Growth and fetal wellbeing ultrasound scan",
+                "description": "This scan helps to check how well your baby is growing. During this scan, the size of the baby is understood by measuring the circumference of baby's head (HC) and baby's tummy (AC), the length of baby's thigh bone (FL) and depth of the amniotic fluid around the baby. If the measurements are well within normal limits, your baby is likely to be doing just fine. In case, if your baby is either larger or small than expected, you will be advised to have a second scan two weeks later. These serial scans help to accurately track the baby's growth and take appropriate actions if required."
+            },
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-medical-test-icon-pink.svg",
+                "title": "Blood test (CBC/Urine R/OGCT)",
+                "description": "You may be requested to go for a blood test to check the haemoglobin level. Based on the haemoglobin level in the blood, the appropriate iron supplement will be suggested. If your blood group is negative (Rh negative), you would be offered an anti-D injection to deal with any antibodies in your blood after checking your immune status (ICT test)."
+            }
+        ],
+        "exercises": []
+    },
+    {
+        "week": 28,
+        "data": [],
+        "symptoms": [],
+        "tips": [],
+        "checkups_test_vaccines": [
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-stethoscope-icon-pink.svg",
+                "title": "Routine prenatal check up",
+                "description": "A regular blood pressure check up and weight are measured."
+            },
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-syringe-icon-pink.svg",
+                "title": "Second dose of Tetanus Toxoid (TT) injection",
+                "description": "The 2nd dose of TT injection in pregnancy should be completed 4 weeks before the delivery."
+            },
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-ultrasound-probe-icon-pink.svg",
+                "title": "Growth and fetal wellbeing ultrasound scan",
+                "description": "This scan helps to check how well your baby is growing. During this scan, the size of the baby is understood by measuring the circumference of baby's head (HC) and baby's tummy (AC), the length of baby's thigh bone (FL) and depth of the amniotic fluid around the baby. If the measurements are well within normal limits, your baby is likely to be doing just fine. In case, if your baby is either larger or small than expected, you will be advised to have a second scan two weeks later. These serial scans help to accurately track the baby's growth and take appropriate actions if required."
+            },
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-medical-test-icon-pink.svg",
+                "title": "Blood test (CBC/Urine R/OGCT)",
+                "description": "You may be requested to go for a blood test to check the haemoglobin level. Based on the haemoglobin level in the blood, the appropriate iron supplement will be suggested. If your blood group is negative (Rh negative), you would be offered an anti-D injection to deal with any antibodies in your blood after checking your immune status (ICT test)."
+            }
+        ],
+        "exercises": []
+    },
+    {
+        "week": 29,
+        "data": [],
+        "symptoms": [],
+        "tips": [],
+        "checkups_test_vaccines": [
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-stethoscope-icon-pink.svg",
+                "title": "Routine prenatal check up once in every two weeks",
+                "description": "A regular blood pressure check up and weight are measured."
+            }
+        ],
+        "exercises": []
+    },
+    {
+        "week": 30,
+        "data": [],
+        "symptoms": [],
+        "tips": [],
+        "checkups_test_vaccines": [
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-stethoscope-icon-pink.svg",
+                "title": "Routine prenatal check up once in every two weeks",
+                "description": "A regular blood pressure check up and weight are measured."
+            }
+        ],
+        "exercises": []
+    },
+    {
+        "week": 31,
+        "data": [],
+        "symptoms": [],
+        "tips": [],
+        "checkups_test_vaccines": [
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-stethoscope-icon-pink.svg",
+                "title": "Routine prenatal check up once in every two weeks",
+                "description": "A regular blood pressure check up and weight are measured."
+            }
+        ],
+        "exercises": []
+    },
+    {
+        "week": 32,
+        "data": [],
+        "symptoms": [],
+        "tips": [],
+        "checkups_test_vaccines": [
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-stethoscope-icon-pink.svg",
+                "title": "Routine prenatal check up once in every two weeks",
+                "description": "A regular blood pressure check up and weight are measured."
+            }
+        ],
+        "exercises": []
+    },
+    {
+        "week": 33,
+        "data": [],
+        "symptoms": [],
+        "tips": [],
+        "checkups_test_vaccines": [
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-stethoscope-icon-pink.svg",
+                "title": "Routine prenatal check up",
+                "description": " a regular blood pressure check up and weight are measured."
+            },
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-ultrasound-probe-icon-pink.svg",
+                "title": "Growth ultrasound scan",
+                "description": "Baby's heartbeat and position will be examined. It is recommended to have a scan and colour Doppler studies if you haven't had these recently.A thorough bump examination will be done to check if the baby is in the breech position. The breech position means that your baby is in a bottom-down and head up position inside your womb. Throughout your pregnancy, your baby will be moving around in your womb. But around eight months of pregnancy, the baby will settle in one position. The head down position is the good and normal position of the baby and observed in about 96% of the babies. But few babies will settle into bottom-first or a breech position.In case if your baby is in the breech position or there are any other conditions which demand caesarean section (LSCS). In such conditions your caesarean section will be planned during this week."
+            },
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-medical-test-icon-pink.svg",
+                "title": " Nonstress test (NST)",
+                "description": "A nonstress test is a common prenatal test used to check on a baby's health. During a nonstress test, the baby's heart rate is monitored to see how it responds to the baby's movements. The term \"non stress\" refers to the fact that nothing is done to place stress on the baby during the test.Typically, a nonstress test is recommended when it's believed that the baby is at an increased risk of death. A nonstress test may be done after 26 to 28 weeks of pregnancy. Certain nonstress test results might indicate that you and your baby need further monitoring, testing or special care.A nonstress test is a noninvasive test that doesn't pose any physical risks to you or your baby"
+            }
+        ],
+        "exercises": []
+    },
+    {
+        "week": 34,
+        "data": [],
+        "symptoms": [],
+        "tips": [],
+        "checkups_test_vaccines": [
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-stethoscope-icon-pink.svg",
+                "title": "Routine prenatal check up",
+                "description": " a regular blood pressure check up and weight are measured."
+            },
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-ultrasound-probe-icon-pink.svg",
+                "title": "Growth ultrasound scan",
+                "description": "Baby's heartbeat and position will be examined. It is recommended to have a scan and colour Doppler studies if you haven't had these recently.A thorough bump examination will be done to check if the baby is in the breech position. The breech position means that your baby is in a bottom-down and head up position inside your womb. Throughout your pregnancy, your baby will be moving around in your womb. But around eight months of pregnancy, the baby will settle in one position. The head down position is the good and normal position of the baby and observed in about 96% of the babies. But few babies will settle into bottom-first or a breech position.In case if your baby is in the breech position or there are any other conditions which demand caesarean section (LSCS). In such conditions your caesarean section will be planned during this week."
+            },
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-medical-test-icon-pink.svg",
+                "title": " Nonstress test (NST)",
+                "description": "A nonstress test is a common prenatal test used to check on a baby's health. During a nonstress test, the baby's heart rate is monitored to see how it responds to the baby's movements. The term \"non stress\" refers to the fact that nothing is done to place stress on the baby during the test.Typically, a nonstress test is recommended when it's believed that the baby is at an increased risk of death. A nonstress test may be done after 26 to 28 weeks of pregnancy. Certain nonstress test results might indicate that you and your baby need further monitoring, testing or special care.A nonstress test is a noninvasive test that doesn't pose any physical risks to you or your baby"
+            }
+        ],
+        "exercises": []
+    },
+    {
+        "week": 35,
+        "data": [],
+        "symptoms": [],
+        "tips": [],
+        "checkups_test_vaccines": [
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-stethoscope-icon-pink.svg",
+                "title": "Routine prenatal check up",
+                "description": " a regular blood pressure check up and weight are measured."
+            },
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-ultrasound-probe-icon-pink.svg",
+                "title": "Growth ultrasound scan",
+                "description": "Baby's heartbeat and position will be examined. It is recommended to have a scan and colour Doppler studies if you haven't had these recently.A thorough bump examination will be done to check if the baby is in the breech position. The breech position means that your baby is in a bottom-down and head up position inside your womb. Throughout your pregnancy, your baby will be moving around in your womb. But around eight months of pregnancy, the baby will settle in one position. The head down position is the good and normal position of the baby and observed in about 96% of the babies. But few babies will settle into bottom-first or a breech position.In case if your baby is in the breech position or there are any other conditions which demand caesarean section (LSCS). In such conditions your caesarean section will be planned during this week."
+            },
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-medical-test-icon-pink.svg",
+                "title": " Nonstress test (NST)",
+                "description": "A nonstress test is a common prenatal test used to check on a baby's health. During a nonstress test, the baby's heart rate is monitored to see how it responds to the baby's movements. The term \"non stress\" refers to the fact that nothing is done to place stress on the baby during the test.Typically, a nonstress test is recommended when it's believed that the baby is at an increased risk of death. A nonstress test may be done after 26 to 28 weeks of pregnancy. Certain nonstress test results might indicate that you and your baby need further monitoring, testing or special care.A nonstress test is a noninvasive test that doesn't pose any physical risks to you or your baby"
+            }
+        ],
+        "exercises": []
+    },
+    {
+        "week": 36,
+        "data": [],
+        "symptoms": [],
+        "tips": [],
+        "checkups_test_vaccines": [
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-stethoscope-icon-pink.svg",
+                "title": "Routine prenatal check up",
+                "description": " a regular blood pressure check up and weight are measured."
+            },
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-ultrasound-probe-icon-pink.svg",
+                "title": "Growth ultrasound scan",
+                "description": "Baby's heartbeat and position will be examined. It is recommended to have a scan and colour Doppler studies if you haven't had these recently.A thorough bump examination will be done to check if the baby is in the breech position. The breech position means that your baby is in a bottom-down and head up position inside your womb. Throughout your pregnancy, your baby will be moving around in your womb. But around eight months of pregnancy, the baby will settle in one position. The head down position is the good and normal position of the baby and observed in about 96% of the babies. But few babies will settle into bottom-first or a breech position.In case if your baby is in the breech position or there are any other conditions which demand caesarean section (LSCS). In such conditions your caesarean section will be planned during this week."
+            },
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-medical-test-icon-pink.svg",
+                "title": " Nonstress test (NST)",
+                "description": "A nonstress test is a common prenatal test used to check on a baby's health. During a nonstress test, the baby's heart rate is monitored to see how it responds to the baby's movements. The term \"non stress\" refers to the fact that nothing is done to place stress on the baby during the test.Typically, a nonstress test is recommended when it's believed that the baby is at an increased risk of death. A nonstress test may be done after 26 to 28 weeks of pregnancy. Certain nonstress test results might indicate that you and your baby need further monitoring, testing or special care.A nonstress test is a noninvasive test that doesn't pose any physical risks to you or your baby"
+            }
+        ],
+        "exercises": []
+    },
+    {
+        "week": 37,
+        "data": [],
+        "symptoms": [],
+        "tips": [],
+        "checkups_test_vaccines": [
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-stethoscope-icon-pink.svg",
+                "title": "Routine prenatal check up once in every two weeks",
+                "description": "You are almost at the final stage of your pregnancy journey. Your baby will be in your arms any time. Your  pregnancy check up visit will involve routine check up like blood pressure, weight to monitor baby's growth. Your baby's heartbeat and position will also be checked. If anything unusual is noticed, appropriate actions will be taken."
+            }
+        ],
+        "exercises": []
+    },
+    {
+        "week": 38,
+        "data": [],
+        "symptoms": [],
+        "tips": [],
+        "checkups_test_vaccines": [
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-stethoscope-icon-pink.svg",
+                "title": "Routine prenatal check up once in every two weeks",
+                "description": "You are almost at the final stage of your pregnancy journey. Your baby will be in your arms any time. Your  pregnancy check up visit will involve routine check up like blood pressure, weight to monitor baby's growth. Your baby's heartbeat and position will also be checked. If anything unusual is noticed, appropriate actions will be taken."
+            }
+        ],
+        "exercises": []
+    },
+    {
+        "week": 39,
+        "data": [],
+        "symptoms": [],
+        "tips": [],
+        "checkups_test_vaccines": [
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-stethoscope-icon-pink.svg",
+                "title": "Routine prenatal check up once in every two weeks",
+                "description": "You are almost at the final stage of your pregnancy journey. Your baby will be in your arms any time. Your  pregnancy check up visit will involve routine check up like blood pressure, weight to monitor baby's growth. Your baby's heartbeat and position will also be checked. If anything unusual is noticed, appropriate actions will be taken."
+            }
+        ],
+        "exercises": []
+    },
+    {
+        "week": 40,
+        "data": [],
+        "symptoms": [],
+        "tips": [],
+        "checkups_test_vaccines": [
+            {
+                "image": "https://www.drvarshaliclinic.com/assets/images/pages/blog/2018/07-Jul/pregnancy-checkup-and-scan-schedule/pregnancy-checkup-and-scan-stethoscope-icon-pink.svg",
+                "title": "Routine prenatal check up once in every two weeks",
+                "description": "You are almost at the final stage of your pregnancy journey. Your baby will be in your arms any time. Your  pregnancy check up visit will involve routine check up like blood pressure, weight to monitor baby's growth. Your baby's heartbeat and position will also be checked. If anything unusual is noticed, appropriate actions will be taken."
+            }
+        ],
+        "exercises": []
+    }
+]
+>>>>>>> 8565259880679b45a86534d3bc599d0f9ba97b9f

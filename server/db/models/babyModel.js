@@ -3,9 +3,6 @@ const mongoose = require("mongoose");
 const CONSTANT = require("../../utils/constants/appContants");
 
 const babySchema = new mongoose.Schema({
-    mother_id: {
-        type: String
-    },
     week: {
         type: Number
     },
@@ -13,7 +10,7 @@ const babySchema = new mongoose.Schema({
         type: String,
         trim: true
     },
-    baby_growth_img: {
+    baby_growth: {
         type: String,
         trim: true
     },
@@ -25,16 +22,16 @@ const babySchema = new mongoose.Schema({
         type: String,
         trim: true
     },
-    baby_lookslike_img: {
+    baby_lookslike: {
         type: String,
         trim: true
     },
     this_week_changes: {
         type: Array,
-        default:[]
+        default: []
     }
-})
+});
 
-const Baby = mongoose.model(CONSTANT.MODELS.BABY,babySchema);
+const Baby = mongoose.model(CONSTANT.MODELS.BABY, babySchema);
 
 module.exports = Baby;
