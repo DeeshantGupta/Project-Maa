@@ -20,6 +20,7 @@ module.exports = {
     MODELS: {
         USER: "Users",
         BABY: "Baby",
-        OTP: "Otp"
+        OTP: "Otp",
+        MOTHER:"Mother"
     }
 }

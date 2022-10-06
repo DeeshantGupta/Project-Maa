@@ -9,12 +9,14 @@ const nodemailer = require("nodemailer");
 
 const { google } = require("googleapis");
 
+const maxAge = 3*24*60*60; 
+
 const oAuth2Client = new google.auth.OAuth2(process.env.CLIENT_ID, process.env.CLIENT_SECRET, process.env.REDIRECT_URI);
 oAuth2Client.setCredentials({ refresh_token: process.env.REFRESH_TOKEN });
 
 const generateToken = (id) => {
     return jwt.sign({ id }, process.env.JWT_SECRET, {
-        expiresIn: process.env.TOKEN_AGE
+        expiresIn: maxAge
     });
 }
 
@@ -122,7 +124,7 @@ module.exports = {
                     res.cookie("jwt", token, {
                         withCredentials: true,
                         httpOnly: false,
-                        maxAge: process.env.TOKEN_AGE * 1000
+                        maxAge: maxAge * 1000
                     })
 
                     res.send({ message: true, verified: user.verified, id:user._id, flag : user.detailsFlag });
