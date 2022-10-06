@@ -1,5 +1,7 @@
 import React from "react";
 import { Route, Routes, BrowserRouter } from "react-router-dom";
+import Calculator1 from "./pages/Calculator1";
+import Checkups from "./pages/Checkups";
 import Dashboard from "./pages/Dashboard";
 import DetailsOne from "./pages/DetailsOne";
 import EmailVerify from "./pages/EmailVerify";
@@ -26,7 +28,9 @@ const App = () => {
         <Route exact path="/food" element={<Food />} />
         <Route exact path="/symptoms" element={<Symptoms />} />
         <Route exact path="/user/:id/detailsone" element={<DetailsOne />} />
-        <Route exact path="/:id/dashboard" element={<Dashboard />} />
+        <Route exact path="/dashboard" element={<Dashboard />} />
+        <Route exact path="/checkups" element={<Checkups />} />
+        <Route exact path="/calculator" element={<Calculator1 />} />
 
       </Routes>
     </BrowserRouter>

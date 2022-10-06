@@ -91,7 +91,7 @@ const Dashboard = () => {
             </div>
             </Link>
 
-            <Link to="checkups">
+            <Link to="/checkups">
             <div className='card_box_dashboard'>
               <div className='card_top_section_dashboard'>
                 <h3>Checkup & Scans</h3>
