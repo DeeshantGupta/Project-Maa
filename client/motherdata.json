@@ -5,7 +5,7 @@
     [
         {
             "nutrient_id": "Folic Acid",
-            "need": [
+            "Need": [
                 " It assists in the formation of baby's heart and circulatory system.",
                 "It helps in lower the chance your baby will have certain birth defects known as neural tube defects and also a mouth defect in which the lip has opening in it and doesn't form correctly.",
                 "A diet that\u2019s rich in folic acid may help prevent labor before 37 weeks."
@@ -117,7 +117,7 @@
         [
             {
                 "nutrient_id": "Folic Acid",
-                "need": [
+                "Need": [
                     " It assists in the formation of baby's heart and circulatory system.",
                     "It helps in lower the chance your baby will have certain birth defects known as neural tube defects and also a mouth defect in which the lip has opening in it and doesn't form correctly.",
                     "A diet that\u2019s rich in folic acid may help prevent labor before 37 weeks."
@@ -228,13 +228,13 @@
         "data": [
             {
                 "nutrient_id": "Vitamin-C",
-                "need": [
+                "Need": [
                     "It help mom maintain a healthy immune system",
                     "It is required for mom\u2019s body to make collagen to help baby\u2019s skin, cartilage, tendons, and bone growth.",
                     "It also acts as an antioxidant in the body, helps to prevent cell damage.",
                     "It also helps your body absorb iron."
                 ],
-                "dosage": [
+                "Dosage": [
                     "Pregnant women ages 18 and younger: 80 milligrams (mg) per day",
                     "Breastfeeding women ages 18 and younger: 115 mg per day",
                     "Pregnant women ages 19 and older: 85 mg per day",
@@ -288,10 +288,10 @@
             },
             {
                 "nutrient_id": "Iron",
-                "need": [
+                "Need": [
                     "Approximately half of mom\u2019s iron intake will go toward the developing     fetus and placenta. The other half will be used to help support mom\u2019s increased blood volume."
                 ],
-                "dosage": [
+                "Dosage": [
                     "The average pregnant woman needs about 30 mg of elemental iron per day to meet the new demands of extra blood volume, the developing placenta, and growing fetus."
                 ],
                 "food": {
@@ -327,11 +327,11 @@
             },
             {
                 "nutrient_id": "Fluid",
-                "need": [
+                "Need": [
                     "If your morning sickness is accompanied by cramps, fever or diarrhea, you may be dealing with a stomach bug or food poisoning rather than pregnancy nausea.",
                     "But whether your stomach is churning from hormones, a virus or that egg salad you had for lunch, the treatment is the same: Rest up and focus on fluids \u2014 especially if you're losing them through vomiting or diarrhea."
                 ],
-                "dosage": [
+                "Dosage": [
                     "No Fixed dosage"
                 ],
                 "food": {
@@ -361,11 +361,11 @@
             },
             {
                 "nutrient_id": "Protein",
-                "need": [
+                "Need": [
                     "Protein helps your baby grow. The amino acids contained within protein are essential to healthy cell growth.",
                     "Protein helps keep you healthy, too, and is important for the development of your own tissues."
                 ],
-                "dosage": [
+                "Dosage": [
                     "And as your belly increases in size to grow a healthy baby, your protein requirement also increases, especially during your second and third trimesters, when baby grows rapidly.",
                     "In first trimester, eat three servings of protein daily to help spur new tissue for your baby-to-be."
                 ],
@@ -401,12 +401,12 @@
             },
             {
                 "nutrient_id": "Calcium",
-                "need": [
+                "Need": [
                     "Calcium helps you and your developing baby build and maintain strong, healthy bones",
                     "Plus It's essential for heart, nerve and muscle health.",
                     "If you don\u2019t consume enough calcium during pregnancy, your baby will take it from your bones!"
                 ],
-                "dosage": [
+                "Dosage": [
                     "Your body can't make calcium, so you need to get it from food or supplements.",
                     "While you're pregnant, try to get at least 1,000 mg of calcium every day.",
                     "If you're 18 or younger, then you need at least 1,300 mg of calcium every day."
@@ -503,7 +503,7 @@
         [
             {
                 "nutrient_id": "Vitamin-D",
-                "need": [
+                "Need": [
                     "Vitamin D regulates the amount of calcium and phosphate in the body which are needed to keep bones, teeth and muscles healthy."
                 ],
                 "Dosage": [
@@ -543,7 +543,7 @@
             },
             {
                 "nutrient_id": "DHA",
-                "need": [
+                "Need": [
                     "It's adequate consumption is vitally important during pregnancy as they are critical building blocks of fetal brain and retina."
                 ],
                 "Dosage": [
@@ -646,7 +646,7 @@
         [
             {
                 "nutrient_id": "Complex Carbohydrates",
-                "need": [
+                "Need": [
                     "It provide essential fuel for both you and your baby during pregnancy.",
                     "The glucose provided by carbohydrates is the optimal fuel for the maintenance of maternal and foetal brain function.",
                     "It is also an important source of folate, a B group vitamin needed for the healthy development of babies in early pregnancy."
@@ -705,7 +705,7 @@
             },
             {
                 "nutrient_id": "Fluid",
-                "need": [
+                "Need": [
                     "If your morning sickness is accompanied by cramps, fever or diarrhea, you may be dealing with a stomach bug or food poisoning rather than pregnancy nausea.",
                     "But whether your stomach is churning from hormones, a virus or that egg salad you had for lunch, the treatment is the same: Rest up and focus on fluids \u2014 especially if you're losing them through vomiting or diarrhea."
                 ],
@@ -727,7 +727,7 @@
             },
             {
                 "nutrient_id": "Protein",
-                "need": [
+                "Need": [
                     "Protein helps your baby grow. The amino acids contained within protein are essential to healthy cell growth.",
                     "Protein helps keep you healthy, too, and is important for the development of your own tissues."
                 ],
@@ -860,7 +860,7 @@
     "data":[    
         {
                 "nutrient_id": "DHA",
-                "need": [
+                "Need": [
                     "It's adequate consumption is vitally important during pregnancy as they are critical building blocks of fetal brain and retina."
                 ],
                 "Dosage": [
@@ -994,13 +994,13 @@
     "data":[
         {
             "nutrient_id": "Vitamin-C",
-            "need": [
+            "Need": [
                 "It help mom maintain a healthy immune system",
                 "It is required for mom\u2019s body to make collagen to help baby\u2019s skin, cartilage, tendons, and bone growth.",
                 "It also acts as an antioxidant in the body, helps to prevent cell damage.",
                 "It also helps your body absorb iron."
             ],
-            "dosage": [
+            "Dosage": [
                 "Pregnant women ages 18 and younger: 80 milligrams (mg) per day",
                 "Breastfeeding women ages 18 and younger: 115 mg per day",
                 "Pregnant women ages 19 and older: 85 mg per day",
@@ -1143,7 +1143,7 @@
     "data":[
         {
             "nutrient_id": "Complex Carbohydrates",
-            "need": [
+            "Need": [
                 "It provide essential fuel for both you and your baby during pregnancy.",
                 "The glucose provided by carbohydrates is the optimal fuel for the maintenance of maternal and foetal brain function.",
                 "It is also an important source of folate, a B group vitamin needed for the healthy development of babies in early pregnancy."
@@ -1300,7 +1300,7 @@
     "data":[
         {
             "nutrient_id": "Fiber",
-            "need": [
+            "Need": [
                 "Consuming lots of fiber can help fight off constipation and keep you regular, which also goes a ways toward preventing hemorrhoids.",
                 "will help you eliminate waste that could be detrimental for your health, whether pregnant or not."
             ],
@@ -1449,7 +1449,7 @@
     "data":[
         {
             "nutrient_id": "Fiber",
-            "need": [
+            "Need": [
                 "Consuming lots of fiber can help fight off constipation and keep you regular, which also goes a ways toward preventing hemorrhoids.",
                 "will help you eliminate waste that could be detrimental for your health, whether pregnant or not."
             ],
@@ -1517,7 +1517,7 @@
         },
         {
             "nutrient_id": "DHA",
-            "need": [
+            "Need": [
                 "It's adequate consumption is vitally important during pregnancy as they are critical building blocks of fetal brain and retina."
             ],
             "Dosage": [
@@ -1664,14 +1664,14 @@
     "data":[
         {
             "nutrient_id": "Vitamin-C",
-            "need": [
+            "Need": [
                 "It help mom maintain a healthy immune system",
                 "It is required for mom\u2019s body to make collagen to help baby\u2019s skin, cartilage, tendons, and bone growth.",
                 "It also acts as an antioxidant in the body, helps to prevent cell damage.",
                 "It also helps your body absorb iron.",
                 "It also gives a baby's body the ability to repair wounded tissue."
             ],
-            "dosage": [
+            "Dosage": [
                 "Pregnant women ages 18 and younger: 80 milligrams (mg) per day",
                 "Breastfeeding women ages 18 and younger: 115 mg per day",
                 "Pregnant women ages 19 and older: 85 mg per day",
@@ -1810,7 +1810,7 @@
     "data":[
         {
             "nutrient_id": "Fiber",
-            "need": [
+            "Need": [
                 "Consuming lots of fiber can help fight off constipation and keep you regular, which also goes a ways toward preventing hemorrhoids.",
                 "will help you eliminate waste that could be detrimental for your health, whether pregnant or not."
             ],
@@ -1963,7 +1963,7 @@
     "data":[
         {
             "nutrient_id": "Folic Acid",
-            "need": [
+            "Need": [
                 " It assists in the formation of baby's heart and circulatory system.",
                 "It helps in lower the chance your baby will have certain birth defects known as neural tube defects and also a mouth defect in which the lip has opening in it and doesn't form correctly.",
                 "A diet that\u2019s rich in folic acid may help prevent labor before 37 weeks."
@@ -2014,10 +2014,10 @@
         },
         {
             "nutrient_id": "Iron",
-            "need": [
+            "Need": [
                 "Approximately half of mom\u2019s iron intake will go toward the developing     fetus and placenta. The other half will be used to help support mom\u2019s increased blood volume."
             ],
-            "dosage": [
+            "Dosage": [
                 "The average pregnant woman needs about 30 mg of elemental iron per day to meet the new demands of extra blood volume, the developing placenta, and growing fetus."
             ],
             "food": {
@@ -2053,11 +2053,11 @@
         },
         {
             "nutrient_id": "Fluid",
-            "need": [
+            "Need": [
                 "If your morning sickness is accompanied by cramps, fever or diarrhea, you may be dealing with a stomach bug or food poisoning rather than pregnancy nausea.",
                 "But whether your stomach is churning from hormones, a virus or that egg salad you had for lunch, the treatment is the same: Rest up and focus on fluids \u2014 especially if you're losing them through vomiting or diarrhea."
             ],
-            "dosage": [
+            "Dosage": [
                 "No Fixed dosage"
             ],
             "food": {
@@ -2091,12 +2091,12 @@
         },
         {
             "nutrient_id": "Calcium",
-            "need": [
+            "Need": [
                 "Calcium helps you and your developing baby build and maintain strong, healthy bones",
                 "Plus It's essential for heart, nerve and muscle health.",
                 "If you don\u2019t consume enough calcium during pregnancy, your baby will take it from your bones!"
             ],
-            "dosage": [
+            "Dosage": [
                 "Your body can't make calcium, so you need to get it from food or supplements.",
                 "While you're pregnant, try to get at least 1,000 mg of calcium every day.",
                 "If you're 18 or younger, then you need at least 1,300 mg of calcium every day."
@@ -2200,11 +2200,11 @@
     "data":[
         {
             "nutrient_id": "Fluid",
-            "need": [
+            "Need": [
                 "If your morning sickness is accompanied by cramps, fever or diarrhea, you may be dealing with a stomach bug or food poisoning rather than pregnancy nausea.",
                 "But whether your stomach is churning from hormones, a virus or that egg salad you had for lunch, the treatment is the same: Rest up and focus on fluids \u2014 especially if you're losing them through vomiting or diarrhea."
             ],
-            "dosage": [
+            "Dosage": [
                 "No Fixed dosage"
             ],
             "food": {
@@ -2238,14 +2238,14 @@
         },
         {
             "nutrient_id": "Vitamin-C",
-            "need": [
+            "Need": [
                 "It help mom maintain a healthy immune system",
                 "It is required for mom\u2019s body to make collagen to help baby\u2019s skin, cartilage, tendons, and bone growth.",
                 "It also acts as an antioxidant in the body, helps to prevent cell damage.",
                 "It also helps your body absorb iron.",
                 "It also gives a baby's body the ability to repair wounded tissue."
             ],
-            "dosage": [
+            "Dosage": [
                 "Pregnant women ages 18 and younger: 80 milligrams (mg) per day",
                 "Breastfeeding women ages 18 and younger: 115 mg per day",
                 "Pregnant women ages 19 and older: 85 mg per day",
@@ -2374,7 +2374,7 @@
     "data":[
         {
             "nutrient_id": "Iodine",
-            "need": [
+            "Need": [
                 "It is essential to the development of your baby's brain, skeleton, and nervous system.",
                 "It also regulates your baby's metabolism (the rate at which the body uses energy).",
                 "A lack of iodine during pregnancy has been linked to an increased risk of miscarriage, preterm delivery, and stillbirth."
@@ -2419,7 +2419,7 @@
         },
         {
             "nutrient_id": "Protein",
-            "need": [
+            "Need": [
                 "Protein helps your baby grow. The amino acids contained within protein are essential to healthy cell growth.",
                 "Protein helps keep you healthy, too, and is important for the development of your own tissues."
             ],
@@ -2472,7 +2472,7 @@
         },
         {
             "nutrient_id": "Folic Acid",
-            "need": [
+            "Need": [
                 " It assists in the formation of baby's heart and circulatory system.",
                 "It helps in lower the chance your baby will have certain birth defects known as neural tube defects and also a mouth defect in which the lip has opening in it and doesn't form correctly.",
                 "A diet that\u2019s rich in folic acid may help prevent labor before 37 weeks."
@@ -2523,12 +2523,12 @@
         },
         {
             "nutrient_id": "Calcium",
-            "need": [
+            "Need": [
                 "Calcium helps you and your developing baby build and maintain strong, healthy bones",
                 "Plus It's essential for heart, nerve and muscle health.",
                 "If you don\u2019t consume enough calcium during pregnancy, your baby will take it from your bones!"
             ],
-            "dosage": [
+            "Dosage": [
                 "Your body can't make calcium, so you need to get it from food or supplements.",
                 "While you're pregnant, try to get at least 1,000 mg of calcium every day.",
                 "If you're 18 or younger, then you need at least 1,300 mg of calcium every day."
@@ -2557,7 +2557,7 @@
         },
         {
             "nutrient_id": "Vitamin-D",
-            "need": [
+            "Need": [
                 "Vitamin D regulates the amount of calcium and phosphate in the body which are needed to keep bones, teeth and muscles healthy."
             ],
             "Dosage": [
@@ -2597,7 +2597,7 @@
         },
         {
             "nutrient_id": "DHA",
-            "need": [
+            "Need": [
                 "It's adequate consumption is vitally important during pregnancy as they are critical building blocks of fetal brain and retina."
             ],
             "Dosage": [
@@ -2639,10 +2639,10 @@
         },
         {
             "nutrient_id": "Iron",
-            "need": [
+            "Need": [
                 "Approximately half of mom\u2019s iron intake will go toward the developing     fetus and placenta. The other half will be used to help support mom\u2019s increased blood volume."
             ],
-            "dosage": [
+            "Dosage": [
                 "The average pregnant woman needs about 30 mg of elemental iron per day to meet the new demands of extra blood volume, the developing placenta, and growing fetus."
             ],
             "food": {
