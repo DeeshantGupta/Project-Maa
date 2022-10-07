@@ -12,7 +12,7 @@ import { useEffect,useState } from 'react';
 import axios from "axios";
 
 const Dashboard = () => {
-    const image = "https://drive.google.com/file/d/1QtjuQz6Zb_xsUWZRIViGGX-dZtgijXgb/view?usp=sharing";
+    const image = "https:drive.google.com/file/d/1QtjuQz6Zb_xsUWZRIViGGX-dZtgijXgb/view?usp=sharing";
 
     const navigate = useNavigate();
 
@@ -24,21 +24,31 @@ const Dashboard = () => {
 
     const [motherChild,setMotherChild] = useState([]);
 
+    const [motherTips,setMotheTips] = useState({});
+
     const getUser = async()=>{
       axios.get(`http://localhost:5000/user/getuser/${id}`).then(({data})=>{
+        console.log(data);
         setUserInfo(data);
       }) 
     }
 
     const motherChildInfo = async()=>{
       axios.get(`http://localhost:5000/user/motherchildinfo/${id}`).then(({data})=>{
+        console.log(data);
         setMotherChild(data.info);
-      }) 
+      }); 
     }
 
-    console.log(motherChild);
+    const tipsMother = async()=>{
+      axios.get(`http://localhost:5000/user/motherfood/${id}`).then(({data})=>{
+        console.log(data);
+        setMotheTips(data);
+    }); 
+    }
 
     useEffect(()=>{
+      
       const verifyUser = ()=>{
         if(!cookies.jwt){
           navigate('/login');
@@ -46,15 +56,17 @@ const Dashboard = () => {
           axios.post(`http://localhost:5000/user/checkuser`,{},{
             withCredentials:true,
           }).then(({data})=>{
+            console.log(data);
             if(data.id != id){
               console.log("hii 99")
 
               removeCookie("jwt");
               navigate('/login');
             }else{
-             console.log("hii")
-              getUser();
-              motherChildInfo();
+             
+               getUser();
+               motherChildInfo();
+               tipsMother();
             }
           })
         }
@@ -64,118 +76,125 @@ const Dashboard = () => {
     
     },[cookies,navigate,removeCookie]);
 
-
   return (
     <div>
       <HeaderUser name={userInfo.name}/>
+      {
+       (motherChild.length != 0)?
+        <div className='main_container_dashboard'>
+         <div className='top_section_dashboard'>
+             <div className='top_heading_section_dashboard'>
+                 <h2>Week {motherChild[0].week}</h2>
+                 <p>{motherChild[0].title}</p>
+             </div>
 
-      {/* <div className='main_container_dashboard'>
-        <div className='top_section_dashboard'>
-            <div className='top_heading_section_dashboard'>
-                <h2>Week {motherChild[0].week}</h2>
-                <p>{motherChild[0].title}</p>
-            </div>
+             <div className='top_detail_section_dashboard'>
+                 <div className='detail_first_section_dashboard'>
+                     <img src={motherChild[0].baby_growth} alt="baby" />
+                     {
+                       (motherChild[0].size == "")?"":  <p>{motherChild[0].size} cm</p>
+                     }
+                     {
+                       (motherChild[0].weight == "")?"":  <p>{motherChild[0].weight}</p>
+                     }
+                 </div>
 
-            <div className='top_detail_section_dashboard'>
-                <div className='detail_first_section_dashboard'>
-                    <img src={motherChild[0].baby_growth} alt="baby" />
-                    <p>{motherChild[0].size} cm<br></br>{motherChild[0].weight}</p>
-                </div>
+                 <div className='detail_second_section_dashboard'>
+                     <img src={motherChild[0].baby_lookslike} alt="fruit size" />
+                 </div>
 
-                <div className='detail_second_section_dashboard'>
-                    <img src={motherChild[0].baby_lookslike} alt="fruit size" />
-                </div>
+                 <div className='detail_third_section_dashboard'>
+                     <div className='third_top_section_dashboard'>
+                         <p>{42 - motherChild[0].week}</p>
+                     </div>
+                     <p>{42 - motherChild[0].week} Weeks Left</p>
+                 </div> 
+             </div>
+         </div>
 
-                <div className='detail_third_section_dashboard'>
-                    <div className='third_top_section_dashboard'>
-                        <p>{42 - motherChild[0].week}</p>
-                    </div>
-                    <p>{42 - motherChild[0].week} Weeks Left</p>
-                </div> 
-            </div>
-        </div>
+         <div className='middle_section_dashboard'>
+           <div className='middle_upper_section_dashboard'>
+             <h2>Body Requirements & Symptoms</h2>
+             <p>We have designed these body requirements for you and your baby.</p>
+           </div>
 
-        <div className='middle_section_dashboard'>
-          <div className='middle_upper_section_dashboard'>
-            <h2>Body Requirements & Symptoms</h2>
-            <p>We have designed these body requirements for you and your baby.</p>
-          </div>
+           <div className='cards_container_dashboard'>
+             <Link to={`/${id}/food`}>
+             <div className='card_box_dashboard'>
+               <div className='card_top_section_dashboard'>
+                 <h3>Fruits and Vegetables</h3>
+               </div>
+               <div className='card_bottom_section_dashboard'>
+                 <p></p>
+               </div>
+               <div className='card_image_section_dashboard'>
+                 <img src={Fruit} alt='fruits' />
+               </div>
+             </div>
+             </Link>
 
-          <div className='cards_container_dashboard'>
-            <Link to="/food">
-            <div className='card_box_dashboard'>
-              <div className='card_top_section_dashboard'>
-                <h3>Fruits and Vegetables</h3>
-              </div>
-              <div className='card_bottom_section_dashboard'>
-                <p></p>
-              </div>
-              <div className='card_image_section_dashboard'>
-                <img src={Fruit} alt='fruits' />
-              </div>
-            </div>
-            </Link>
+             <Link to={`/${id}/symptoms`}>
+             <div className='card_box_dashboard'>
+               <div className='card_top_section_dashboard'>
+                 <h3>Symptoms</h3>
+               </div>
+               <div className='card_bottom_section_dashboard'>
+                 <p></p>
+               </div>
+               <div className='card_image_section2_dashboard'>
+                 <img src={Symptoms} alt='fruits' />
+               </div>
+             </div>
+             </Link>
 
-            <Link to="/symptoms">
-            <div className='card_box_dashboard'>
-              <div className='card_top_section_dashboard'>
-                <h3>Symptoms</h3>
-              </div>
-              <div className='card_bottom_section_dashboard'>
-                <p></p>
-              </div>
-              <div className='card_image_section2_dashboard'>
-                <img src={Symptoms} alt='fruits' />
-              </div>
-            </div>
-            </Link>
+             <Link to={`/${id}/excercise`}>
+             <div className='card_box_dashboard'>
+               <div className='card_top_section_dashboard'>
+                 <h3>Excercises</h3>
+               </div>
+               <div className='card_bottom_section_dashboard'>
+                 <p></p>
+               </div>
+               <div className='card_image_section3_dashboard'>
+                 <img src={Excercise} alt='excercise' />
+               </div>
+             </div>
+             </Link>
 
-            <Link to="/excercise">
-            <div className='card_box_dashboard'>
-              <div className='card_top_section_dashboard'>
-                <h3>Excercises</h3>
-              </div>
-              <div className='card_bottom_section_dashboard'>
-                <p></p>
-              </div>
-              <div className='card_image_section3_dashboard'>
-                <img src={Excercise} alt='excercise' />
-              </div>
-            </div>
-            </Link>
+             <Link to={`/${id}/checkups`}>
+             <div className='card_box_dashboard'>
+               <div className='card_top_section_dashboard'>
+                 <h3>Checkup & Scans</h3>
+               </div>
+               <div className='card_bottom_section_dashboard'>
+                 <p></p>
+               </div>
+               <div className='card_image_section4_dashboard'>
+                 <img src={Checkup} alt='checkup' />
+               </div>
+             </div>
+             </Link>
+           </div>
+         </div>
 
-            <Link to="/checkups">
-            <div className='card_box_dashboard'>
-              <div className='card_top_section_dashboard'>
-                <h3>Checkup & Scans</h3>
-              </div>
-              <div className='card_bottom_section_dashboard'>
-                <p></p>
-              </div>
-              <div className='card_image_section4_dashboard'>
-                <img src={Checkup} alt='checkup' />
-              </div>
-            </div>
-            </Link>
-          </div>
-        </div>
+         <div className='bottom_section_dashboard'>
+           <h2>Tips for You This Week</h2>
+           <div className='tip_container_dashboard'>
 
-        <div className='bottom_section_dashboard'>
-          <h2>Tips for You This Week</h2>
-          <div className='tip_container_dashboard'>
-            <div className='tip_box_dashboard'>
-              <h4>Ask about inducing labor</h4>
-              <p>Baby is now officially late. Since your uterus is likely becoming less hospitable, if you don't go into labor on your own, your practitioner will likely schedule you to be induced sometime this week. Whether you have an induction, or baby makes an arrival without help, you'll have to be tested for COVID-19 before delivering.</p>
-            </div>
-
-            <div className='tip_box_dashboard'>
-              <h4>Ask about inducing labor</h4>
-              <p>Baby is now officially late. Since your uterus is likely becoming less hospitable, if you don't go into labor on your own, your practitioner will likely schedule you to be induced sometime this week. Whether you have an induction, or baby makes an arrival without help, you'll have to be tested for COVID-19 before delivering.</p>
-            </div>
-          </div>
-        </div>
-      </div> */}
-
+            {
+              (motherTips.tips.length != 0)?
+                (motherTips.tips.map((tip)=>(
+               <div className='tip_box_dashboard'>
+               <h4>{tip.title}</h4>
+               <p>{tip.description}</p>
+              </div>
+                ))):""
+             
+             }
+           </div>
+         </div>
+        </div>:""
+      }
       <Footer />
     </div>
   )

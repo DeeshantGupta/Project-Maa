@@ -11,7 +11,9 @@ module.exports = {
         CHECKUSER:"/checkuser",
         GETUSER:"/getuser/:id",
         POSTDETAILS:"/postdetails/:id",
-        MOTHERCHILDINFO:"/motherchildinfo/:id"
+        MOTHERCHILDINFO:"/motherchildinfo/:id",
+        MOTHERFOOD:"/motherfood/:id",
+        BABYCHANGES:"/babychanges/:id"
     },
     ROUTES: {
         AUTH: "/auth",
@@ -20,6 +22,7 @@ module.exports = {
     MODELS: {
         USER: "Users",
         BABY: "Baby",
-        OTP: "Otp"
+        OTP: "Otp",
+        MOTHER:"Mother"
     }
 }

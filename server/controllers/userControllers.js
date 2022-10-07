@@ -1,5 +1,6 @@
 const User = require("../db/models/userModel");
 const Baby = require("../db/models/babyModel");
+const Mother = require("../db/models/motherModel");
 
 module.exports = {
 
@@ -71,6 +72,48 @@ module.exports = {
             console.log(err);
         }
 
+    },
+    async motherFood(req,res){
+        try{
+
+            const {id} = req.params;
+
+            const user = await User.findById({ _id: id });
+
+            let days = ((Date.now() - user.detailsOne.createdTime) / (1000 * 60 * 60 * 24)).toFixed(1);
+
+            let week = Math.floor(days / 7);
+
+            let currentweek = user.detailsOne.currentweek + week;
+
+            const motherfood = await Mother.findOne({week:currentweek});
+
+            res.send(motherfood);
+
+        }catch(err){
+            console.log(err);
+        }
+    },
+    async babyChanges(req,res){
+        try{
+
+            const {id} = req.params;
+
+            const user = await User.findById({ _id: id });
+
+            let days = ((Date.now() - user.detailsOne.createdTime) / (1000 * 60 * 60 * 24)).toFixed(1);
+
+            let week = Math.floor(days / 7);
+
+            let currentweek = user.detailsOne.currentweek + week;
+
+            const babychanges = await Baby.findOne({week:currentweek});
+
+            res.send(babychanges);
+
+        }catch(err){
+            console.log(err);
+        }
     }
 
 }
