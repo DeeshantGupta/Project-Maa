@@ -47,10 +47,12 @@ const Dashboard = () => {
             withCredentials:true,
           }).then(({data})=>{
             if(data.id != id){
+              console.log("hii 99")
+
               removeCookie("jwt");
               navigate('/login');
             }else{
-             
+             console.log("hii")
               getUser();
               motherChildInfo();
             }
@@ -67,7 +69,7 @@ const Dashboard = () => {
     <div>
       <HeaderUser name={userInfo.name}/>
 
-      <div className='main_container_dashboard'>
+      {/* <div className='main_container_dashboard'>
         <div className='top_section_dashboard'>
             <div className='top_heading_section_dashboard'>
                 <h2>Week {motherChild[0].week}</h2>
@@ -81,8 +83,6 @@ const Dashboard = () => {
                 </div>
 
                 <div className='detail_second_section_dashboard'>
-                {/* https://drive.google.com/uc?id=1xD2WGWVlYRKccD4cXpsh4WT0vYAdUDR */}
-
                     <img src={motherChild[0].baby_lookslike} alt="fruit size" />
                 </div>
 
@@ -174,7 +174,7 @@ const Dashboard = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <Footer />
     </div>
