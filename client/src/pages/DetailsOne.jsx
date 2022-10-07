@@ -86,7 +86,7 @@ const DetailsOne = () => {
             getUser();
           } 
           else{
-            navigate(`user/${data.id}/detailsone`);
+            navigate(`/user/${data.id}/detailsone`);
           }
         }
       })
@@ -191,7 +191,7 @@ const DetailsOne = () => {
 
               <div className="form_box_detailsOne">
                  <label>Child Number*</label>
-                 <input type="number" name="childnumber" placeholder="Year of Establishment" value={user.childnumber} onChange={handleForm} />
+                 <input type="number" name="childnumber" placeholder="Child Number" value={user.childnumber} onChange={handleForm} />
                  <p className="errors-msg_detailsOne">{formErrors.childnumber}</p>
               </div>
               

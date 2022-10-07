@@ -27,6 +27,7 @@ const Food = () => {
       const motherChildInfo = async()=>{
         axios.get(`http://localhost:5000/user/motherfood/${id}`).then(({data})=>{
             setMotherFood(data.data);
+            
         }); 
       }
 
@@ -64,13 +65,14 @@ const Food = () => {
    <HeaderUser name={userInfo.name}/>
 
       <div className='main_container_food'>
+        {console.log(motherFood)}
         <div className='top_section_food'>
             <h2>Food Requirements</h2>
         </div>
 
         <div className='food_section_food'>
             {
-                (motherFood != undefined)?
+                motherFood &&
                (motherFood.map((food)=>(
                 <div className='food_box_food'>
                 <h3>{food.nutrient_id}</h3>
@@ -87,7 +89,7 @@ const Food = () => {
                 <div className='food_need_section_food'>
                     <h5>Dosage</h5>
                     {
-                     food.dosage.map((e)=>(
+                     food.Dosage.map((e)=>(
                         <ul>
                         <li>{e}</li>
                     </ul>
@@ -99,41 +101,41 @@ const Food = () => {
                     <div className='food_detail_section_food'>
                     <h5>Food</h5>
                   {  
-                     (food.food.fruit.length != 0)?
+                     (food.food.Fruit.length != 0)?
                      <div className='food_category_section_food'>
                      <h6>Fruit</h6>
+                       <div className='food_cards_container_food'>
                      {
-                        (food.food.fruit.map((food)=>(
-                            <div className='food_cards_container_food'>
+                        (food.food.Fruit.map((food)=>(
                             <div className='food_card_food'>
                                 <img src={food.url} alt='food' />
                                 <h4>{food.name}</h4>
                             </div>
    
-                        </div>
                         )))
+                      }
+                      </div>
                        
-                     }
                  </div>:""
                     
                 }
 
 {  
-                     (food.food.vegetables.length != 0)?
+                     (food.food.Vegetables.length != 0)?
                      <div className='food_category_section_food'>
                      <h6>Vegetables</h6>
+                     <div className='food_cards_container_food'>
                      {
-                        (food.food.vegetables.map((veg)=>(
-                            <div className='food_cards_container_food'>
+                        (food.food.Vegetables.map((veg)=>(
                             <div className='food_card_food'>
                                 <img src={veg.url} alt='food' />
                                 <h4>{veg.name}</h4>
                             </div>
    
-                        </div>
-                        )))
-                       
-                     }
+   )))
+   
+  }
+  </div>
 
                      
 
@@ -144,18 +146,18 @@ const Food = () => {
                      (food.food.nonveg.length != 0)?
                      <div className='food_category_section_food'>
                      <h6>Non-Vegetables</h6>
+                     <div className='food_cards_container_food'>
                      {
                         (food.food.nonveg.map((nveg)=>(
-                            <div className='food_cards_container_food'>
                             <div className='food_card_food'>
                                 <img src={nveg.url} alt='food' />
                                 <h4>{nveg.name}</h4>
                             </div>
    
-                        </div>
-                        ))) 
-                       
-                     }
+   ))) 
+   
+  }
+  </div>
 
                      
 
@@ -164,21 +166,21 @@ const Food = () => {
                 }
 
 {  
-                     (food.food.dairy.length != 0)?
+                     (food.food.Dairy.length != 0)?
                      <div className='food_category_section_food'>
                      <h6>Dairy Products</h6>
+                     <div className='food_cards_container_food'>
                      {
-                        (food.food.dairy.map((dp)=>(
-                            <div className='food_cards_container_food'>
+                        (food.food.Dairy.map((dp)=>(
                             <div className='food_card_food'>
                                 <img src={dp.url} alt='food' />
                                 <h4>{dp.name}</h4>
                             </div>
    
-                        </div>
-                        ))) 
-                       
-                     }
+   ))) 
+   
+  }
+  </div>
 
                      
 
@@ -187,21 +189,21 @@ const Food = () => {
 }
 
 {  
-                     (food.food.others.length != 0)?
+                     (food.food.Others.length != 0)?
                      <div className='food_category_section_food'>
                      <h6>Others</h6>
+                     <div className='food_cards_container_food'>
                      {
-                        (food.food.others.map((ot)=>(
-                            <div className='food_cards_container_food'>
+                        (food.food.Others.map((ot)=>(
                             <div className='food_card_food'>
                                 <img src={ot.url} alt='food' />
                                 <h4>{ot.name}</h4>
                             </div>
    
-                        </div>
-                        ))) 
-                       
-                     }
+   ))) 
+   
+  }
+  </div>
 
                      
 
@@ -216,7 +218,7 @@ const Food = () => {
 
                 
                </div>
-               ))):""
+               )))
             }
         </div>
       </div>

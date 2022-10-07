@@ -127,9 +127,9 @@ const Calculator1 = () => {
             </div>
 
             <div className="form_box_calculator1">
-                 <label>Enter Food Category*</label>
+                 <label>Enter Period Cycle Length*</label>
                  <select onChange={handleCycleLength} className="select_calculator1">
-                  <option value="" disabled selected hidden>Enter Food Category</option> 
+                  <option value="" disabled selected hidden>Enter Period Cycle Length</option> 
                   {cycleLengthData.map(val => (
                     <option key={val} value={val}>{val}</option>
                   ))}

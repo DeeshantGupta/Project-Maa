@@ -92,7 +92,7 @@ const Dashboard = () => {
                  <div className='detail_first_section_dashboard'>
                      <img src={motherChild[0].baby_growth} alt="baby" />
                      {
-                       (motherChild[0].size == "")?"":  <p>{motherChild[0].size} cm</p>
+                       (motherChild[0].size == "")?"":  <p>{motherChild[0].size}</p>
                      }
                      {
                        (motherChild[0].weight == "")?"":  <p>{motherChild[0].weight}</p>
@@ -180,8 +180,19 @@ const Dashboard = () => {
          <div className='bottom_section_dashboard'>
            <h2>Tips for You This Week</h2>
            <div className='tip_container_dashboard'>
-
-            {
+            {console.log("Tips are ", motherChild)}
+                     {
+                      motherTips && motherTips.length != 0 && (
+                        motherTips.tips && motherTips.tips.length != 0 && motherTips.tips.map((tip)=>(
+                          <div className='tip_box_dashboard'>
+                          <h4>{tip.title}</h4>
+                          <p>{tip.description}</p>
+                         </div>
+                           ))
+                      )
+                     }
+            
+            {/* {
               (motherTips.tips.length != 0)?
                 (motherTips.tips.map((tip)=>(
                <div className='tip_box_dashboard'>
@@ -190,7 +201,7 @@ const Dashboard = () => {
               </div>
                 ))):""
              
-             }
+             } */}
            </div>
          </div>
         </div>:""

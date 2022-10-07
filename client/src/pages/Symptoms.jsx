@@ -29,7 +29,7 @@ const Symptoms = () => {
   
       const motherChildInfo = async()=>{
         axios.get(`http://localhost:5000/user/motherfood/${id}`).then(({data})=>{
-            console.log(data);
+            console.log("Symptoms are : ",data);
             setMotherFood(data);
         }); 
       }
@@ -74,16 +74,18 @@ const Symptoms = () => {
 
 
       <div className="main_container_symptoms">
-        <div className="top_section_symptoms">
-          <h2>Pregnancy Symptoms Week {motherFood.week}</h2>
-        </div>
+        {motherFood && (
+          <div className="top_section_symptoms">
+            <h2>Pregnancy Symptoms Week {motherFood.week}</h2>
+          </div>
+        )}
+        
 
  {
-            (motherFood.symptoms.length != 0)?
+            motherFood && (
             <div className="symptoms_container_symptoms">
-
             {
-                (motherFood.symptoms.map((sym)=>(
+               motherFood.symptoms && motherFood.symptoms.map((sym)=>(
             <div className="symptoms_box_symptoms">
                 <div className="symptoms_left_section_symptoms">
                     <img src={sym.image} alt="symptom" />
@@ -93,26 +95,25 @@ const Symptoms = () => {
                     <p>{sym.description}</p>
                 </div>
             </div>
-                )))
+                ))
                 
             }
-        </div>:""
+        </div>)
         } 
 
 
-
-        {/* Baby Changes */}
+        {babyChange && (
         <div className="top_section_symptoms">
           <h2>Baby Changes Week {babyChange.week}</h2>
         </div>
+        )}
 
        { 
-        (babyChange.this_week_changes.length != 0)?
+        babyChange && (
         <div className="symptoms_container_symptoms">
 
             {
-                (
-                    babyChange.this_week_changes.map((twc)=>(
+              babyChange.this_week_changes && babyChange.this_week_changes.map((twc)=>(
                          <div className="symptoms_box_symptoms">
                 <div className="symptoms_left_section_symptoms">
                     <img src={twc.image} alt="symptom" />
@@ -123,11 +124,11 @@ const Symptoms = () => {
                 </div>
             </div>
                     ))
-                )
+                
            
             }
-        </div>:""
-        } 
+        </div>)
+        }  
       </div>
     </div>
   );
