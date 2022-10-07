@@ -40,7 +40,7 @@
                         "url": "https://drive.google.com/uc?id=1fV4CzIuJqdn4MAdAVXC4Nu2ZBshL4rMY"
                     },
                     {
-                        "name": "Dark leafy green vegetables",
+                        "name": "Dark leafy green Vegetables",
                         "url": "https://drive.google.com/uc?id=151OVauwNdfNYHLaLE12utyuKViCGPchw"
                     }
                 ],
@@ -152,7 +152,7 @@
                             "url": "https://drive.google.com/uc?id=1fV4CzIuJqdn4MAdAVXC4Nu2ZBshL4rMY"
                         },
                         {
-                            "name": "Dark leafy green vegetables",
+                            "name": "Dark leafy green Vegetables",
                             "url": "https://drive.google.com/uc?id=151OVauwNdfNYHLaLE12utyuKViCGPchw"
                         }
                     ],
@@ -241,7 +241,7 @@
                     "As high doses of vitamin C can upset your stomach and cause diarrhea and nausea"
                 ],
                 "food": {
-                    "fruit": [
+                    "Fruit": [
                         {
                             "name": "Orange",
                             "url": "https://drive.google.com/uc?id=1uCxKCnKJz9epn6UivYFy4ARHDKQA5-9q"
@@ -271,7 +271,7 @@
                             "url": "https://drive.google.com/uc?id=14Ci4MAiVW4rr_x_qkJOODfmgkSvdu6Eo"
                         }
                     ],
-                    "vegetables": [
+                    "Vegetables": [
                         {
                             "name": "Asparagus",
                             "url": "https://drive.google.com/uc?id=1CaTi6rQlb-k9U-IJgbyw__Wy9-T5VigJ"
@@ -282,8 +282,8 @@
                         }
                     ],
                     "nonveg": [],
-                    "dairy": [],
-                    "others": []
+                    "Dairy": [],
+                    "Others": []
                 }
             },
             {
@@ -295,13 +295,13 @@
                     "The average pregnant woman needs about 30 mg of elemental iron per day to meet the new demands of extra blood volume, the developing placenta, and growing fetus."
                 ],
                 "food": {
-                    "fruit": [
+                    "Fruit": [
                         {
                             "name": "Kiwi",
                             "url": "https://drive.google.com/uc?id=1CAj1YZ_lC7oGBV-iXXBKnLi0JawmKybW"
                         }
                     ],
-                    "vegetables": [],
+                    "Vegetables": [],
                     "nonveg": [
                         {
                             "name": "Beef",
@@ -312,10 +312,10 @@
                             "url": "https://drive.google.com/uc?id=1TWnEUpOH2De-o53qG2JJFz3zUtpvgMP0"
                         }
                     ],
-                    "dairy": [],
-                    "others": [
+                    "Dairy": [],
+                    "Others": [
                         {
-                            "name": "Dried fruit",
+                            "name": "Dried Fruit",
                             "url": "https://drive.google.com/uc?id=1lNcaE_QR5X2ZecIsIphUP24i8-2dHJRK"
                         },
                         {
@@ -335,11 +335,11 @@
                     "No Fixed dosage"
                 ],
                 "food": {
-                    "fruit": [],
-                    "vegetables": [],
+                    "Fruit": [],
+                    "Vegetables": [],
                     "nonveg": [],
-                    "dairy": [],
-                    "others": [
+                    "Dairy": [],
+                    "Others": [
                         {
                             "name": "Clear broth",
                             "url": "https://drive.google.com/uc?id=1wYz826iNMWe7cMf09c8Hips8URsr9KZO"
@@ -370,8 +370,8 @@
                     "In first trimester, eat three servings of protein daily to help spur new tissue for your baby-to-be."
                 ],
                 "food": {
-                    "fruit": [],
-                    "vegetables": [],
+                    "Fruit": [],
+                    "Vegetables": [],
                     "nonveg": [
                         {
                             "name": "Beef",
@@ -386,8 +386,8 @@
                             "url": "https://drive.google.com/uc?id=1TWnEUpOH2De-o53qG2JJFz3zUtpvgMP0"
                         }
                     ],
-                    "dairy": [],
-                    "others": [
+                    "Dairy": [],
+                    "Others": [
                         {
                             "name": "Nuts and seeds",
                             "url": "https://drive.google.com/uc?id=1b_UdZfQHiobXSCtyXuhCWaAcpVrs7Gey"
@@ -412,10 +412,10 @@
                     "If you're 18 or younger, then you need at least 1,300 mg of calcium every day."
                 ],
                 "food": {
-                    "fruit": [],
-                    "vegetables": [],
+                    "Fruit": [],
+                    "Vegetables": [],
                     "nonveg": [],
-                    "dairy": [
+                    "Dairy": [
                         {
                             "name": "Cheese",
                             "url": "https://drive.google.com/uc?id=1aITk524Ig9oesWNpLu-rNy0Mq-i3CTJ0"
@@ -425,7 +425,7 @@
                             "url": "https://drive.google.com/uc?id=194eS8G6thFU0AuMa3s7VVop0iBcR_Qbr"
                         }
                     ],
-                    "others": [
+                    "Others": [
                         {
                             "name": "Calcium-fortified cereals",
                             "url": "https://drive.google.com/uc?id=1YdTD-cmAnRAQ4XJA5hWZLGXKrUhU0w9P"
@@ -449,7 +449,7 @@
     "tips":[
         {
             "title":"Up your iron and vitamin C",
-            "description":"Toss some berries in your cereal. Adding vitamin C-laden foods to iron-rich fare increases your body's absorption of iron — a nutrient you need to help support your increased blood volume. You can find vitamin C in fruits and vegetables like kiwis, mangoes, strawberries, melons, bell peppers, tomatoes and asparagus. Iron can be found in soy products, beef, poultry and dried fruit."
+            "description":"Toss some berries in your cereal. Adding vitamin C-laden foods to iron-rich fare increases your body's absorption of iron — a nutrient you need to help support your increased blood volume. You can find vitamin C in Fruits and vegetables like kiwis, mangoes, strawberries, melons, bell peppers, tomatoes and asparagus. Iron can be found in soy products, beef, poultry and dried Fruit."
         },
         {
             "title":"Hold off on hair coloring",
@@ -668,7 +668,7 @@
                             "url": "https://drive.google.com/uc?id=1FF2OwOLa-5OFf1McnN0lQOdLbhcCRGWm"
                         },
                         {
-                            "name": "Green vegetables",
+                            "name": "Green Vegetables",
                             "url": "https://drive.google.com/uc?id=1WmfQ7gPRSevyg4pwcLKWeb32EGqjq8y7"
                         },
                         {
@@ -1007,7 +1007,7 @@
                 "As high doses of vitamin C can upset your stomach and cause diarrhea and nausea"
             ],
             "food": {
-                "fruit": [
+                "Fruit": [
                     {
                         "name": "Orange",
                         "url": "https://drive.google.com/uc?id=1uCxKCnKJz9epn6UivYFy4ARHDKQA5-9q"
@@ -1037,7 +1037,7 @@
                         "url": "https://drive.google.com/uc?id=14Ci4MAiVW4rr_x_qkJOODfmgkSvdu6Eo"
                     }
                 ],
-                "vegetables": [
+                "Vegetables": [
                     {
                         "name": "Asparagus",
                         "url": "https://drive.google.com/uc?id=1CaTi6rQlb-k9U-IJgbyw__Wy9-T5VigJ"
@@ -1048,8 +1048,8 @@
                     }
                 ],
                 "nonveg": [],
-                "dairy": [],
-                "others": []
+                "Dairy": [],
+                "Others": []
             }}
         ],            
     "symptoms":[
@@ -1095,7 +1095,7 @@
         },
         {
             "title":"Fruit is your friend",
-            "description":"Not only does nature's sweetest bounty contain essential nutrients that are good for you and your baby, but fruit also plays a starring role in keeping you regular. A good nutritional rule of thumb: When you're looking to \"eat a rainbow\" of fruit colors, look to the inside of the fruit as much as (if not more than) the outside. For example, a cantaloupe might have a lighter-colored skin on the outside, but the deep orange flesh of the melon inside is packed with vitamins A and C, plus some important minerals."
+            "description":"Not only does nature's sweetest bounty contain essential nutrients that are good for you and your baby, but Fruit also plays a starring role in keeping you regular. A good nutritional rule of thumb: When you're looking to \"eat a rainbow\" of Fruit colors, look to the inside of the Fruit as much as (if not more than) the outside. For example, a cantaloupe might have a lighter-colored skin on the outside, but the deep orange flesh of the melon inside is packed with vitamins A and C, plus some important minerals."
         },
         {
             "title":"Know your workout no-no's",
@@ -1107,11 +1107,11 @@
         },
         {
             "title":"Indulge healthy cravings",
-            "description":"What should you do when cravings strike? That depends. Give in, if you're lucky enough to be craving fruits or vegetables. Try to vary things a bit if you can, but don't worry if your taste buds won't take the bait. But try to resist your cravings if they're sending you to a bowl of sugar-frosted cereal or a bag of kettle-cooked potato chips. Eat Cheerios topped with fresh fruit and a drizzle of honey, or dive into a bag of soy crisps, which are packed with protein. If your cravings are for something you shouldn't have now that you're expecting — like unpasteurized soft cheese or sashimi — sub something that comes as close as possible to the object of your affections, like pasteurized feta and teriyaki salmon. If you find yourself craving substances that aren't food, like clay, ashes or laundry starch, contact your practitioner. Such cravings could indicate a condition called pica, which is triggered by a nutritional deficiency."
+            "description":"What should you do when cravings strike? That depends. Give in, if you're lucky enough to be craving Fruits or vegetables. Try to vary things a bit if you can, but don't worry if your taste buds won't take the bait. But try to resist your cravings if they're sending you to a bowl of sugar-frosted cereal or a bag of kettle-cooked potato chips. Eat Cheerios topped with fresh Fruit and a drizzle of honey, or dive into a bag of soy crisps, which are packed with protein. If your cravings are for something you shouldn't have now that you're expecting — like unpasteurized soft cheese or sashimi — sub something that comes as close as possible to the object of your affections, like pasteurized feta and teriyaki salmon. If you find yourself craving substances that aren't food, like clay, ashes or laundry starch, contact your practitioner. Such cravings could indicate a condition called pica, which is triggered by a nutritional deficiency."
         },
         {
             "title":"Cater to your aversions",
-            "description":"If you can't stomach the thought of eating a chicken breast, you're not alone. Pregnancy aversions are very common. Just do what works. Keep your choices bland and boring, find substitutes for foods you can no longer stomach — think fruit if you can't stand the sight of veggies — and rejoice if your aversions are to foods that you're supposed to be avoiding anyway (sushi aversion, anyone?)."
+            "description":"If you can't stomach the thought of eating a chicken breast, you're not alone. Pregnancy aversions are very common. Just do what works. Keep your choices bland and boring, find substitutes for foods you can no longer stomach — think Fruit if you can't stand the sight of veggies — and rejoice if your aversions are to foods that you're supposed to be avoiding anyway (sushi aversion, anyone?)."
         }
     ],
     "checkups_test_vaccines": [
@@ -1165,7 +1165,7 @@
                         "url": "https://drive.google.com/uc?id=1FF2OwOLa-5OFf1McnN0lQOdLbhcCRGWm"
                     },
                     {
-                        "name": "Green vegetables",
+                        "name": "Green Vegetables",
                         "url": "https://drive.google.com/uc?id=1WmfQ7gPRSevyg4pwcLKWeb32EGqjq8y7"
                     },
                     {
@@ -1268,7 +1268,7 @@
         },
         {
             "title":"Choose healthy carbs",
-            "description":"Has the word \"carb\" become a four-letter one in your diet plan? Redefine it by choosing healthy complex carbohydrates that nourish your baby and fuel your energy needs. Here's a list of healthy carb options that reads like the roster of a nutritional all-star team: fresh fruits, dried and freeze-dried fruits, fresh vegetables, whole grain breads, crackers and cereals, baked potatoes (with skins on), beans and peas."
+            "description":"Has the word \"carb\" become a four-letter one in your diet plan? Redefine it by choosing healthy complex carbohydrates that nourish your baby and fuel your energy needs. Here's a list of healthy carb options that reads like the roster of a nutritional all-star team: fresh Fruits, dried and freeze-dried Fruits, fresh vegetables, whole grain breads, crackers and cereals, baked potatoes (with skins on), beans and peas."
         }
     ],
     "checkups_test_vaccines": [
@@ -1396,7 +1396,7 @@
         {
             "image":"https://images.agoramedia.com/wte3.0/gcms/pregnancy-wbw-symptoms-constipation.jpg?width=150",
             "title":"Constipation",
-            "description":"To avoid even more bloating, try to get those bowels moving at their normal — or at least, prepregnancy normal — pace. Besides drinking lots of water, have a go at fruit and vegetable juices, which can also make you go. Or, try hot water and lemon first thing in the morning or last thing at night. Some pregnant women swear by it!"
+            "description":"To avoid even more bloating, try to get those bowels moving at their normal — or at least, prepregnancy normal — pace. Besides drinking lots of water, have a go at Fruit and vegetable juices, which can also make you go. Or, try hot water and lemon first thing in the morning or last thing at night. Some pregnant women swear by it!"
         }
     ],
     "tips":[
@@ -1410,7 +1410,7 @@
         },
         {
             "title":"Fill up on fiber",
-            "description":"Fiber-rich foods — aka roughage — will help you eliminate waste. Eat whole grains, fresh or dried fruits, vegetables, beans and peas. Going for the green can also help you go — and you don't have to rely only on vegetables: A kiwi, for example, packs a potent laxative effect. Aim for 25 to 35 grams of fiber each day, but try to ease into it if you don't eat a lot of fiber already. On the flip side, be sure to cut back on those classic cloggers: refined grains, like white bread, white rice and refined cereals and pasta."
+            "description":"Fiber-rich foods — aka roughage — will help you eliminate waste. Eat whole grains, fresh or dried Fruits, vegetables, beans and peas. Going for the green can also help you go — and you don't have to rely only on vegetables: A kiwi, for example, packs a potent laxative effect. Aim for 25 to 35 grams of fiber each day, but try to ease into it if you don't eat a lot of fiber already. On the flip side, be sure to cut back on those classic cloggers: refined grains, like white bread, white rice and refined cereals and pasta."
         },
         {
             "title":"Get more mileage out of your clothes",
@@ -1625,7 +1625,7 @@
         },
         {
             "title":"Add mangoes to your plate",
-            "description":"All fruits are good for you, but mangoes are particularly great for the pregnant set. They contain more vitamins A and C bite-for-delicious-bite than a salad. This tropical favorite, also packed with potassium, is especially versatile — a perfect complement to sweet and savory dishes. Blend it into smoothies or soups, chop it up in salsas or relishes, or simply scoop and enjoy."
+            "description":"All Fruits are good for you, but mangoes are particularly great for the pregnant set. They contain more vitamins A and C bite-for-delicious-bite than a salad. This tropical favorite, also packed with potassium, is especially versatile — a perfect complement to sweet and savory dishes. Blend it into smoothies or soups, chop it up in salsas or relishes, or simply scoop and enjoy."
         },
         {
             "title":"Photograph your bump",
@@ -1633,7 +1633,7 @@
         },
         {
             "title":"Know that fatigue is normal",
-            "description":"Are your two favorite pastimes sitting and lying down? Pregnancy fatigue is normal. That's because you're running a baby-making factory that's in business 24/7, causing your pregnant body to work harder at rest than your non-pregnant body did on the run. And for the next few weeks, a baby's not the only thing in production — so is the placenta, the magnificently complex mission control that will serve as your baby's life support system until delivery. The result? You feel tired and overworked, even when you’re not doing a darn thing. Your energy should return once the placenta's up and running and your system adjusts as best as it can to the hormonal changes of pregnancy — probably early in the second trimester. In the meantime, keep your blood-sugar levels up with frequent snacks of complex carbs and protein, like cheese and crackers or nuts and dried fruit. Or try a little exercise, which can actually give you an energy boost. Most of all — listen to your body. When it calls for a break, take one."
+            "description":"Are your two favorite pastimes sitting and lying down? Pregnancy fatigue is normal. That's because you're running a baby-making factory that's in business 24/7, causing your pregnant body to work harder at rest than your non-pregnant body did on the run. And for the next few weeks, a baby's not the only thing in production — so is the placenta, the magnificently complex mission control that will serve as your baby's life support system until delivery. The result? You feel tired and overworked, even when you’re not doing a darn thing. Your energy should return once the placenta's up and running and your system adjusts as best as it can to the hormonal changes of pregnancy — probably early in the second trimester. In the meantime, keep your blood-sugar levels up with frequent snacks of complex carbs and protein, like cheese and crackers or nuts and dried Fruit. Or try a little exercise, which can actually give you an energy boost. Most of all — listen to your body. When it calls for a break, take one."
         },
         {
             "title":"Eat a healthy breakfast",
@@ -1678,7 +1678,7 @@
                 "As high doses of vitamin C can upset your stomach and cause diarrhea and nausea"
             ],
             "food": {
-                "fruit": [
+                "Fruit": [
                     {
                         "name": "Orange",
                         "url": "https://drive.google.com/uc?id=1uCxKCnKJz9epn6UivYFy4ARHDKQA5-9q"
@@ -1708,7 +1708,7 @@
                         "url": "https://drive.google.com/uc?id=14Ci4MAiVW4rr_x_qkJOODfmgkSvdu6Eo"
                     }
                 ],
-                "vegetables": [
+                "Vegetables": [
                     {
                         "name": "Asparagus",
                         "url": "https://drive.google.com/uc?id=1CaTi6rQlb-k9U-IJgbyw__Wy9-T5VigJ"
@@ -1719,8 +1719,8 @@
                     }
                 ],
                 "nonveg": [],
-                "dairy": [],
-                "others": []
+                "Dairy": [],
+                "Others": []
             }
         }
     ],
@@ -1771,7 +1771,7 @@
         },
         {
             "title":"Get your C",
-            "description":"Vitamin C is essential for the production of collagen, which bolsters your baby's cartilage, muscles, blood vessels and bones. It also gives a baby's body the ability to repair wounded tissue. And if that's not enough, adequate doses of vitamin C have been linked to a healthy birth weight and a decreased risk of premature rupture of the membranes. Since vitamin C can't be stored, you'll need to make sure you get enough servings daily. You can get your C with the old standard — orange juice and oranges — as well as from a wide variety of delicious fruits, like mangoes, cantaloupe and strawberries, and veggies like red peppers, broccoli, collard greens and vegetable juice."
+            "description":"Vitamin C is essential for the production of collagen, which bolsters your baby's cartilage, muscles, blood vessels and bones. It also gives a baby's body the ability to repair wounded tissue. And if that's not enough, adequate doses of vitamin C have been linked to a healthy birth weight and a decreased risk of premature rupture of the membranes. Since vitamin C can't be stored, you'll need to make sure you get enough servings daily. You can get your C with the old standard — orange juice and oranges — as well as from a wide variety of delicious Fruits, like mangoes, cantaloupe and strawberries, and veggies like red peppers, broccoli, collard greens and vegetable juice."
         },
         {
             "title":"Soothe dry skin",
@@ -1998,7 +1998,7 @@
                         "url": "https://drive.google.com/uc?id=1fV4CzIuJqdn4MAdAVXC4Nu2ZBshL4rMY"
                     },
                     {
-                        "name": "Dark leafy green vegetables",
+                        "name": "Dark leafy green Vegetables",
                         "url": "https://drive.google.com/uc?id=151OVauwNdfNYHLaLE12utyuKViCGPchw"
                     }
                 ],
@@ -2021,13 +2021,13 @@
                 "The average pregnant woman needs about 30 mg of elemental iron per day to meet the new demands of extra blood volume, the developing placenta, and growing fetus."
             ],
             "food": {
-                "fruit": [
+                "Fruit": [
                     {
                         "name": "Kiwi",
                         "url": "https://drive.google.com/uc?id=1CAj1YZ_lC7oGBV-iXXBKnLi0JawmKybW"
                     }
                 ],
-                "vegetables": [],
+                "Vegetables": [],
                 "nonveg": [
                     {
                         "name": "Beef",
@@ -2038,10 +2038,10 @@
                         "url": "https://drive.google.com/uc?id=1TWnEUpOH2De-o53qG2JJFz3zUtpvgMP0"
                     }
                 ],
-                "dairy": [],
-                "others": [
+                "Dairy": [],
+                "Others": [
                     {
-                        "name": "Dried fruit",
+                        "name": "Dried Fruit",
                         "url": "https://drive.google.com/uc?id=1lNcaE_QR5X2ZecIsIphUP24i8-2dHJRK"
                     },
                     {
@@ -2061,11 +2061,11 @@
                 "No Fixed dosage"
             ],
             "food": {
-                "fruit": [],
-                "vegetables": [],
+                "Fruit": [],
+                "Vegetables": [],
                 "nonveg": [],
-                "dairy": [],
-                "others": [
+                "Dairy": [],
+                "Others": [
                     {
                         "name": "Clear broth",
                         "url": "https://drive.google.com/uc?id=1wYz826iNMWe7cMf09c8Hips8URsr9KZO"
@@ -2102,10 +2102,10 @@
                 "If you're 18 or younger, then you need at least 1,300 mg of calcium every day."
             ],
             "food": {
-                "fruit": [],
-                "vegetables": [],
+                "Fruit": [],
+                "Vegetables": [],
                 "nonveg": [],
-                "dairy": [
+                "Dairy": [
                     {
                         "name": "Cheese",
                         "url": "https://drive.google.com/uc?id=1aITk524Ig9oesWNpLu-rNy0Mq-i3CTJ0"
@@ -2115,7 +2115,7 @@
                         "url": "https://drive.google.com/uc?id=194eS8G6thFU0AuMa3s7VVop0iBcR_Qbr"
                     }
                 ],
-                "others": [
+                "Others": [
                     {
                         "name": "Calcium-fortified cereals",
                         "url": "https://drive.google.com/uc?id=1YdTD-cmAnRAQ4XJA5hWZLGXKrUhU0w9P"
@@ -2143,7 +2143,7 @@
         {
             "image":"https://images.agoramedia.com/wte3.0/gcms/pregnancy-wbw-symptoms-constipation.jpg?width=150",
             "title":"Constipation",
-            "description":"Thanks to your hormones, your bowel muscles also relax during pregnancy, which means they'll be less efficient at moving waste out of your system. If you find yourself backed up, slowly start adding more high-fiber foods to your diet, like fruits, vegetables and whole grains, along with plenty of fluids, too.v"
+            "description":"Thanks to your hormones, your bowel muscles also relax during pregnancy, which means they'll be less efficient at moving waste out of your system. If you find yourself backed up, slowly start adding more high-fiber foods to your diet, like Fruits, vegetables and whole grains, along with plenty of fluids, too.v"
         },
         {
             "image":"https://images.agoramedia.com/wte3.0/gcms/pregnancy-wbw-symptoms-visible-veins.jpg?width=150",
@@ -2175,11 +2175,11 @@
         },
         {
             "title":"Eat iron-rich foods",
-            "description":"When you're making a baby, you're in the blood-making business — big-time. Since iron helps generate blood supply, it's a nutrient you'll need plenty of to keep your body's and your baby's supply of red in the black. Up your intake of this vital mineral by eating such iron-rich foods as beef, duck, soy products, spinach, dried fruits and potatoes with the skins on. Your practitioner may also suggest a supplement after week 20 to keep your iron levels high enough as blood demand steps up."
+            "description":"When you're making a baby, you're in the blood-making business — big-time. Since iron helps generate blood supply, it's a nutrient you'll need plenty of to keep your body's and your baby's supply of red in the black. Up your intake of this vital mineral by eating such iron-rich foods as beef, duck, soy products, spinach, dried Fruits and potatoes with the skins on. Your practitioner may also suggest a supplement after week 20 to keep your iron levels high enough as blood demand steps up."
         },
         {
-            "title":"Don't peel some of your fruit",
-            "description":"Baby got you backed up? Stop peeling fruit like apples and peaches. One apple with skin has 4.4 grams of constipation-quelling fiber, while ½ cup of applesauce has just 1 gram. As for apple juice, some drinks may not have any."
+            "title":"Don't peel some of your Fruit",
+            "description":"Baby got you backed up? Stop peeling Fruit like apples and peaches. One apple with skin has 4.4 grams of constipation-quelling fiber, while ½ cup of applesauce has just 1 gram. As for apple juice, some drinks may not have any."
         },
         {
             "title":"Fight off a cold",
@@ -2208,11 +2208,11 @@
                 "No Fixed dosage"
             ],
             "food": {
-                "fruit": [],
-                "vegetables": [],
+                "Fruit": [],
+                "Vegetables": [],
                 "nonveg": [],
-                "dairy": [],
-                "others": [
+                "Dairy": [],
+                "Others": [
                     {
                         "name": "Clear broth",
                         "url": "https://drive.google.com/uc?id=1wYz826iNMWe7cMf09c8Hips8URsr9KZO"
@@ -2252,7 +2252,7 @@
                 "As high doses of vitamin C can upset your stomach and cause diarrhea and nausea"
             ],
             "food": {
-                "fruit": [
+                "Fruit": [
                     {
                         "name": "Orange",
                         "url": "https://drive.google.com/uc?id=1uCxKCnKJz9epn6UivYFy4ARHDKQA5-9q"
@@ -2282,7 +2282,7 @@
                         "url": "https://drive.google.com/uc?id=14Ci4MAiVW4rr_x_qkJOODfmgkSvdu6Eo"
                     }
                 ],
-                "vegetables": [
+                "Vegetables": [
                     {
                         "name": "Asparagus",
                         "url": "https://drive.google.com/uc?id=1CaTi6rQlb-k9U-IJgbyw__Wy9-T5VigJ"
@@ -2293,8 +2293,8 @@
                     }
                 ],
                 "nonveg": [],
-                "dairy": [],
-                "others": []
+                "Dairy": [],
+                "Others": []
             }
         }
     ],
@@ -2341,7 +2341,7 @@
         },
         {
             "title":"Remember to eat",
-            "description":"Are you so busy that you sometimes forget to eat? Put a few \"have you fed your baby?\" reminders wherever you spend a lot of time — like on your dashboard, your computer screen and the bathroom mirror. If you're afraid to eat because you're still feeling queasy, know that nausea can actually be made worse by an empty stomach. Fill your tummy slowly, starting with fluids like water, fruit juices, smoothies and soups, then move on to solids once you think your tender tummy can handle it. Try eating small meals or snacks every two to three hours to help regulate your blood sugar levels and digestion, especially if you're still dealing with morning sickness."
+            "description":"Are you so busy that you sometimes forget to eat? Put a few \"have you fed your baby?\" reminders wherever you spend a lot of time — like on your dashboard, your computer screen and the bathroom mirror. If you're afraid to eat because you're still feeling queasy, know that nausea can actually be made worse by an empty stomach. Fill your tummy slowly, starting with fluids like water, Fruit juices, smoothies and soups, then move on to solids once you think your tender tummy can handle it. Try eating small meals or snacks every two to three hours to help regulate your blood sugar levels and digestion, especially if you're still dealing with morning sickness."
         },
         {
             "title":"Skip the tattoos",
@@ -2353,7 +2353,7 @@
         },
         {
             "title":"Shop smart at the grocery store",
-            "description":"When shopping for groceries, think fresh, not processed. Fresh foods naturally provide more vitamins and minerals, and they contain less sugar, salt, calories, fat and additives than their processed counterparts. A notable exception to fresh-is-always-best: Frozen fruits and vegetables that aren't packed with sugar or salt are often at least as nutritious, or even more so, than fresh produce. Ditto for the canned variety."
+            "description":"When shopping for groceries, think fresh, not processed. Fresh foods naturally provide more vitamins and minerals, and they contain less sugar, salt, calories, fat and additives than their processed counterparts. A notable exception to fresh-is-always-best: Frozen Fruits and vegetables that aren't packed with sugar or salt are often at least as nutritious, or even more so, than fresh produce. Ditto for the canned variety."
         },
         {
             "title":"Choose pregnancy-proof workout gear",
@@ -2507,7 +2507,7 @@
                         "url": "https://drive.google.com/uc?id=1fV4CzIuJqdn4MAdAVXC4Nu2ZBshL4rMY"
                     },
                     {
-                        "name": "Dark leafy green vegetables",
+                        "name": "Dark leafy green Vegetables",
                         "url": "https://drive.google.com/uc?id=151OVauwNdfNYHLaLE12utyuKViCGPchw"
                     }
                 ],
@@ -2534,10 +2534,10 @@
                 "If you're 18 or younger, then you need at least 1,300 mg of calcium every day."
             ],
             "food": {
-                "fruit": [],
-                "vegetables": [],
+                "Fruit": [],
+                "Vegetables": [],
                 "nonveg": [],
-                "dairy": [
+                "Dairy": [
                     {
                         "name": "Cheese",
                         "url": "https://drive.google.com/uc?id=1aITk524Ig9oesWNpLu-rNy0Mq-i3CTJ0"
@@ -2547,7 +2547,7 @@
                         "url": "https://drive.google.com/uc?id=194eS8G6thFU0AuMa3s7VVop0iBcR_Qbr"
                     }
                 ],
-                "others": [
+                "Others": [
                     {
                         "name": "Calcium-fortified cereals",
                         "url": "https://drive.google.com/uc?id=1YdTD-cmAnRAQ4XJA5hWZLGXKrUhU0w9P"
@@ -2646,13 +2646,13 @@
                 "The average pregnant woman needs about 30 mg of elemental iron per day to meet the new demands of extra blood volume, the developing placenta, and growing fetus."
             ],
             "food": {
-                "fruit": [
+                "Fruit": [
                     {
                         "name": "Kiwi",
                         "url": "https://drive.google.com/uc?id=1CAj1YZ_lC7oGBV-iXXBKnLi0JawmKybW"
                     }
                 ],
-                "vegetables": [],
+                "Vegetables": [],
                 "nonveg": [
                     {
                         "name": "Beef",
@@ -2663,10 +2663,10 @@
                         "url": "https://drive.google.com/uc?id=1TWnEUpOH2De-o53qG2JJFz3zUtpvgMP0"
                     }
                 ],
-                "dairy": [],
-                "others": [
+                "Dairy": [],
+                "Others": [
                     {
-                        "name": "Dried fruit",
+                        "name": "Dried Fruit",
                         "url": "https://drive.google.com/uc?id=1lNcaE_QR5X2ZecIsIphUP24i8-2dHJRK"
                     },
                     {
@@ -2720,7 +2720,7 @@
         },
         {
             "title":"Fit in healthy fare",
-            "description":"Do you struggle to fit healthy meals into your day? Adjust your schedule to squeeze in a lunch break — even if it's just a sandwich and a fruit cup. Keep plenty of nutritious snacks on hand that will make feeding you and your baby easy: Stash bags of dried fruit and nuts, dry cereal and crackers in the pantry, and store a supply of individually wrapped cheese sticks, hard-boiled eggs, and yogurt and cottage cheese containers in the fridge."
+            "description":"Do you struggle to fit healthy meals into your day? Adjust your schedule to squeeze in a lunch break — even if it's just a sandwich and a Fruit cup. Keep plenty of nutritious snacks on hand that will make feeding you and your baby easy: Stash bags of dried Fruit and nuts, dry cereal and crackers in the pantry, and store a supply of individually wrapped cheese sticks, hard-boiled eggs, and yogurt and cottage cheese containers in the fridge."
         },
         {
             "title":"Learn baby's fundal height",

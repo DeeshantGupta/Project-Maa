@@ -79,7 +79,7 @@ const Food = () => {
                 <div className='food_need_section_food'>
                     <h5>Need</h5>
                      {
-                     food.need.map((e)=>(
+                     food.need && food.need.map((e)=>(
                         <ul>
                         <li>{e}</li>
                     </ul>
@@ -89,7 +89,7 @@ const Food = () => {
                 <div className='food_need_section_food'>
                     <h5>Dosage</h5>
                     {
-                     food.Dosage.map((e)=>(
+                     food.food.Dosage.map((e)=>(
                         <ul>
                         <li>{e}</li>
                     </ul>
