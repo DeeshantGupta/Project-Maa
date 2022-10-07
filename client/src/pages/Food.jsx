@@ -79,7 +79,7 @@ const Food = () => {
                 <div className='food_need_section_food'>
                     <h5>Need</h5>
                      {
-                     food.need && food.need.map((e)=>(
+                     food.Need && food.Need.map((e)=>(
                         <ul>
                         <li>{e}</li>
                     </ul>
@@ -88,8 +88,9 @@ const Food = () => {
                 </div>
                 <div className='food_need_section_food'>
                     <h5>Dosage</h5>
+                    {console.log("Data is ", food)}
                     {
-                     food.food.Dosage.map((e)=>(
+                     food.Dosage && food.Dosage.map((e)=>(
                         <ul>
                         <li>{e}</li>
                     </ul>
@@ -101,12 +102,12 @@ const Food = () => {
                     <div className='food_detail_section_food'>
                     <h5>Food</h5>
                   {  
-                     (food.food.Fruit.length != 0)?
+                     (food.food.Fruit && food.food.Fruit.length != 0)?
                      <div className='food_category_section_food'>
                      <h6>Fruit</h6>
                        <div className='food_cards_container_food'>
                      {
-                        (food.food.Fruit.map((food)=>(
+                        (food.food.Fruit && food.food.Fruit.map((food)=>(
                             <div className='food_card_food'>
                                 <img src={food.url} alt='food' />
                                 <h4>{food.name}</h4>
@@ -121,12 +122,12 @@ const Food = () => {
                 }
 
 {  
-                     (food.food.Vegetables.length != 0)?
+                     (food.food.Vegetables && food.food.Vegetables.length != 0)?
                      <div className='food_category_section_food'>
                      <h6>Vegetables</h6>
                      <div className='food_cards_container_food'>
                      {
-                        (food.food.Vegetables.map((veg)=>(
+                        (food.food.Vegetables && food.food.Vegetables.map((veg)=>(
                             <div className='food_card_food'>
                                 <img src={veg.url} alt='food' />
                                 <h4>{veg.name}</h4>
@@ -143,12 +144,12 @@ const Food = () => {
                     
                 }
                 {  
-                     (food.food.nonveg.length != 0)?
+                     (food.food.nonveg && food.food.nonveg.length != 0)?
                      <div className='food_category_section_food'>
                      <h6>Non-Vegetables</h6>
                      <div className='food_cards_container_food'>
                      {
-                        (food.food.nonveg.map((nveg)=>(
+                        (food.food.nonveg && food.food.nonveg.map((nveg)=>(
                             <div className='food_card_food'>
                                 <img src={nveg.url} alt='food' />
                                 <h4>{nveg.name}</h4>
@@ -166,12 +167,12 @@ const Food = () => {
                 }
 
 {  
-                     (food.food.Dairy.length != 0)?
+                     (food.food.Dairy && food.food.Dairy.length != 0)?
                      <div className='food_category_section_food'>
                      <h6>Dairy Products</h6>
                      <div className='food_cards_container_food'>
                      {
-                        (food.food.Dairy.map((dp)=>(
+                        (food.food.Dairy && food.food.Dairy.map((dp)=>(
                             <div className='food_card_food'>
                                 <img src={dp.url} alt='food' />
                                 <h4>{dp.name}</h4>
@@ -189,12 +190,12 @@ const Food = () => {
 }
 
 {  
-                     (food.food.Others.length != 0)?
+                     (food.food.Others && food.food.Others.length != 0)?
                      <div className='food_category_section_food'>
                      <h6>Others</h6>
                      <div className='food_cards_container_food'>
                      {
-                        (food.food.Others.map((ot)=>(
+                        (food.food.Others && food.food.Others.map((ot)=>(
                             <div className='food_card_food'>
                                 <img src={ot.url} alt='food' />
                                 <h4>{ot.name}</h4>
