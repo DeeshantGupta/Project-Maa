@@ -243,7 +243,7 @@
   margin-left: 2px;
 }
 
-.form-box_signup input {
+.form-box_signup input, .form-box_signup textarea {
   outline: none;
   padding: 12px 10px;
   width: 100%;
@@ -256,7 +256,7 @@
   background-color: var(--white-color);
 }
 
-.form-box_signup input:hover {
+.form-box_signup input:hover, .form-box_signup textarea:hover {
   border: 1px solid var(--input-hover);
 }
 

@@ -6,11 +6,14 @@ import Dashboard from "./pages/Dashboard";
 import DetailsOne from "./pages/DetailsOne";
 import EmailVerify from "./pages/EmailVerify";
 import Error404 from "./pages/Error404";
+import Features from "./pages/Features";
 import Food from "./pages/Food";
 import ForgotPassword from "./pages/ForgotPassword";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import OTPVerify from "./pages/OTPVerify";
+import Products from "./pages/Products";
+import SignUpDoctor from "./pages/SignUpDoctor";
 import SignUp from "./pages/SignUp";
 import Symptoms from "./pages/Symptoms";
 
@@ -31,6 +34,9 @@ const App = () => {
         <Route exact path="/:id/dashboard" element={<Dashboard />} />
         <Route exact path="/:id/checkups" element={<Checkups />} />
         <Route exact path="/calculator" element={<Calculator1 />} />
+        <Route exact path="/features" element={<Features />} />
+        <Route exact path="/products" element={<Products />} />
+        <Route exact path="/signupdoctor" element={<SignUpDoctor />} />
 
       </Routes>
     </BrowserRouter>

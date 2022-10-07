@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "../components/css/Calculator1Styles.css";
+import HeaderAuth from "../components/jsx/HeaderAuth";
 import HeaderUser from "../components/jsx/HeaderUser";
 import BabyImage from "../img/banner-images/baby-sleep.png";
 
@@ -82,7 +83,7 @@ const Calculator1 = () => {
 
   return (
     <div>
-      <HeaderUser />
+      <HeaderAuth />
 
       <div className="main_container_calculator1">
         <div className="main_box_calculator1">
