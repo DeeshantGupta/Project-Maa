@@ -23,6 +23,7 @@ module.exports = {
         USER: "Users",
         BABY: "Baby",
         OTP: "Otp",
-        MOTHER:"Mother"
+        MOTHER:"Mother",
+        DOCTOR:"Doctor"
     }
 }
