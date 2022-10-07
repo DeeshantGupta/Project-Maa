@@ -44,7 +44,7 @@
                         "url": "https://drive.google.com/uc?id=151OVauwNdfNYHLaLE12utyuKViCGPchw"
                     }
                 ],
-                "Non-Veg": [],
+                "nonveg": [],
                 "Dairy": [],
                 "Others": [
                     {
@@ -156,7 +156,7 @@
                             "url": "https://drive.google.com/uc?id=151OVauwNdfNYHLaLE12utyuKViCGPchw"
                         }
                     ],
-                    "Non-Veg": [],
+                    "nonveg": [],
                     "Dairy": [],
                     "Others": [
                         {
@@ -281,7 +281,7 @@
                             "url": "https://drive.google.com/uc?id=1mZTeCJybqxWq8UdsYJI0eNo5dUHxM43-"
                         }
                     ],
-                    "non-veg": [],
+                    "nonveg": [],
                     "dairy": [],
                     "others": []
                 }
@@ -302,7 +302,7 @@
                         }
                     ],
                     "vegetables": [],
-                    "non-veg": [
+                    "nonveg": [
                         {
                             "name": "Beef",
                             "url": "https://drive.google.com/uc?id=16y2QNGi_KRJghvVjHDFv63pSm7JXl5kW"
@@ -337,7 +337,7 @@
                 "food": {
                     "fruit": [],
                     "vegetables": [],
-                    "non-veg": [],
+                    "nonveg": [],
                     "dairy": [],
                     "others": [
                         {
@@ -372,7 +372,7 @@
                 "food": {
                     "fruit": [],
                     "vegetables": [],
-                    "non-veg": [
+                    "nonveg": [
                         {
                             "name": "Beef",
                             "url": "https://drive.google.com/uc?id=16y2QNGi_KRJghvVjHDFv63pSm7JXl5kW"
@@ -414,7 +414,7 @@
                 "food": {
                     "fruit": [],
                     "vegetables": [],
-                    "non-veg": [],
+                    "nonveg": [],
                     "dairy": [
                         {
                             "name": "Cheese",
@@ -518,7 +518,7 @@
                             "url": "https://drive.google.com/uc?id=1NeRttbeUojK9YXdbYBRH4m4miQbSg6Xy"
                         }
                     ],
-                    "Non-Veg": [
+                    "nonveg": [
                         {
                             "name": "Eggs",
                             "url": "https://drive.google.com/uc?id=1fKbnV27DK_aPOC8PfrrtzXJuqGgIOLSY"
@@ -552,7 +552,7 @@
                 "food": {
                     "Fruit": [],
                     "Vegetables": [],
-                    "Non-Veg": [
+                    "nonveg": [
                         {
                             "name": "Omega-3 enriched eggs",
                             "url": "https://drive.google.com/uc?id=1GpeFdSe2Z8enL_h1eQl-eXjin3vfu4uP"
@@ -676,7 +676,7 @@
                             "url": "https://drive.google.com/uc?id=1BK0CXxPGGex8LZnYiS-YEUtqi6FNNbNH"
                         }
                     ],
-                    "Non-Veg": [],
+                    "nonveg": [],
                     "Dairy": [
                         {
                             "name": "Yogurt",
@@ -715,7 +715,7 @@
                 "food": {
                     "Fruit": [],
                     "Vegetables": [],
-                    "Non-Veg": [],
+                    "nonveg": [],
                     "Dairy": [],
                     "Others": [
                         {
@@ -751,7 +751,7 @@
                             "url": "https://drive.google.com/uc?id=1hyV6RsbThxbKIoN7Iqrj38RIHmbbJbm9"
                         }
                     ],
-                    "Non-Veg": [],
+                    "nonveg": [],
                     "Dairy": [
                         {
                             "name": "Cottage cheese",
@@ -869,7 +869,7 @@
                 "food": {
                     "Fruit": [],
                     "Vegetables": [],
-                    "Non-Veg": [
+                    "nonveg": [
                         {
                             "name": "Omega-3 enriched eggs",
                             "url": "https://drive.google.com/uc?id=1GpeFdSe2Z8enL_h1eQl-eXjin3vfu4uP"
@@ -1047,7 +1047,7 @@
                         "url": "https://drive.google.com/uc?id=1mZTeCJybqxWq8UdsYJI0eNo5dUHxM43-"
                     }
                 ],
-                "non-veg": [],
+                "nonveg": [],
                 "dairy": [],
                 "others": []
             }}
@@ -1177,7 +1177,7 @@
                         "url": "https://drive.google.com/uc?id=1Ut2Yj6Qp4HsJ3iapXZsc3DJVIBmYgMrI"
                     }
                 ],
-                "Non-Veg": [],
+                "nonveg": [],
                 "Dairy": [
                     {
                         "name": "Yogurt",
@@ -1340,7 +1340,7 @@
                         "url": "https://drive.google.com/uc?id=1vvERVGdCeG2qw8Nu16uDovsAhBNgDYGQ"
                     }
                 ],
-                "Non-Veg": [],
+                "nonveg": [],
                 "Dairy": [],
                 "Others": [
                     {
@@ -1489,7 +1489,7 @@
                         "url": "https://drive.google.com/uc?id=1vvERVGdCeG2qw8Nu16uDovsAhBNgDYGQ"
                     }
                 ],
-                "Non-Veg": [],
+                "nonveg": [],
                 "Dairy": [],
                 "Others": [
                     {
@@ -1526,7 +1526,7 @@
             "food": {
                 "Fruit": [],
                 "Vegetables": [],
-                "Non-Veg": [
+                "nonveg": [
                     {
                         "name": "Omega-3 enriched eggs",
                         "url": "https://drive.google.com/uc?id=1GpeFdSe2Z8enL_h1eQl-eXjin3vfu4uP"
@@ -1713,7 +1713,7 @@
                         "url": "https://drive.google.com/uc?id=1mZTeCJybqxWq8UdsYJI0eNo5dUHxM43-"
                     }
                 ],
-                "non-veg": [],
+                "nonveg": [],
                 "dairy": [],
                 "others": []
             }
@@ -1830,7 +1830,7 @@
                         "url": "https://drive.google.com/uc?id=1vvERVGdCeG2qw8Nu16uDovsAhBNgDYGQ"
                     }
                 ],
-                "Non-Veg": [],
+                "nonveg": [],
                 "Dairy": [],
                 "Others": [
                     {
@@ -1967,7 +1967,7 @@
                         "url": "https://drive.google.com/uc?id=151OVauwNdfNYHLaLE12utyuKViCGPchw"
                     }
                 ],
-                "Non-Veg": [],
+                "nonveg": [],
                 "Dairy": [],
                 "Others": [
                     {
@@ -1993,7 +1993,7 @@
                     }
                 ],
                 "vegetables": [],
-                "non-veg": [
+                "nonveg": [
                     {
                         "name": "Beef",
                         "url": "https://drive.google.com/uc?id=16y2QNGi_KRJghvVjHDFv63pSm7JXl5kW"
@@ -2028,7 +2028,7 @@
             "food": {
                 "fruit": [],
                 "vegetables": [],
-                "non-veg": [],
+                "nonveg": [],
                 "dairy": [],
                 "others": [
                     {
@@ -2069,7 +2069,7 @@
             "food": {
                 "fruit": [],
                 "vegetables": [],
-                "non-veg": [],
+                "nonveg": [],
                 "dairy": [
                     {
                         "name": "Cheese",
@@ -2160,7 +2160,7 @@
             "food": {
                 "fruit": [],
                 "vegetables": [],
-                "non-veg": [],
+                "nonveg": [],
                 "dairy": [],
                 "others": [
                     {
@@ -2242,7 +2242,7 @@
                         "url": "https://drive.google.com/uc?id=1mZTeCJybqxWq8UdsYJI0eNo5dUHxM43-"
                     }
                 ],
-                "non-veg": [],
+                "nonveg": [],
                 "dairy": [],
                 "others": []
             }
@@ -2321,7 +2321,7 @@
             "food": {
                 "Fruit": [],
                 "Vegetables": [],
-                "Non-Veg": [
+                "nonveg": [
                     {
                         "name": "Chicken breast",
                         "url": "https://drive.google.com/uc?id=1YisuRVX4MuZRfHPu1fGSwZwua4wcG-FB"
@@ -2378,7 +2378,7 @@
                         "url": "https://drive.google.com/uc?id=1hyV6RsbThxbKIoN7Iqrj38RIHmbbJbm9"
                     }
                 ],
-                "Non-Veg": [],
+                "nonveg": [],
                 "Dairy": [
                     {
                         "name": "Cottage cheese",
@@ -2446,7 +2446,7 @@
                         "url": "https://drive.google.com/uc?id=151OVauwNdfNYHLaLE12utyuKViCGPchw"
                     }
                 ],
-                "Non-Veg": [],
+                "nonveg": [],
                 "Dairy": [],
                 "Others": [
                     {
@@ -2471,7 +2471,7 @@
             "food": {
                 "fruit": [],
                 "vegetables": [],
-                "non-veg": [],
+                "nonveg": [],
                 "dairy": [
                     {
                         "name": "Cheese",
@@ -2507,7 +2507,7 @@
                         "url": "https://drive.google.com/uc?id=1NeRttbeUojK9YXdbYBRH4m4miQbSg6Xy"
                     }
                 ],
-                "Non-Veg": [
+                "nonveg": [
                     {
                         "name": "Eggs",
                         "url": "https://drive.google.com/uc?id=1fKbnV27DK_aPOC8PfrrtzXJuqGgIOLSY"
@@ -2541,7 +2541,7 @@
             "food": {
                 "Fruit": [],
                 "Vegetables": [],
-                "Non-Veg": [
+                "nonveg": [
                     {
                         "name": "Omega-3 enriched eggs",
                         "url": "https://drive.google.com/uc?id=1GpeFdSe2Z8enL_h1eQl-eXjin3vfu4uP"
@@ -2588,7 +2588,7 @@
                     }
                 ],
                 "vegetables": [],
-                "non-veg": [
+                "nonveg": [
                     {
                         "name": "Beef",
                         "url": "https://drive.google.com/uc?id=16y2QNGi_KRJghvVjHDFv63pSm7JXl5kW"

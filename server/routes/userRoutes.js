@@ -18,4 +18,8 @@ router.route(CONSTANTS.USER.POSTDETAILS).post(VALIDATOR.detailsOne,CTRLS.postDet
 
 router.route(CONSTANTS.USER.MOTHERCHILDINFO).get(CTRLS.motherChildInfo);
 
+router.route(CONSTANTS.USER.MOTHERFOOD).get(CTRLS.motherFood);
+
+router.route(CONSTANTS.USER.BABYCHANGES).get(CTRLS.babyChanges);
+
 module.exports = router;

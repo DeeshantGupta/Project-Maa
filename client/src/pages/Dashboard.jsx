@@ -24,28 +24,33 @@ const Dashboard = () => {
 
     const [motherChild,setMotherChild] = useState([]);
 
+    const [motherTips,setMotheTips] = useState({});
+
     const getUser = async()=>{
-      console.log("User");
       axios.get(`http://localhost:5000/user/getuser/${id}`).then(({data})=>{
+        console.log(data);
         setUserInfo(data);
       }) 
     }
 
     const motherChildInfo = async()=>{
-      console.log("Called");
       axios.get(`http://localhost:5000/user/motherchildinfo/${id}`).then(({data})=>{
+        console.log(data);
         setMotherChild(data.info);
       }); 
     }
 
-    console.log(motherChild);
+    const tipsMother = async()=>{
+      axios.get(`http://localhost:5000/user/motherfood/${id}`).then(({data})=>{
+        console.log(data);
+        setMotheTips(data);
+    }); 
+    }
 
     useEffect(()=>{
       
       const verifyUser = ()=>{
-        console.log("UseEffect");
         if(!cookies.jwt){
-          console.log("Login");
           navigate('/login');
         }else{
           axios.post(`http://localhost:5000/user/checkuser`,{},{
@@ -53,13 +58,13 @@ const Dashboard = () => {
           }).then(({data})=>{
             console.log(data);
             if(data.id != id){
-            console.log("First If");
               removeCookie("jwt");
               navigate('/login');
             }else{
-               console.log("In else");
+             
+               getUser();
                motherChildInfo();
-              getUser();
+               tipsMother();
             }
           })
         }
@@ -68,7 +73,6 @@ const Dashboard = () => {
       verifyUser() ;
     
     },[cookies,navigate,removeCookie]);
-
 
   return (
     <div>
@@ -113,7 +117,7 @@ const Dashboard = () => {
            </div>
 
            <div className='cards_container_dashboard'>
-             <Link to="/food">
+             <Link to={`/${id}/food`}>
              <div className='card_box_dashboard'>
                <div className='card_top_section_dashboard'>
                  <h3>Fruits and Vegetables</h3>
@@ -127,7 +131,7 @@ const Dashboard = () => {
              </div>
              </Link>
 
-             <Link to="/symptoms">
+             <Link to={`/${id}/symptoms`}>
              <div className='card_box_dashboard'>
                <div className='card_top_section_dashboard'>
                  <h3>Symptoms</h3>
@@ -141,7 +145,7 @@ const Dashboard = () => {
              </div>
              </Link>
 
-             <Link to="/excercise">
+             <Link to={`/${id}/excercise`}>
              <div className='card_box_dashboard'>
                <div className='card_top_section_dashboard'>
                  <h3>Excercises</h3>
@@ -155,7 +159,7 @@ const Dashboard = () => {
              </div>
              </Link>
 
-             <Link to="/checkups">
+             <Link to={`/${id}/checkups`}>
              <div className='card_box_dashboard'>
                <div className='card_top_section_dashboard'>
                  <h3>Checkup & Scans</h3>
@@ -174,15 +178,17 @@ const Dashboard = () => {
          <div className='bottom_section_dashboard'>
            <h2>Tips for You This Week</h2>
            <div className='tip_container_dashboard'>
-             <div className='tip_box_dashboard'>
-               <h4>Ask about inducing labor</h4>
-               <p>Baby is now officially late. Since your uterus is likely becoming less hospitable, if you don't go into labor on your own, your practitioner will likely schedule you to be induced sometime this week. Whether you have an induction, or baby makes an arrival without help, you'll have to be tested for COVID-19 before delivering.</p>
-             </div>
 
-             <div className='tip_box_dashboard'>
-               <h4>Ask about inducing labor</h4>
-               <p>Baby is now officially late. Since your uterus is likely becoming less hospitable, if you don't go into labor on your own, your practitioner will likely schedule you to be induced sometime this week. Whether you have an induction, or baby makes an arrival without help, you'll have to be tested for COVID-19 before delivering.</p>
-             </div>
+            {
+              (motherTips.tips.length != 0)?
+                (motherTips.tips.map((tip)=>(
+               <div className='tip_box_dashboard'>
+               <h4>{tip.title}</h4>
+               <p>{tip.description}</p>
+              </div>
+                ))):""
+             
+             }
            </div>
          </div>
         </div>:""
