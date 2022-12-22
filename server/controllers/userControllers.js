@@ -120,15 +120,15 @@ module.exports = {
     },
     async call(req, res){
         console.log("Reached")
-        const accountSid = "AC0b910ce91744feeb0781bbfd0a3d418d";
-  const authToken = "41e4ae48d612f51927b171d3ecb6bc7e";
+        const accountSid = "AC4609afa426878374c38ff4a9527b4138";
+  const authToken = "eb222f3823ad7bc5e90178a99300ab70";
   const client = require('twilio')(accountSid, authToken);
 
   client.calls
   .create({
     url: 'http://demo.twilio.com/docs/voice.xml',
-    to: '+918076557751',
-    from: '+19725285815'
+    to: '+919717185450',
+    from: '+16692094193'
   })
   .then(call => res.send({message: "Sent"}));
     }
