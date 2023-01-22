@@ -41,21 +41,18 @@ const Dashboard = () => {
 
     const getUser = async()=>{
       axios.get(`http://localhost:5000/user/getuser/${id}`).then(({data})=>{
-        console.log(data);
         setUserInfo(data);
       }) 
     }
 
     const motherChildInfo = async()=>{
       axios.get(`http://localhost:5000/user/motherchildinfo/${id}`).then(({data})=>{
-        console.log(data);
         setMotherChild(data.info);
       }); 
     }
 
     const tipsMother = async()=>{
       axios.get(`http://localhost:5000/user/motherfood/${id}`).then(({data})=>{
-        console.log(data);
         setMotheTips(data);
     }); 
     }
@@ -69,10 +66,7 @@ const Dashboard = () => {
           axios.post(`http://localhost:5000/user/checkuser`,{},{
             withCredentials:true,
           }).then(({data})=>{
-            console.log(data);
             if(data.id != id){
-              console.log("hii 99")
-
               removeCookie("jwt");
               navigate('/login');
             }else{
@@ -193,7 +187,6 @@ const Dashboard = () => {
          <div className='bottom_section_dashboard'>
            <h2>Tips for You This Week</h2>
            <div className='tip_container_dashboard'>
-            {console.log("Tips are ", motherChild)}
                      {
                       motherTips && motherTips.length != 0 && (
                         motherTips.tips && motherTips.tips.length != 0 && motherTips.tips.map((tip)=>(
