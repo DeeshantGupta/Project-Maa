@@ -1,6 +1,9 @@
 const User = require("../db/models/userModel");
 const Baby = require("../db/models/babyModel");
 const Mother = require("../db/models/motherModel");
+// const { response } = require("express");
+const twilio = require('twilio');
+
 
 module.exports = {
 
@@ -114,6 +117,20 @@ module.exports = {
         }catch(err){
             console.log(err);
         }
+    },
+    async call(req, res){
+        console.log("Reached")
+        const accountSid = "AC0b910ce91744feeb0781bbfd0a3d418d";
+  const authToken = "41e4ae48d612f51927b171d3ecb6bc7e";
+  const client = require('twilio')(accountSid, authToken);
+
+  client.calls
+  .create({
+    url: 'http://demo.twilio.com/docs/voice.xml',
+    to: '+918076557751',
+    from: '+19725285815'
+  })
+  .then(call => res.send({message: "Sent"}));
     }
 
 }
