@@ -8,7 +8,7 @@ import Risk from "../img/banner-images/badhealth.png"
 const CTGScan = () => {
     const [formErrors, setFormErrors] = useState({});
     const [isSubmit, setIsSubmit] = useState(false);
-    const [isResult, setIsResult] = useState(true);
+    const [isResult, setIsResult] = useState(false);
    
   
     const handleForm = (e) => {
@@ -22,6 +22,7 @@ const CTGScan = () => {
     const submitForm = (e) => {
       e.preventDefault();
     //   setFormErrors(validate(user));
+    console.log(user)
       setIsSubmit(true);
     }
   
