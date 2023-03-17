@@ -3,8 +3,10 @@ import HeaderUser from '../components/jsx/HeaderUser';
 import "../components/css/CTGScanStyles.css";
 import CTGImage from "../img/banner-images/ctgscan1.png";
 import Healthy from "../img/banner-images/goodhealth.png"
+
 import Risk from "../img/banner-images/badhealth.png"
 import axios from 'axios';
+
 
 const CTGScan = () => {
     const [formErrors, setFormErrors] = useState({});
@@ -23,7 +25,9 @@ const CTGScan = () => {
     const submitForm = (e) => {
       e.preventDefault();
     //   setFormErrors(validate(user));
+
       callFunc() ;
+
       setIsSubmit(true);
       
     }

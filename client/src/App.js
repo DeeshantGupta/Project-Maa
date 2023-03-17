@@ -17,6 +17,7 @@ import SignUpDoctor from "./pages/SignUpDoctor";
 import SignUp from "./pages/SignUp";
 import Symptoms from "./pages/Symptoms";
 import CTGScan from "./pages/CTGScan";
+import CTGScanResult from "./pages/CTGScanResult";
 
 const App = () => {
   return (  
@@ -39,6 +40,7 @@ const App = () => {
         <Route exact path="/products" element={<Products />} />
         <Route exact path="/signupdoctor" element={<SignUpDoctor />} />
         <Route exact path="/ctgscan" element={<CTGScan />} />
+        <Route exact path="/ctgresult" element={<CTGScanResult />} />
 
       </Routes>
     </BrowserRouter>
