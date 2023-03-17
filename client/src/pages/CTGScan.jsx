@@ -4,11 +4,12 @@ import "../components/css/CTGScanStyles.css";
 import CTGImage from "../img/banner-images/ctgscan1.png";
 import Healthy from "../img/banner-images/goodhealth.png"
 import Risk from "../img/banner-images/badhealth.png"
+import axios from 'axios';
 
 const CTGScan = () => {
     const [formErrors, setFormErrors] = useState({});
     const [isSubmit, setIsSubmit] = useState(false);
-    const [isResult, setIsResult] = useState(true);
+    const [isResult, setIsResult] = useState(false);
    
   
     const handleForm = (e) => {
@@ -22,9 +23,20 @@ const CTGScan = () => {
     const submitForm = (e) => {
       e.preventDefault();
     //   setFormErrors(validate(user));
+      callFunc() ;
       setIsSubmit(true);
+      
     }
   
+    function callFunc(){
+        console.log("Called", user) ;
+       axios.post("http://localhost:5000/scan/ctg",user).then((data)=>{
+        console.log(data) ;
+       }).catch((err)=>{
+            console.log(err) ;
+       })
+    }
+
     const validate = (values) => {
       
       const errors = {};
