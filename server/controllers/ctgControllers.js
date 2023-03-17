@@ -5,8 +5,7 @@ module.exports.ctgScan = async (req, res) => {
         const { user } = req.body;
         console.log(req.body)
         axios.post("http://127.0.0.1:8000/core/test", req.body).then((data) => {
-            console.log(data.data);
-            return data;
+           res.send(data)
         }).catch((err) => {
             console.log(err);
         })

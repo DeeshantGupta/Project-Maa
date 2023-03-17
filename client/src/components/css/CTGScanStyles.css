@@ -72,7 +72,7 @@
 }
 
 .result_section_ctgscan {
-    width: 60%;
+    width: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -85,7 +85,7 @@
 }
 
 .bad_ctgscan {
-    background-color: #FF8585;
+    background-color: #FFADAD;
 }
 
 .result_box_ctgscan {
@@ -112,8 +112,8 @@
 }
 
 .bad_health_ctgscan {
-    border: 30px solid #FF0000;
-    background-color: #FF3333;
+    border: 30px solid #FF4747;
+    background-color: #FF5C5C;
 }
 
 .good_health_ctgscan img {
@@ -141,5 +141,60 @@
     font-family: 'Sarala', sans-serif;
     width: 80%;
     text-align: center;
-    color: #E00000;
+    color: #fff;
+}
+
+
+
+
+
+.main_result_box_ctgscan {
+    width: 100%;
+    padding: 50px;
+}
+
+.main_result_container_ctgscan {
+    border: 1px solid #eee;
+    /* margin: 30px; */
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+}
+
+.graph_container_ctgscan {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    grid-gap: 25px;
+}
+
+.graph_container_ctgscan h2{
+    font-size: 35px;
+    font-weight: 800;
+    color: #3a69eb;
+}
+
+.linechart_container_ctgscan p {
+    display: flex;
+    font-size: 18px;
+    font-weight: 500;
+    color: dimgray;
+    padding: 0 50px 0 0;
+}
+
+.linechart_container_ctgscan {
+    display: flex;}
+
+.linechart_box_ctgscan {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+
 }

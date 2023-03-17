@@ -8,11 +8,23 @@ import Risk from "../img/banner-images/badhealth.png"
 import axios from 'axios';
 
 
+import {
+    LineChart,
+    Line,
+    XAxis,
+    YAxis,
+    CartesianGrid,
+    Tooltip,
+    Legend
+  } from "recharts";
+
+
 const CTGScan = () => {
     const [formErrors, setFormErrors] = useState({});
     const [isSubmit, setIsSubmit] = useState(false);
     const [isResult, setIsResult] = useState(false);
-   
+    const [isResult2, setIsResult2] = useState(true);
+    const [div, setDiv] = useState(true);
   
     const handleForm = (e) => {
       const {name, value} = e.target;
@@ -24,10 +36,7 @@ const CTGScan = () => {
   
     const submitForm = (e) => {
       e.preventDefault();
-    //   setFormErrors(validate(user));
-
       callFunc() ;
-
       setIsSubmit(true);
       
     }
@@ -35,7 +44,7 @@ const CTGScan = () => {
     function callFunc(){
         console.log("Called", user) ;
        axios.post("http://localhost:5000/scan/ctg",user).then((data)=>{
-        console.log(data) ;
+        setIsResult(true);
        }).catch((err)=>{
             console.log(err) ;
        })
@@ -69,8 +78,8 @@ const CTGScan = () => {
     }
 
     const [user, setUser] = useState({
-        baselineValue: "",
-        accelerations: "",
+        baselineValue: "10",
+        accelerations: "20",
         fetalMovement: "",
         uterineContractions: "",
         lightDecelerations: "",
@@ -92,10 +101,67 @@ const CTGScan = () => {
         histogramTendency: "",
       });
 
+
+
+      const data = [
+        {
+          name: "UC",
+          uv: 4000,
+          CTGScan: user.uterineContractions,
+          amt: 2400
+        },
+        {
+          name: "Base",
+          uv: 3000,
+          CTGScan: user.baselineValue,
+          amt: 2210
+        },
+        {
+          name: "Acc.",
+          uv: 2000,
+          CTGScan: user.accelerations,
+          amt: 2290
+        },
+        {
+          name: "FM",
+          uv: 2780,
+          CTGScan: user.fetalMovement,
+          amt: 2000
+        },
+        {
+          name: "PD",
+          uv: 1890,
+          CTGScan: user.prolonguedDecelerations,
+          amt: 2181
+        },
+        {
+          name: "LD",
+          uv: 2390,
+          CTGScan: user.lightDecelerations,
+          amt: 2500
+        },
+        {
+          name: "PLT",
+          uv: 3490,
+          CTGScan: user.percentageLongTermVariability,
+          amt: 2100
+        }
+      ];
+
+
+
+
+
+
+
+
+
+
   return (
     <div>
         <HeaderUser />
-      <div className='main_container_ctgscan'>
+      {isResult2 ? (
+        <div className='main_container_ctgscan'>
         <div className='main_box_ctgscan'>
             <div className='left_section_ctgscan'>
                 <img src={CTGImage} alt='ctg' />
@@ -237,8 +303,78 @@ const CTGScan = () => {
             
         </div>
       </div>
+      ) : (
+      <div className='main_result_box_ctgscan'>
+         <div className='main_result_container_ctgscan'>
+        
+        <div className='graph_container_ctgscan'>
+            <h2>CTG Scan Results</h2>
+            <LineChart
+      width={480}
+      height={330}
+      data={data}
+      margin={{
+        top: 0,
+        right: 0,
+        left: 0,
+        bottom: 0
+      }}
+    >
+      <CartesianGrid strokeDasharray="3 3" />
+      <XAxis dataKey="name" />
+      <YAxis />
+      <Tooltip />
+      <Legend />
+      <Line
+        type="monotone"
+        dataKey="CTGScan"
+        stroke="#82ca9d"
+        activeDot={{ r: 8 }}
+      />
+      {/* <Line type="monotone" dataKey="uv" stroke="#82ca9d" /> */}
+            </LineChart>
+            <div className='linechart_container_ctgscan'>
+                <div className='linechart_box_ctgscan'>
+                    <p>Uterine Contraction : {user.uterineContractions}</p>
+                    <p>Baseline Value : {user.baselineValue}</p>
+                    <p>Accelerations : {user.accelerations}</p>
+                    <p>Fetal Movement : {user.fetalMovement}</p>
+                </div>
+            
+                <div className='linechart_box_ctgscan'>
+                    <p>Prolongued Decelerations : {user.prolonguedDecelerations}</p>
+                    <p>Light Decelerations : {user.lightDecelerations}</p>
+                    <p>Long Term Variability : {user.percentageLongTermVariability}</p>
+                </div>
+
+
+            </div>
+        </div>
+
+        {div ? (
+            <div className='result_section_ctgscan good_ctgscan'>
+            <div className='result_box_ctgscan'>
+                <div className='circle_result_container_ctgscan good_health_ctgscan'>
+                    <img src={Healthy} alt='health' />
+                    <p>Your's baby health and development is good.</p>
+                </div>
+            </div>
+        </div>
+        ) : (
+        <div className='result_section_ctgscan bad_ctgscan'>
+                <div className='result_box_ctgscan'>
+                    <div className='circle_result_container_ctgscan bad_health_ctgscan'>
+                        <img src={Healthy} alt='health' />
+                        <p>Your's baby need doctor attention immediately.</p>
+                    </div>
+                </div>
+            </div>
+)}
+       </div>
+      </div>
+      )}
     </div>
   )
 }
 
-export default CTGScan;
+export default CTGScan ;
