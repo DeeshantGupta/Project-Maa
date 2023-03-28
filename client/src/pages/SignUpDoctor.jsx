@@ -49,7 +49,7 @@ const SignUpDoctor = () => {
 
   useEffect(() => {
     if( Object.keys(formErrors).length === 0 && isSubmit ){
-      axios.post("http://localhost:5000/auth/signup", user)
+      axios.post("http://localhost:5000/user/doctorsignup", user)
       .then( res => {
         if(res.data.errors){
           setFormErrors(res.data.errors)
