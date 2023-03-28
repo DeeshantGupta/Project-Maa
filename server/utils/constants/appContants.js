@@ -13,7 +13,8 @@ module.exports = {
         POSTDETAILS:"/postdetails/:id",
         MOTHERCHILDINFO:"/motherchildinfo/:id",
         MOTHERFOOD:"/motherfood/:id",
-        BABYCHANGES:"/babychanges/:id"
+        BABYCHANGES:"/babychanges/:id",
+        DOCTOR:"/doctorsignup"
     },
     ROUTES: {
         AUTH: "/auth",

@@ -15,7 +15,7 @@ module.exports = {
 
             const { name, email, designation, hospital_name_address, image, description } = req.body;
 
-            const doctor = new Doctor.create({
+            const doctor = new Doctor({
                 name,
                 email,
                 designation,

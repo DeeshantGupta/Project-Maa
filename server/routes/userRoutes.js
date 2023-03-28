@@ -6,6 +6,8 @@ const CONSTANTS = require("../utils/constants/appContants");
 
 const CTRLS = require("../controllers/userControllers");
 
+const CTRLS2 = require("../controllers/doctorControllers");
+
 const VALIDATOR = require("../middlewares/Validations/userValidations");
 
 const VERIFY = require("../middlewares/Auth/userAuth");
@@ -21,5 +23,7 @@ router.route(CONSTANTS.USER.MOTHERCHILDINFO).get(CTRLS.motherChildInfo);
 router.route(CONSTANTS.USER.MOTHERFOOD).get(CTRLS.motherFood);
 
 router.route(CONSTANTS.USER.BABYCHANGES).get(CTRLS.babyChanges);
+
+router.route(CONSTANTS.USER.DOCTOR).post(CTRLS2.registerDoctor);
 
 module.exports = router;
