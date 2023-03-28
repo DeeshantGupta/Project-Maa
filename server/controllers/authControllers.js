@@ -131,9 +131,9 @@ module.exports = {
             }
             else {
                 const doctor = await Doctor.findOne({ email });
-                console.log("Doctor") ;
+             
                 if (doctor) {
-                    console.log("Id : "+doctor._id) ;
+                    
                     if (password == doctor.password) {
     
                         const token = generateToken(doctor._id);
