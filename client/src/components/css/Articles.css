@@ -1,12 +1,4 @@
-.main_container_homebanner6 {
-    width: 100%;
-    padding: 50px 40px 30px 40px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    grid-gap: 25px;
-    background-color: var(--header-bg);
-  }
+
 
   .main_container_article {
     padding: 50px 70px 30px 70px;
