@@ -14,11 +14,11 @@ const connect = require("./db/connection");
 
 const authRoute = require("./routes/authRoutes");
 const userRoute = require("./routes/userRoutes");
-
+const ctgRoute = require("./routes/ctgRoutes");
 const CONSTANT = require("./utils/constants/appContants");
 
 app.use(cors({
-    origin: ["http://localhost:3000"],
+    origin: ["http://localhost:3000","http://127.0.0.1:8000"],
     method: ["GET", "POST", "DELETE", "PUT"],
     credentials: true
 }));
@@ -29,6 +29,7 @@ app.use(cookieParser());
 
 app.use(CONSTANT.ROUTES.AUTH, authRoute);
 app.use(CONSTANT.ROUTES.USER, userRoute);
+app.use("/scan", ctgRoute);
 
 app.listen(port, () => {
     console.log(`Server is listening on ${port}`);

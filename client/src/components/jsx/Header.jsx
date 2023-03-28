@@ -32,6 +32,7 @@ const Header = () => {
       </div>
 
       <div className={click ? "right_section_header active_header" : "right_section_header"}>
+        <Link to="/features">Features</Link>
         <div className="button_container_header">
           <button onClick={() => navigate("/login")} className="btn_light_header">Log in</button>
           <button onClick={() => navigate("/signup")} className="btn_primary_header">Sign Up</button>

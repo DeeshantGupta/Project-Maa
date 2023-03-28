@@ -9,9 +9,22 @@ import Checkup from "../img/banner-images/checkup.png";
 import { Link ,useNavigate , useParams} from 'react-router-dom';
 import { useCookies } from 'react-cookie';
 import { useEffect,useState } from 'react';
+import { FiPhoneCall } from "react-icons/fi";
 import axios from "axios";
 
 const Dashboard = () => {
+
+  
+
+  const callNumber = () => {
+    axios.post(`http://localhost:5000/user/call/${id}`).then(({data}) => {
+      console.log(data);
+    })
+  // 
+
+  }
+
+
     const image = "https:drive.google.com/file/d/1QtjuQz6Zb_xsUWZRIViGGX-dZtgijXgb/view?usp=sharing";
 
     const navigate = useNavigate();
@@ -197,6 +210,11 @@ const Dashboard = () => {
              } */}
            </div>
          </div>
+
+         <div className='call_container_dashboard' onClick={callNumber}>
+          <FiPhoneCall className="call_icon_dashboard" />
+         </div>
+
         </div>:""
       }
       <Footer />

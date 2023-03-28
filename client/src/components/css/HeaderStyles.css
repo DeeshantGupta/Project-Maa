@@ -32,6 +32,12 @@
     align-items: center;
     justify-content: space-around;
   }
+
+  .right_section_header a {
+    color: var(--primary-dark);
+    font-size: 18px;
+    font-weight: 500;
+  }
   
   .left_section_header .intern_header {
     margin-left: 2.188rem;

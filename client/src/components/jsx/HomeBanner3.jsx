@@ -11,7 +11,7 @@ const HomeBanner3 = () => {
         </div>
 
         <div className='bottom_section_homebanner3'>
-          <iframe className='video_homebanner3' src="https://www.youtube.com/embed/u1tuXwxm2tA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe className='video_homebanner3' src="https://www.youtube.com/embed/izOa3-AX8zQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </div>
     </div>

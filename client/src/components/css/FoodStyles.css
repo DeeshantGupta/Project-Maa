@@ -52,6 +52,9 @@
     flex-direction: column;
     grid-gap: 10px;
     margin-left: 40px;
+    padding-right: 40px;
+    flex-wrap: wrap;
+    overflow: hidden;
 }
 
 .food_need_section_food h5 {
