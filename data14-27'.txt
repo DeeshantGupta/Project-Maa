@@ -1,0 +1,143 @@
+{
+"nutrient_id": 
+"Need":[]
+"Dosage":[]
+"food":{
+	"Fruit": [
+		{"name":
+		 "url": 
+		}
+	],
+	"Vegetables":[
+		{"name":,
+		 "url":
+		}
+	],
+	"nonveg" : [],
+	"Dairy" : [],
+	"Others": []
+},
+{
+"nutrient_id":
+........
+}
+
+
+
+
+week - 16
+
+1. Iron - whole grains, fruits and vegetables, low-fat protein, unsaturated fats
+
+2. Spinach, broccoli
+
+3. bean, tomato-based broths  
+
+
+week - 17
+
+
+1. Iron
+2. Protein
+3. Calcium
+4. Folate
+
+
+
+
+https://www.medicalnewstoday.com/articles/322285#what-to-eat
+Second trimester- 
+
+
+Tags-
+1. Vitamin-A
+2. Folate
+3. Vitamin-C
+4. Iron
+
+
+5. Fruit
+6. Vegetables
+7. nonveg
+8. Dairy
+9. Others
+
+
+1. Iron (completed) - done
+	a. lean meat - https://drive.google.com/file/d/1thKRIw0RyPa_cV10pW_Jtkc5-HUgDnI2/view?usp=share_link
+	b. cooked seafood - https://drive.google.com/file/d/1XzAsYds1U41qyhFFrrTLhM2uUA_4Ni-Y/view?usp=share_link
+	c. leafy green vegetables - https://drive.google.com/file/d/10JDKHYJoqnfILIpxCEtrYSMUUHQw3Vxn/view?usp=share_link
+	d. nuts - https://drive.google.com/file/d/1b_UdZfQHiobXSCtyXuhCWaAcpVrs7Gey/view?usp=share_link
+	e. beans and lentils - https://drive.google.com/file/d/1evIh8pi7PuP5rJTJ4BxEJX2Kq9ED4S72/view?usp=share_link
+	f. whole grain bread - https://drive.google.com/file/d/1xbtuiyiPAxdZnveFEREN1OuSnTYUYBYQ/view?usp=share_link
+	g. fortified breakfast cereals - https://drive.google.com/file/d/1YdTD-cmAnRAQ4XJA5hWZLGXKrUhU0w9P/view?usp=share_link
+
+
+
+2. Vitamin-C (completed) - done
+	a. Oranges - https://drive.google.com/file/d/1uCxKCnKJz9epn6UivYFy4ARHDKQA5-9q/view?usp=share_link
+	b. Strawberries - https://drive.google.com/file/d/1WsXu6Jhnqv_eND4NqSEyZLTyCoStWeks/view?usp=share_link
+	c. tomatoes - https://drive.google.com/file/d/14Ci4MAiVW4rr_x_qkJOODfmgkSvdu6Eo/view?usp=share_link
+
+
+
+
+
+
+4. Calcium
+	a. dairy (milk, yogurt, pasteurized cheese)
+	b. eggs - https://drive.google.com/file/d/12lbbZj63ilhvGQabY1Ef5F-w2BofiM5-/view?usp=share_link
+	c. tofu - https://drive.google.com/file/d/13nS7RlbuLjI_3phrkIR8Y5RmVSxltoZu/view?usp=share_link
+	d. white beans
+	e. almonds
+	f. sardines and salmon (with bones)
+	g. broccoli https://drive.google.com/file/d/1YYG5mLNAtwgZRqULhABf77gcnV3s09Nn/view?usp=share_link
+	h. calcium-fortified fruit juices and breakfast cereals
+
+5. Folate
+	a. black-eyed peas and other legumes
+	b. fortified cereals
+	c. dark green leafy vegetables, including 	   spinach, cabbage, and collard greens
+	d. oranges
+	e. whole grains, such as rice
+
+6. Vitamin- D
+	a. Fresh tuna- https://drive.google.com/file/d/1aSrce-lellem_Nfxt8HSaHLEhkffcWPA/view?usp=share_link
+	
+	b. fish liver oils
+	c. beef liver
+	d. cheese - https://drive.google.com/file/d/12iMvIYckG0nHDz7Ovle8w4A0K_fdBWcz/view?usp=share_link
+	e. egg yolks
+	f. UV-exposed mushrooms
+	g. fortified juices and other drinks
+
+7. Omega-3 fatty acids
+	a. oily fish, including salmon, mackerel, fresh 	   tuna, herring and sardines
+	b. fish oil
+	c. flaxseeds
+	d. chia seeds
+
+
+
+3. Protein
+	a. lean meats - https://drive.google.com/file/d/1thKRIw0RyPa_cV10pW_Jtkc5-HUgDnI2/view?usp=share_link
+	b. nuts - https://drive.google.com/file/d/1b_UdZfQHiobXSCtyXuhCWaAcpVrs7Gey/view?usp=share_link
+	c. tofu and tempeh - https://drive.google.com/file/d/13nS7RlbuLjI_3phrkIR8Y5RmVSxltoZu/view?usp=share_link
+	d. eggs - https://drive.google.com/file/d/1UArW3R2Y6Dw0YuNGN_26uRVNpoiSwdSR/view?usp=share_link
+	
+	e. fish (cooked, not raw)
+
+	f. Beans and lentils - https://drive.google.com/file/d/1evIh8pi7PuP5rJTJ4BxEJX2Kq9ED4S72/view?usp=share_link
+
+Tags-
+1. Vitamin-A
+2. Folate
+3. Vitamin-C
+4. Iron
+
+
+5. Fruit
+6. Vegetables
+7. nonveg
+8. Dairy
+9. Others

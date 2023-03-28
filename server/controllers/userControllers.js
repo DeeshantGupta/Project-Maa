@@ -116,17 +116,17 @@ module.exports = {
   },
 
   async call(req, res) {
+
     const accountSid = "AC4609afa426878374c38ff4a9527b4138";
-    const authToken = "9eadf04e0fdfa27a367564ef8d528f3d";
+    const authToken = "674f3c392d7ad7081941f2a8aeb91b1b";
     const client = require("twilio")(accountSid, authToken);
 
-    client.calls
-      .create({
-        url: "http://demo.twilio.com/docs/voice.xml",
-        to: "+919717185450",
-        from: "+16692094193",
-      })
-      .then((call) => console.log("Called"))
+    client.calls.create({
+      url: "http://demo.twilio.com/docs/voice.xml",
+      to: "+919717185450",
+      from: "+16692094193",
+    })
+      .then(call => console.log(call.sid))
       .catch((err) => console.log("Call Error" + err));
   },
 };

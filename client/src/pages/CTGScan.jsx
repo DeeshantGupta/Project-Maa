@@ -43,8 +43,10 @@ const CTGScan = () => {
   
     function callFunc(){
         console.log("Called", user) ;
-       axios.post("http://localhost:5000/scan/ctg",user).then((data)=>{
-        setIsResult(true);
+       axios.post("http://localhost:5000/scan/ctg",user).then(({data})=>{
+       console.log(data) ;
+       setIsResult2(false);
+        setDiv(!data);
        }).catch((err)=>{
             console.log(err) ;
        })
@@ -78,8 +80,8 @@ const CTGScan = () => {
     }
 
     const [user, setUser] = useState({
-        baselineValue: "10",
-        accelerations: "20",
+        baselineValue: "",
+        accelerations: "",
         fetalMovement: "",
         uterineContractions: "",
         lightDecelerations: "",
