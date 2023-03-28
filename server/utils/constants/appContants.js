@@ -14,11 +14,7 @@ module.exports = {
         MOTHERCHILDINFO:"/motherchildinfo/:id",
         MOTHERFOOD:"/motherfood/:id",
         BABYCHANGES:"/babychanges/:id",
-<<<<<<< HEAD
         DOCTOR:"/doctorsignup"
-=======
-        CALL:"/call/:id"
->>>>>>> 7ade032d894f30b34edf2d2b791018befc4c6667
     },
     ROUTES: {
         AUTH: "/auth",

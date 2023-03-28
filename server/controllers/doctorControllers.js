@@ -12,8 +12,14 @@ module.exports = {
 
     async registerDoctor(req, res) {
         try {
+           
+            const { name, email, designation, hospital_name_address, image, description , password} = req.body;
+    
+            const doc =  await Doctor.findOne({email});
 
-            const { name, email, designation, hospital_name_address, image, description } = req.body;
+            if(doc){
+               return res.send({errors : "Email Already Exist !"});
+            }
 
             const doctor = new Doctor({
                 name,
@@ -21,10 +27,13 @@ module.exports = {
                 designation,
                 hospital_name_address,
                 image,
-                description
+                description , 
+                password
             });
 
             await doctor.save();
+
+            res.send({ message: "true" }) ;
 
         } catch (err) {
             console.log(err);

@@ -232,9 +232,11 @@
   font-size: 14px;
   font-weight: 800;
 }
+
 .box7_signup input[id="cb1"] {
   display: none;
 }
+
 
 .form-box_signup label {
   font-weight: 700;

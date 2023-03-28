@@ -12,6 +12,9 @@ const doctorSchema = new mongoose.Schema({
         email:{
             type:String
         },
+        password : {
+            type : String
+        },
         hospital_name_address:{
             type:String
         },
@@ -20,6 +23,14 @@ const doctorSchema = new mongoose.Schema({
         },
         description:{
             type:String
+        },
+        detailsFlag :{
+            type : Boolean , 
+            default : false 
+        },
+        verified : {
+            type: Boolean , 
+            default : false 
         }
 });
 

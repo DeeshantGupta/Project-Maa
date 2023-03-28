@@ -1,6 +1,6 @@
 const User = require("../db/models/userModel");
 const Otp = require("../db/models/otpModel");
-
+const Doctor = require("../db/models/doctorModel") ;
 const bcrypt = require("bcryptjs");
 
 const jwt = require("jsonwebtoken");
@@ -56,8 +56,6 @@ async function sendEmail({ email }) {
     }
 }
 
-
-
 const generateOtp = async ({ email }) => {
     try {
 
@@ -73,7 +71,6 @@ const generateOtp = async ({ email }) => {
 }
 
 module.exports = {
-
     async register(req, res) {
         try {
 
@@ -98,13 +95,12 @@ module.exports = {
 
                 await newUser.save();
 
-                res.send({ message: "true" });
+                return res.send({ message: "true" }) ;
 
             }
         } catch (err) {
             console.log(err);
         }
-
     },
     async login(req, res) {
         try {
@@ -127,20 +123,39 @@ module.exports = {
                         maxAge: maxAge * 1000
                     })
 
-                    res.send({ message: true, verified: user.verified, id:user._id, flag : user.detailsFlag });
+                   return res.send({ message: true, verified: user.verified, id:user._id, flag : user.detailsFlag , type : "mother"  });
                 }
                 else {
-                    res.send({ message: "Invalid Credentials" });
+                   return res.send({ message: "Invalid Credentials" });
                 }
             }
             else {
-                res.send({ message: "Invalid Credentials" });
+                const doctor = await Doctor.findOne({ email });
+                console.log("Doctor") ;
+                if (doctor) {
+                    console.log("Id : "+doctor._id) ;
+                    if (password == doctor.password) {
+    
+                        const token = generateToken(doctor._id);
+    
+                        res.cookie("jwt", token, {
+                            withCredentials: true,
+                            httpOnly: false,
+                            maxAge: maxAge * 1000
+                        })
+    
+                       return res.send({ message: true, verified: doctor.verified, id : doctor._id, flag : doctor.detailsFlag , type : "doctor" });
+                    }
+                    else {
+                       return res.send({ message: "Invalid Credentials" });
+                    }
             }
 
-        } catch (err) {
-            console.log(err);
         }
-    },
+    }catch (err) {
+        console.log(err);
+    }
+},
     async verifyEmail(req, res) {
 
         try {
@@ -149,15 +164,14 @@ module.exports = {
             const user = await User.findOne({ email });
 
             if (user) {
-
                 if (req.query.type == "register") {
                     if (user.verified == false) {
                         sendEmail(user).then(res => console.log("Email sent !"))
                             .catch(err => console.log(err));
-                        res.send({ message: "true", type: "register" });
+                        return res.send({ message: "true", type: "register" });
                     }
                     else {
-                        res.send({ message: " Already Verified " });
+                        return res.send({ message: " Already Verified " });
                     }
 
                 }
@@ -165,16 +179,28 @@ module.exports = {
                     if (user.verified == true) {
                         sendEmail(user).then(res => console.log("Email sent !"))
                         .catch(err => console.log(err));
-                        res.send({ message: "true", type: "forgotpassword" });
+                        return res.send({ message: "true", type: "forgotpassword" });
                     } else {
-                        res.send({ message: "Invalid" });
+                        return res.send({ message: "Invalid" });
                     }
                 }
-
-
             }
             else {
-                res.send({ message: "Invalid Credentials" });
+                const doctor = await Doctor.findOne({ email }) ;
+
+                if(doctor){
+                    if (req.query.type == "register") {
+                        if (doctor.verified == false) {
+                            sendEmail(doctor).then(res => console.log("Email sent !"))
+                                .catch(err => console.log(err));
+                            return res.send({ message: "true", type: "register" });
+                        }
+                        else {
+                            res.send({ message: " Already Verified " });
+                        }
+                    }
+                }
+                return res.send({ message: "Invalid Credentials" });
             }
         } catch (err) {
             console.log(err);
@@ -190,11 +216,13 @@ module.exports = {
         const user = await Otp.findOne({ email });
 
         if (user) {
+            console.log("In user ") ;
             if (user.expiredAt.getTime() < Date.now()) {
                 res.send({ message: "Code Expired" });
                 await Otp.deleteOne({ email });
 
-            } else {
+            } 
+            else {
 
                 if (otp != user.otp) {
                     res.send({ message: "Invalid Otp" });
@@ -211,15 +239,28 @@ module.exports = {
                             }
                         })
                         await Otp.deleteOne({ email });
-                        res.send({ message: "true" });
+                        return res.send({ message: "true" });
                     }
                     else {
+                        
+                        const registerDoctor = await Doctor.findOne({ email });
+                        
+                        if (registerDoctor) {
+                            await Doctor.updateOne({ email }, {
+                                $set: {
+                                    verified: true
+                                }
+                            })
+                            await Otp.deleteOne({ email });
+                           return res.send({ message: "true" });
+                        }
+
                         res.send({ message: "Invalid Credentials !" });
                     }
                 }
             }
         } else {
-            res.send({ message: "Invalid Credentials" });
+            return res.send({ message: "Invalid Credentials" });
         }
 
     },
@@ -241,5 +282,4 @@ module.exports = {
             res.send({ message: "true" });
         }
     }
-
 }

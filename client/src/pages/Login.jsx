@@ -52,19 +52,21 @@ const Login = () => {
       .then( ({data}) => {
         console.log(data);
         if(data.errors){
-          console.log("Errors");
           setFormErrors(data.errors);
         }
-        else if(data.message == true && data.flag == true){
-          console.log("Dashboard");
+        else if(data.message == true && data.flag == true && data.type == "mother"){
              navigate(`/${data.id}/dashboard`);
         }
-        else if(data.message && data.flag == false ){
-          console.log("Detailsone");
+        else if(data.message && data.flag == false && data.type == "mother"){
           navigate(`/user/${data.id}/detailsone`);
         }
+        else if(data.mesaage == true && data.flag == true && data.type == "doctor"){
+          navigate(`/user/${data.id}/doctors/dashboard`);
+        }
+        else if(data.message == true && data.flag == false && data.type == "doctor"){
+          navigate(`/user/${data.id}/doctors/detailsone`);
+        }
         else {
-          console.log("Final");
             setFormErrors({final: data.message})
         }
       });

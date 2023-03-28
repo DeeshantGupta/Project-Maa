@@ -30,7 +30,8 @@ const SignUpDoctor = () => {
     designation: "",
     hospital: "",
     image: "",
-    description: ""
+    description: "",
+    password : ""
   });
 
   const handleForm = (e) => {
@@ -165,32 +166,38 @@ const SignUpDoctor = () => {
                   <input type="email" name="email" placeholder="Your Email Address" value={user.email} onChange={handleForm} />
                   <p className="errors-msg_signup">{formErrors.email}</p>
                 </div>
- 
+
                 <div className="form-box_signup box3_signup">
+                  <label>Password</label>
+                  <input type="password" name="password" placeholder="Password" value={user.password} onChange={handleForm} />
+                  <p className="errors-msg_signup">{formErrors.email}</p>
+                </div>
+ 
+                <div className="form-box_signup box4_signup">
                   <label>Designation</label>
                   <input type="text" name="designation" placeholder="Your Designation" value={user.designation} onChange={handleForm} />
                   <p className="errors-msg_signup">{formErrors.designation}</p>
                 </div>
 
-                <div className="form-box_signup box4_signup">
+                <div className="form-box_signup box5_signup">
                   <label>Hospital Name</label>
                   <input type="text" name="hospital" placeholder="Enter Hospital Name" value={user.hospital} onChange={handleForm} />
                   <p className="errors-msg_signup">{formErrors.hospital}</p>
                 </div>
 
-                <div className="form-box_signup box5_signup">
+                <div className="form-box_signup box6_signup">
                   <label>Your Image</label>
                   <input type="url" name="image" placeholder="Your Image URL" value={user.image} onChange={handleForm} />
                   <p className="errors-msg_signup">{formErrors.image}</p>
                 </div>
 
-                <div className="form-box_signup box6_signup">
+                <div className="form-box_signup box7_signup">
                   <label>Description</label>
                   <textarea rows={2} name="description" placeholder="Enter Description" value={user.description} onChange={handleForm}></textarea>
                   <p className="errors-msg_signup">{formErrors.description}</p>
                 </div>
 
-                <div className="box7_signup">
+                <div className="box8_signup">
                   <div>
                   <input type="checkbox" id="cb1" onClick={() => setCheckboxCheck(!checkboxCheck)} />
                   <label for="cb1"></label>
