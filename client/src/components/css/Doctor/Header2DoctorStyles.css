@@ -104,7 +104,7 @@
   color: #82c3c5;
 }
 
-img {
+.left_section_header2Doctor img {
   width: 60px;
 }
 
@@ -290,7 +290,7 @@ img {
 }
 
 @media screen and (max-width: 500px) {
-  img {
+  .left_section_header2Doctor img {
     width: 100px;
   }
 
