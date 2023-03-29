@@ -13,7 +13,7 @@ const InfoDoctor = ({theme, setTheme}) => {
   return (
     <SidebarDoctor  theme={theme} setTheme={setTheme}>
         <Routes>
-            <Route exact path="/dashboard" element={<DashboardDoctor />}  />
+            <Route exact path="/:id/dashboard" element={<DashboardDoctor />}  />
             {/* <Route exact path="/listings" element={<ListingsCompany />} />
             <Route exact path="/profile" element={<ProfileCompany />} />
             <Route exact path="/addinternship" element={<AddInternshipCompany />} />
