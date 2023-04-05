@@ -25,5 +25,7 @@ router.route(CONSTANTS.USER.MOTHERFOOD).get(CTRLS.motherFood);
 router.route(CONSTANTS.USER.BABYCHANGES).get(CTRLS.babyChanges);
 
 router.route(CONSTANTS.USER.DOCTOR).post(CTRLS2.registerDoctor);
-// router.route(CONSTANTS.USER.CALL).post(CTRLS.call);
+
+router.route(CONSTANTS.USER.CALL).post(CTRLS.call);
+
 module.exports = router;

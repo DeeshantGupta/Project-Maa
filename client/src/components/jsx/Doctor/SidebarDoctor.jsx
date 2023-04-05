@@ -147,11 +147,11 @@ const SidebarDoctor = ({ children, theme, setTheme }) => {
           variants={scoreAnimation} className="score_section2_sidebar">
             {
               (companydetails.isAuthorized === "Applied")?(
-                <h6>You can not post oppurtunity until you are verified by Us.</h6>
+                <h6></h6>
               ):(companydetails.isAuthorized === "Verified" ? (
                 <button className="btn_light_sidebar" onClick={()=>navigate(`/company/info/${id}/addinternship?type=newinternship`)}>Post Opportunity</button> 
               ): (
-              <h6>You can not post oppurtunity as you are blocked by us.</h6>)
+              <h6></h6>)
               )
             }
           

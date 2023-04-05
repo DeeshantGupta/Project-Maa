@@ -18,5 +18,4 @@ router.route(CONSTANTS.AUTH.VERIFYOTP).post(VALIDATOR.verifyOtp,CTRLS.verifyOtp)
 
 router.route(CONSTANTS.AUTH.NEWPASSWORD).post(VALIDATOR.newPassword,CTRLS.newPassword);
 
-
 module.exports = router;

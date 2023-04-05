@@ -67,6 +67,10 @@
     font-weight: 400;
 }
 
+.top_section_sidebar img {
+    width: 70px;
+}
+
 .user_image_container_sidebar img {
     width: 80px;
 }

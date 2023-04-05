@@ -3,28 +3,29 @@ module.exports = {
     AUTH: {
         REGISTER: "/signup",
         LOGIN: "/login",
-        VERIFYEMAIL:"/verifyemail",
-        VERIFYOTP:"/verifyotp",
-        NEWPASSWORD:"/newpassword"
+        VERIFYEMAIL: "/verifyemail",
+        VERIFYOTP: "/verifyotp",
+        NEWPASSWORD: "/newpassword"
     },
-    USER:{
-        CHECKUSER:"/checkuser",
-        GETUSER:"/getuser/:id",
-        POSTDETAILS:"/postdetails/:id",
-        MOTHERCHILDINFO:"/motherchildinfo/:id",
-        MOTHERFOOD:"/motherfood/:id",
-        BABYCHANGES:"/babychanges/:id",
-        DOCTOR:"/doctorsignup"
+    USER: {
+        CHECKUSER: "/checkuser",
+        GETUSER: "/getuser/:id",
+        POSTDETAILS: "/postdetails/:id",
+        MOTHERCHILDINFO: "/motherchildinfo/:id",
+        MOTHERFOOD: "/motherfood/:id",
+        BABYCHANGES: "/babychanges/:id",
+        CALL: "/call",
+        DOCTOR: "/doctorsignup"
     },
     ROUTES: {
         AUTH: "/auth",
-        USER:"/user"
+        USER: "/user"
     },
     MODELS: {
         USER: "Users",
         BABY: "Baby",
         OTP: "Otp",
-        MOTHER:"Mother",
-        DOCTOR:"Doctor"
+        MOTHER: "Mother",
+        DOCTOR: "Doctor"
     }
 }

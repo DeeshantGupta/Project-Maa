@@ -117,8 +117,9 @@ module.exports = {
 
   async call(req, res) {
 
+    console.log("In call");
     const accountSid = "AC4609afa426878374c38ff4a9527b4138";
-    const authToken = "674f3c392d7ad7081941f2a8aeb91b1b";
+    const authToken = "2ef230a5c2be79448b050cad6286d923";
     const client = require("twilio")(accountSid, authToken);
 
     client.calls.create({

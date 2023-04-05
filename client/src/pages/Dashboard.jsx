@@ -17,9 +17,10 @@ const Dashboard = () => {
   
 
   const callNumber = () => {
-    axios.post(`http://localhost:5000/user/call/${id}`).then(({data}) => {
+    console.log("Call")
+    axios.post(`http://localhost:5000/user/call`).then(({data}) => {
       console.log(data);
-    })
+    }).catch(err => console.log(err)) ;
   // 
 
   }
