@@ -26,6 +26,11 @@ router.route(CONSTANTS.USER.BABYCHANGES).get(CTRLS.babyChanges);
 
 router.route(CONSTANTS.USER.DOCTOR).post(CTRLS2.registerDoctor);
 
+<<<<<<< HEAD
 router.route(CONSTANTS.USER.DOCTORINFO).get(CTRLS2.DoctorInfo);
 // router.route(CONSTANTS.USER.CALL).post(CTRLS.call);
+=======
+router.route(CONSTANTS.USER.CALL).post(CTRLS.call);
+
+>>>>>>> 6f8024cc83ecf8cb45b0c2d00e7457c514459f49
 module.exports = router;

@@ -1,13 +1,18 @@
 import React from 'react'
 import { IoIosCheckmarkCircle } from 'react-icons/io'
-import Header from '../components/jsx/Header'
+import Header from '../components/jsx/Header';
+import PricingImg from "../img/pricing.png";
+import "../components/css/PricingStyles.css"
 
 const Pricing = () => {
   return (
-    <div>
+
       <div className='main_container_pricing'>
         <Header />
-        <div className='main_box_pricing'>
+        <div className='main_img_pricing'>
+            <img src={PricingImg} alt="pricing" />
+        </div>
+        {/* <div className='main_box_pricing'>
             <div className='main_block_pricing'>
                 <div className='top_section_pricing'>
                     <h2>Our Services Has <br></br>Friendly Packages</h2>
@@ -81,9 +86,9 @@ const Pricing = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </div> */}
       </div>
-    </div>
+
   )
 }
 

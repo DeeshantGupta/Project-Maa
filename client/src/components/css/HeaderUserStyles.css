@@ -106,7 +106,7 @@
     transform: scaleX(1);
   }
   
-  img {
+  .left_section_headerUser img {
     width: 70px;
   }
   
@@ -251,7 +251,7 @@
   }
   
   @media screen and (max-width: 500px) {
-    img {
+    .left_section_headerUser img {
       width: 70px;
     }
   
