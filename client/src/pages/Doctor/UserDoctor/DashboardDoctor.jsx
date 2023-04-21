@@ -20,7 +20,7 @@ const DashboardDoctor = () => {
 
   const {id} = useParams()
   
-  const [companydetails,setCompanyDetails] = useState({})
+  const [doctordetails,setDoctorDetails] = useState({})
  
   const [companyInfoDetails,setCompanyInfoDetails] = useState({})
 
@@ -87,7 +87,6 @@ const DashboardDoctor = () => {
     return errors;
   }
 
-
   const [isModal2, setIsModal2] = useState(false);
   const [formErrors2, setFormErrors2] = useState({});
   const [isSubmit2, setIsSubmit2] = useState(false);
@@ -148,17 +147,18 @@ const DashboardDoctor = () => {
     return errors;
   }
 
-  const getCompanyInfo = ()=>{
-    axios.get(process.env.REACT_APP_SERVER_URL + `company/getcompanyinfo/${id}`).then(({data})=>{
-    setCompanyDetails(data)
-})
+  const getDoctorInfo = ()=>{
+    console.log("Called !") ;
+    axios.get(`http://localhost:5000/user/doctor/info/${id}`).then(({data})=>{
+      console.log(data) ;
+    setDoctorDetails(data) ;
+}).catch(err => console.log(err)) ;
 }
 
 const getCompanyDetails = ()=>{
   axios.get(process.env.REACT_APP_SERVER_URL + `company/getcompanydetails/${id}`).then(({data})=>{
     setCompanyInfoDetails(data)
     setTimeout(() => {
-    //   setIsPageLoading(false)
     },800)
 }) 
 }
@@ -170,8 +170,7 @@ const getCompanyDetails = ()=>{
       if(!cookies.jwt){
         navigate('/login')
       }else{
-        // setIsPageLoading(true)
-        axios.post(process.env.REACT_APP_SERVER_URL + `company`,{},{
+        axios.post(`http://localhost:5000/user/checkuser`,{},{
           withCredentials:true,
         }).then(({data})=>{
 
@@ -179,10 +178,7 @@ const getCompanyDetails = ()=>{
             removeCookie("jwt")
             navigate('/login')
           }else{
-            
-             getCompanyInfo()
-             getCompanyDetails()
-            // navigate(`/company/info/${id}/dashboard`)
+             getDoctorInfo() ;
           } 
         })
       }
@@ -191,7 +187,7 @@ const getCompanyDetails = ()=>{
     verifyCompany()  
   
     if( Object.keys(formErrors).length === 0 && isSubmit ){
-        axios.put(process.env.REACT_APP_SERVER_URL + `company/editprofile/${id}`,{
+        axios.put(`http://localhost:5000/user/doctor/editprofile/${id}`,{
           ...editDetailsProfile
         }).then(({data})=>{
           if(data.message){
@@ -211,8 +207,8 @@ const getCompanyDetails = ()=>{
         if(data.message){
           setIsModal2(!isModal2)
           setIsSubmit2(false)
-          getCompanyInfo()
-          getCompanyDetails()
+          getDoctorInfo() ;
+          getCompanyDetails() ;
         }
         else{
           setFormErrors(data.errors);
@@ -222,7 +218,7 @@ const getCompanyDetails = ()=>{
   }
   },[formErrors, formErrors2,cookies,setCookie,removeCookie]);
 
-  const initials = companydetails.companyname
+  const initials = doctordetails.name ;
   const name_initials=typeof initials==="string" ?initials.split('')[0]:""
 
 
@@ -243,10 +239,10 @@ const getCompanyDetails = ()=>{
   const editAccountDetails = ()=>{
     setIsModal2(!isModal2);
     setAccountInfo({...accountInfo,
-    name:companydetails.name,
-    companyname:companydetails.companyname,
-    designation:companydetails.designation, 
-    mobile: companydetails.phoneno
+    name:doctordetails.name,
+    companyname:doctordetails.companyname,
+    designation:doctordetails.designation, 
+    mobile: doctordetails.phoneno
   })
   }
 
@@ -276,11 +272,11 @@ const getCompanyDetails = ()=>{
           <div className='top_details_section_dashboardDoctor'>
             <div className='left_details_section_dashboardDoctor'>
               <div className='logo_container_dashboardDoctor'>
-                SB
+                {name_initials}
               </div>
               <div className='info_container_dashboardDoctor'>
-                <h2>Dr. Satish Dabra</h2>
-                <p>AIIMS Hospital , Delhi, New Delhi</p>
+                <h2>Dr. {doctordetails.name}</h2>
+                <p>{doctordetails.hhospital} , Delhi, New Delhi</p>
               </div>
               <HiOutlinePencil onClick={setEditProfile} className="edit_icon2_dashboardDoctor" />
             </div>
@@ -420,31 +416,31 @@ const getCompanyDetails = ()=>{
             <form>
               <div className="form_box_dashboardDoctor">
                 <label>Name</label>
-                <input type="text" name="name" defaultValue={companydetails.name} placeholder="Enter Your Name" onChange={handleForm2} />
+                <input type="text" name="name" defaultValue={doctordetails.name} placeholder="Enter Your Name" onChange={handleForm2} />
                 <p className="errors_msg_dashboardDoctor">{formErrors2.name}</p>
               </div>
 
               <div className="form_box_dashboardDoctor">
                 <label>Company Name</label>
-                <input type="text" name="companyname" defaultValue={companydetails.companyname} placeholder="Enter Company Name" onChange={handleForm2} />
+                <input type="text" name="companyname" defaultValue={doctordetails.companyname} placeholder="Enter Company Name" onChange={handleForm2} />
                 <p className="errors_msg_dashboardDoctor">{formErrors2.companyname}</p>
               </div>
 
       <div className="form_box_dashboardDoctor">
         <label>Designation</label>
-        <input type="text" name="designation" defaultValue={companydetails.designation} placeholder="Enter Your Designation" onChange={handleForm2} />
+        <input type="text" name="designation" defaultValue={doctordetails.designation} placeholder="Enter Your Designation" onChange={handleForm2} />
         <p className="errors_msg_dashboardDoctor">{formErrors2.designation}</p>
       </div>
 
          <div className="form_box_dashboardDoctor">
            <label>Mobile Number</label>
-           <input type="number" defaultValue={companydetails.phoneno}  name="mobile" placeholder="Enter Phone Number" onChange={handleForm2}/>
+           <input type="number" defaultValue={doctordetails.phoneno}  name="mobile" placeholder="Enter Phone Number" onChange={handleForm2}/>
            <p className="errors_msg_dashboardDoctor">{formErrors2.mobile}</p>
          </div>
 
          <div className='form_box_dashboardDoctor'>
           <label>Email Address</label>
-          <input readOnly value={companydetails.email} type="email"></input>
+          <input readOnly value={doctordetails.email} type="email"></input>
          </div>
 
          <div className='modal_bottom_section_dashboardDoctor'>

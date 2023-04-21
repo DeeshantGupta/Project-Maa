@@ -78,6 +78,22 @@ module.exports = {
         } catch (err) {
             console.log(err);
         }
+    },
+    async DoctorInfo(req,res){
+        try{
+            
+            console.log(id) ;
+            const {id} = req.params() ;
+
+            const doctor = await Doctor.findById({_id : id}) ;
+
+            if(doctor){
+                return res.send(doctor) ;
+            }
+
+        }catch(err){
+            console.log(err) ;
+        }
     }
 
 }

@@ -61,10 +61,10 @@ const Login = () => {
           navigate(`/user/${data.id}/detailsone`);
         }
         else if(data.mesaage == true && data.flag == true && data.type == "doctor"){
-          navigate(`/user/${data.id}/doctors/dashboard`);
+          navigate(`/doctor/info/${data.id}/dashboard`);
         }
         else if(data.message == true && data.flag == false && data.type == "doctor"){
-          navigate(`/user/${data.id}/doctors/detailsone`);
+          navigate(`/doctor/info/${data.id}/detailsone`);
         }
         else {
             setFormErrors({final: data.message})
