@@ -7,17 +7,6 @@ module.exports = {
         VERIFYOTP: "/verifyotp",
         NEWPASSWORD: "/newpassword"
     },
-<<<<<<< HEAD
-    USER:{
-        CHECKUSER:"/checkuser",
-        GETUSER:"/getuser/:id",
-        POSTDETAILS:"/postdetails/:id",
-        MOTHERCHILDINFO:"/motherchildinfo/:id",
-        MOTHERFOOD:"/motherfood/:id",
-        BABYCHANGES:"/babychanges/:id",
-        DOCTOR:"/doctorsignup",
-        DOCTORINFO: "/doctor/info/:id"
-=======
     USER: {
         CHECKUSER: "/checkuser",
         GETUSER: "/getuser/:id",
@@ -26,8 +15,8 @@ module.exports = {
         MOTHERFOOD: "/motherfood/:id",
         BABYCHANGES: "/babychanges/:id",
         CALL: "/call",
-        DOCTOR: "/doctorsignup"
->>>>>>> 6f8024cc83ecf8cb45b0c2d00e7457c514459f49
+        DOCTOR: "/doctorsignup",
+        RECOMMEND:"/recommend"
     },
     ROUTES: {
         AUTH: "/auth",
