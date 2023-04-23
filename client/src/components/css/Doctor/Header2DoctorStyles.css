@@ -10,7 +10,7 @@
   left: 0;
   /* box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1); */
   margin: 0;
-  background-color: #d5fffe;
+  background-color: #d7e5f5;
 }
 
 .left_section_header2Doctor {
@@ -60,7 +60,7 @@
 
 .right_section_header2Doctor a {
   text-decoration: none;
-  color: #82c3c5;
+  color: var(--menu-link);
   font-weight: 700;
   font-size: 1rem;
   position: relative;
@@ -72,7 +72,7 @@
   width: 100%;
   height: 2px;
   border-radius: 4px;
-  background-color: #82c3c5;
+  background-color: var(--menu-link);
   bottom: 0;
   left: 0;
   transform-origin: right;
@@ -172,7 +172,7 @@
   right: 5%;
   border-radius: 8px;
   z-index: 900;
-  background-color: #d5fffe;
+  background-color: #d7e5f5;
   box-shadow: 0 0 4px 0 rgb(0, 0, 0, 0.1);
 }
 
