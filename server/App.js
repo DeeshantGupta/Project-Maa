@@ -12,6 +12,8 @@ const cors = require("cors");
 
 const app = express();
 
+const ChatForum = require("./db/models/ChatForumModel") ;
+
 const port = 5000 || process.env.PORT;
 
 const connect = require("./db/connection");
@@ -45,8 +47,19 @@ const io = new Server(server , {
 });
 
 io.on("connection",(socket)=>{
-    socket.on("send_message",(data)=>{
-       socket.broadcast.emit("receive_message",data) ;
+    socket.on("send_message",async(data)=>{
+        let cf = await ChatForum.findOne({}) ;
+        if(cf == null){
+             cf =  ChatForum.create({
+                chats :{
+                    message : data.message
+                }
+               }) ;
+        }else{
+            cf.chats.push({message : data.message});
+            cf.save();
+        }
+       socket.broadcast.emit("receive_message",cf.chats.reverse()) ;
     })
 })
 

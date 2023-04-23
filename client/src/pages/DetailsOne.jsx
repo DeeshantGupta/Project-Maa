@@ -4,7 +4,7 @@ import { BsArrowRightShort } from "react-icons/bs";
 import HeaderAuth from "../components/jsx/HeaderAuth";
 import { useNavigate,useParams } from "react-router-dom";
 import axios from 'axios'
-import {useCookies} from 'react-cookie'
+import {useCookies} from 'react-cookie';
 
 const DetailsOne = () => {
 
