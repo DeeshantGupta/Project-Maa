@@ -21,6 +21,8 @@ import CTGScanResult from "./pages/CTGScanResult";
 import Articles from "./pages/Articles";
 import InfoDoctor from "./pages/Doctor/InfoDoctor";
 import Pricing from "./pages/Pricing";
+import Food2 from "./pages/Food2";
+import ChatForum from "./pages/ChatForum";
 
 const App = () => {
   return (  
@@ -34,6 +36,7 @@ const App = () => {
         <Route exact path="/forgotpassword/:email" element={<ForgotPassword />} />        
         <Route exact path="*" element={<Error404 />} />
         <Route exact path="/:id/food" element={<Food />} />
+        <Route exact path="/foods" element={<Food2 />} />
         <Route exact path="/:id/symptoms" element={<Symptoms />} />
         <Route exact path="/user/:id/detailsone" element={<DetailsOne />} />
         <Route exact path="/:id/dashboard" element={<Dashboard />} />
@@ -45,6 +48,7 @@ const App = () => {
         <Route exact path="/ctgscan" element={<CTGScan />} />
         <Route exact path="/ctgresult" element={<CTGScanResult />} />
         <Route exact path="/articles" element={<Articles />} />
+        <Route exact path="/chatforum" element={<ChatForum />} />
 
 
         {/* <Route exact path="/doctor/info/:id/*" element={<InfoDoctor />} /> */}
