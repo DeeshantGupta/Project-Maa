@@ -8,8 +8,8 @@
 }
 
 .sidebar_container_sidebar {
-    background-color: #d5fffe;
-    color: #82c3c5;
+    background-color: #d7e5f5;
+    color: #3695eb;
     height: 100vh;
     overflow-y: hidden;
     /* display: flex;
@@ -44,7 +44,7 @@
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
-    background-color: #82c3c5;
+    background-color: #3695eb;
     border-radius: 7px;
 }
 
@@ -106,7 +106,7 @@
     padding: 13px 6px;
     background-color: var(--background-secondary);
     border-radius: 50%;
-    border: 3px solid #d5fffe; 
+    border: 3px solid #d7e5f5; 
     display: flex;
     align-items: center;
     justify-content: center;
