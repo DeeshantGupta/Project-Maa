@@ -21,6 +21,7 @@ import CTGScanResult from "./pages/CTGScanResult";
 import Articles from "./pages/Articles";
 import InfoDoctor from "./pages/Doctor/InfoDoctor";
 import Pricing from "./pages/Pricing";
+import chatForum from "./components/jsx/chatForum/chatForum";
 
 const App = () => {
   return (  
@@ -46,6 +47,7 @@ const App = () => {
         <Route exact path="/ctgresult" element={<CTGScanResult />} />
         <Route exact path="/articles" element={<Articles />} />
 
+        <Route exact path="/chatforum" element={<chatForum/>} />
 
         {/* <Route exact path="/doctor/info/:id/*" element={<InfoDoctor />} /> */}
         <Route exact path="/doctor/info/*" element={<InfoDoctor />} />

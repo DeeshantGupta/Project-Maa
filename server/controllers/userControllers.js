@@ -131,11 +131,12 @@ module.exports = {
   },
   async recommendFood(req , res){
      try{
-        axios.get("http://localhost:8000/recommend/food",{
-          diabeties : 0
-        }).then((data)=>{
-            console.log(data) ;
-        })
+      console.log("I am here") ;
+        // axios.get("http://localhost:8000/recommend/food",{
+        //   diabeties : 0
+        // }).then((data)=>{
+        //     console.log(data) ;
+        // })
      }catch(err){
       console.log(err) ;
      }
