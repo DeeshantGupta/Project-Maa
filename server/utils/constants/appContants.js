@@ -7,16 +7,16 @@ module.exports = {
         VERIFYOTP: "/verifyotp",
         NEWPASSWORD: "/newpassword"
     },
-    USER:{
-        CHECKUSER:"/checkuser",
-        GETUSER:"/getuser/:id",
-        POSTDETAILS:"/postdetails/:id",
-        MOTHERCHILDINFO:"/motherchildinfo/:id",
-        MOTHERFOOD:"/motherfood/:id",
-        BABYCHANGES:"/babychanges/:id",
-        DOCTOR:"/doctorsignup",
-        DOCTORINFO: "/doctor/info/:id",
-        CALL: "/call"
+    USER: {
+        CHECKUSER: "/checkuser",
+        GETUSER: "/getuser/:id",
+        POSTDETAILS: "/postdetails/:id",
+        MOTHERCHILDINFO: "/motherchildinfo/:id",
+        MOTHERFOOD: "/motherfood/:id",
+        BABYCHANGES: "/babychanges/:id",
+        CALL: "/call",
+        DOCTOR: "/doctorsignup",
+        RECOMMEND:"/recommend"
     },
     ROUTES: {
         AUTH: "/auth",
@@ -27,6 +27,7 @@ module.exports = {
         BABY: "Baby",
         OTP: "Otp",
         MOTHER: "Mother",
-        DOCTOR: "Doctor"
+        DOCTOR: "Doctor",
+        CHATFORUM:"chatforum"
     }
 }

@@ -4,13 +4,21 @@ const express = require("express");
 
 const cookieParser = require("cookie-parser");
 
+const http = require("http") ;
+
+const {Server} = require("socket.io") 
+
 const cors = require("cors");
 
 const app = express();
 
+const ChatForum = require("./db/models/ChatForumModel") ;
+
 const port = 5000 || process.env.PORT;
 
 const connect = require("./db/connection");
+
+const server = http.createServer(app) ;
 
 const authRoute = require("./routes/authRoutes");
 const userRoute = require("./routes/userRoutes");
@@ -31,7 +39,31 @@ app.use(CONSTANT.ROUTES.AUTH, authRoute);
 app.use(CONSTANT.ROUTES.USER, userRoute);
 app.use("/scan", ctgRoute);
 
-app.listen(port, () => {
+const io = new Server(server , {
+    cors :{
+        origin:"http://localhost:3000",
+        methods:["GET","POST"]
+    }
+});
+
+io.on("connection",(socket)=>{
+    socket.on("send_message",async(data)=>{
+        let cf = await ChatForum.findOne({}) ;
+        if(cf == null){
+             cf =  ChatForum.create({
+                chats :{
+                    message : data.message
+                }
+               }) ;
+        }else{
+            cf.chats.push({message : data.message});
+            cf.save();
+        }
+       socket.broadcast.emit("receive_message",cf.chats.reverse()) ;
+    })
+})
+
+server.listen(port, () => {
     console.log(`Server is listening on ${port}`);
     connect(process.env.MONGO_URI);
 });

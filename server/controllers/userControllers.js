@@ -3,6 +3,7 @@ const Baby = require("../db/models/babyModel");
 const Mother = require("../db/models/motherModel");
 // const { response } = require("express");
 const twilio = require("twilio");
+const axios = require("axios");
 
 module.exports = {
   async getUser(req, res) {
@@ -114,7 +115,6 @@ module.exports = {
       console.log(err);
     }
   },
-
   async call(req, res) {
 
     console.log("In call");
@@ -125,9 +125,18 @@ module.exports = {
     client.calls.create({
       url: "http://demo.twilio.com/docs/voice.xml",
       to: "+919717185450",
-      from: "+13392183223",
+      from: "+13392183223"
     })
       .then(call => console.log(call.sid))
       .catch((err) => console.log("Call Error" + err));
   },
+  async recommendFood(req , res){
+     try{
+        axios.get("http://localhost:8000/recommend/food?dibeties=0").then((data)=>{
+            console.log(data) ;
+        })
+     }catch(err){
+      console.log(err) ;
+     }
+  }
 };
