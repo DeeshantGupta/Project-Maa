@@ -3,6 +3,7 @@ const Baby = require("../db/models/babyModel");
 const Mother = require("../db/models/motherModel");
 // const { response } = require("express");
 const twilio = require("twilio");
+const axios = require("axios");
 
 module.exports = {
   async getUser(req, res) {
@@ -131,12 +132,9 @@ module.exports = {
   },
   async recommendFood(req , res){
      try{
-      console.log("I am here") ;
-        // axios.get("http://localhost:8000/recommend/food",{
-        //   diabeties : 0
-        // }).then((data)=>{
-        //     console.log(data) ;
-        // })
+        axios.get("http://localhost:8000/recommend/food?dibeties=0").then((data)=>{
+            console.log(data) ;
+        })
      }catch(err){
       console.log(err) ;
      }
