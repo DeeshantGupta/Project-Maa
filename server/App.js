@@ -4,6 +4,8 @@ const express = require("express");
 
 const cookieParser = require("cookie-parser");
 
+const http = require("http") ;
+
 const cors = require("cors");
 
 const app = express();
@@ -11,6 +13,8 @@ const app = express();
 const port = 5000 || process.env.PORT;
 
 const connect = require("./db/connection");
+
+const server = http.createServer(app) ;
 
 const authRoute = require("./routes/authRoutes");
 const userRoute = require("./routes/userRoutes");
@@ -31,7 +35,7 @@ app.use(CONSTANT.ROUTES.AUTH, authRoute);
 app.use(CONSTANT.ROUTES.USER, userRoute);
 app.use("/scan", ctgRoute);
 
-app.listen(port, () => {
+server.listen(port, () => {
     console.log(`Server is listening on ${port}`);
     connect(process.env.MONGO_URI);
 });
