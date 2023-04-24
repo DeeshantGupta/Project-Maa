@@ -41,13 +41,6 @@ app.use("/scan", ctgRoute);
 
 // const io = new Server(server);
 
-<<<<<<< HEAD
-// io.on("connection", (socket) => {
-//     socket.on("send_message", (data) => {
-//         socket.broadcast.emit("receive_message", data);
-//     })
-// })
-=======
 io.on("connection",(socket)=>{
     socket.on("send_message",async(data)=>{
         console.log(data) ;
@@ -73,7 +66,6 @@ io.on("connection",(socket)=>{
         }
     })
 })
->>>>>>> 720892eda2e70889147ec5e36359fdb32c37f93f
 
 app.listen(port, () => {
     console.log(`Server is listening on ${port}`);
