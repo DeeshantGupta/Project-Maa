@@ -23,6 +23,7 @@ import InfoDoctor from "./pages/Doctor/InfoDoctor";
 import Pricing from "./pages/Pricing";
 import Food2 from "./pages/Food2";
 import ChatForum from "./pages/ChatForum";
+import ChatBot from "./pages/ChatBot";
 // import ChatForum from "./components/jsx/chatForum/ChatForum";
 
 const App = () => {
@@ -52,6 +53,7 @@ const App = () => {
         <Route exact path="/chatforum" element={<ChatForum />} />
 
         <Route exact path="/chatforum" element={<ChatForum/>} />
+        <Route exact path="/chatbot" element={<ChatBot />} />
 
         {/* <Route exact path="/doctor/info/:id/*" element={<InfoDoctor />} /> */}
         <Route exact path="/doctor/info/*" element={<InfoDoctor />} />
