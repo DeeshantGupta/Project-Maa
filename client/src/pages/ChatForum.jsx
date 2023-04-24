@@ -52,33 +52,32 @@ const ChatForum = () => {
     
   useEffect(() =>{
 
-    // const verifyUser = ()=>{
-    //   if(!cookies.jwt){
-    //     console.log("In Login") ;
-    //     navigate('/login');
-    //   }else{
-    //     axios.post(`http://localhost:5000/user/checkuser`,{},{
-    //       withCredentials:true,
-    //     }).then(({data})=>{
-    //       if(data.id != id){
-    //         console.log("In Login 2") ;
-    //         removeCookie("jwt");
-    //         navigate('/login');
-    //       }else{
-    //         if(data.flag){
-    //           navigate(`/${data.id}/checkforum`);
-    //           getUser();
-    //         } 
-    //       }
-    //     })
-    //   }
-    // }
+    const verifyUser = ()=>{
+      if(!cookies.jwt){
+        console.log("In Login") ;
+        navigate('/login');
+      }else{
+        axios.post(`http://localhost:5000/user/checkuser`,{},{
+          withCredentials:true,
+        }).then(({data})=>{
+          if(data.id != id){
+            console.log("In Login 2") ;
+            removeCookie("jwt");
+            navigate('/login');
+          }else{
+            if(data.flag){
+              navigate(`/${data.id}/checkforum`);
+              getUser();
+            } 
+          }
+        })
+      }
+    }
   
-    // verifyUser() ;
+    verifyUser() ;
 
     socket.on("receive_message",(data) =>{
       console.log(data) ;
-      
       setMessageReceived(data) ;
     })
   },[socket])

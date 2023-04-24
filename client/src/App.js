@@ -23,7 +23,6 @@ import InfoDoctor from "./pages/Doctor/InfoDoctor";
 import Pricing from "./pages/Pricing";
 import Food2 from "./pages/Food2";
 import ChatForum from "./pages/ChatForum";
-// import ChatForum from "./components/jsx/chatForum/ChatForum";
 
 const App = () => {
   return (  
