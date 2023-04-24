@@ -268,8 +268,8 @@ grid-row-gap: 100px;
 
 .call_container_dashboard {
     position: absolute;
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     bottom: 30px;
     right: 30px;
     background-color: var(--primary-dark);
@@ -282,11 +282,41 @@ grid-row-gap: 100px;
     transition: 0.3s all ease;
 }
 
-.call_container_dashboard:hover {
+.call_container2_dashboard {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    bottom: 30px;
+    right: 110px;
+    background-color: #20aee3;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: 0.3s all ease;
+}
+
+.chat_bot_dashboard {
+    position: absolute;
+    width: 380px;
+    height: 500px;
+    bottom: 30px;
+    right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: 0.3s all ease;
+}
+
+.call_container_dashboard:hover, .call_container2_dashboard:hover {
     transform: scale(1.1);
 }
 
 .call_icon_dashboard {
-    font-size: 30px;
+    font-size: 25px;
     color: var(--white-color);
 }

@@ -10,6 +10,20 @@ import { Link ,useNavigate , useParams} from 'react-router-dom';
 import { useCookies } from 'react-cookie';
 import { useEffect,useState } from 'react';
 import { FiPhoneCall } from "react-icons/fi";
+import Logo from "../img/logo.png"
+import {
+  BsRobot,
+  BsTable,
+  BsEmojiSmile,
+} from "react-icons/bs";
+import { FaBars, FaBell, FaReact, FaRobot, FaTimes } from "react-icons/fa";
+import { TbBrandMeta, TbMessageDots } from "react-icons/tb";
+import { HiHome } from "react-icons/hi";
+import { IoDocuments, IoSearchOutline, IoSend } from "react-icons/io5";
+import { MdFeedback } from "react-icons/md";
+import { BiCheck } from "react-icons/bi";
+import { IoMdThumbsUp } from "react-icons/io";
+import { ImAttachment } from "react-icons/im";
 import axios from "axios";
 
 const Dashboard = () => {
@@ -40,6 +54,8 @@ const Dashboard = () => {
 
     const [motherTips,setMotheTips] = useState({});
 
+    const [showChat, setShowChat] = useState(true);
+
     const getUser = async()=>{
       axios.get(`http://localhost:5000/user/getuser/${id}`).then(({data})=>{
         setUserInfo(data);
@@ -56,6 +72,20 @@ const Dashboard = () => {
       axios.get(`http://localhost:5000/user/motherfood/${id}`).then(({data})=>{
         setMotheTips(data);
     }); 
+    }
+
+    
+    const [inputMessage, setInputMessage] = useState("");
+
+    const handleMessage = (e) => {
+      setInputMessage(e.target.value);
+    }
+
+    const submitMessage = () => {
+      console.log(inputMessage)
+      axios.post(`http://127.0.0.1:8000/bot/${inputMessage}`).then((res) => {
+        console.log(res)
+      }).catch((err) => console.log(err))
     }
 
     useEffect(()=>{
@@ -215,6 +245,114 @@ const Dashboard = () => {
          <div className='call_container_dashboard' onClick={callNumber}>
           <FiPhoneCall className="call_icon_dashboard" />
          </div>
+
+         { showChat ? (
+          <div className='call_container2_dashboard' onClick={() => setShowChat(false)}>
+            <FaRobot className="call_icon_dashboard" />
+          </div>
+         ) : (
+          <div className='chat_bot_dashboard'>
+           <div className="chat_container_chatbot">
+      <div className="chat_main_box_chatbot">
+        {/* {selectedConversation && ( */}
+        <div className="chat_window_container_chatbot">
+          <div className="chat_window_top_section_chatbot">
+            <div className="chat_window_top_left_section_chatbot">
+              <img
+                src={Logo}
+                alt="profile"
+              />
+              <h3>Doulas</h3>
+            </div>
+
+            <div className="chat_window_top_right_section_chatbot">
+              <div className="chat_window_three_dots_container_chatbot" onClick={() => setShowChat(true)}>
+                <FaTimes className="three_dots_icon_chatbot" />
+              </div>
+            </div>
+          </div>
+
+          <div className="message_section_chatbot">
+            <div className="message_top_section_chatbot">
+              <p>1:50 AM</p>
+            </div>
+
+            <div className="message_middle_section_chatbot">
+              <div className="message_container_type2_chatbot">
+                <div className="message_box_type2_chatbot">
+                  <p>How are you my friend ?</p>
+                </div>
+              </div>
+              {/* ) : ( */}
+              <div className="message_container_type1_chatbot">
+                <div className="message_box_type1_chatbot">
+                  <p>I a fine.</p>
+                </div>
+              </div>
+
+              <div className="message_container_type1_chatbot">
+                <div className="message_box_type1_chatbot">
+                  <p>I a fine.</p>
+                </div>
+              </div>
+
+              <div className="message_container_type1_chatbot">
+                <div className="message_box_type1_chatbot">
+                  <p>I a fine.</p>
+                </div>
+              </div>
+
+              <div className="message_container_type1_chatbot">
+                <div className="message_box_type1_chatbot">
+                  <p>I a fine.</p>
+                </div>
+              </div>
+
+              <div className="message_container_type1_chatbot">
+                <div className="message_box_type1_chatbot">
+                  <p>I a fine.</p>
+                </div>
+              </div>
+
+              <div className="message_container_type1_chatbot">
+                <div className="message_box_type1_chatbot">
+                  <p>I a fine.</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="message_bottom_section_chatbot">
+              <div className="input_container_chatbot">
+                <div className="input_top_section">
+                  <input onChange={handleMessage} value={inputMessage} type="text" placeholder="Reply in Messenger..." />
+                  <IoSend onClick={() => submitMessage()} className="send_icon_chatbot" />
+                </div>
+
+                <div className="input_bottom_section">
+                  <div className="input_bottom_icon_container_chatbot">
+                    <ImAttachment className="attach_icon_chatbot" />
+                  </div>
+                  <div className="input_bottom_icon_container_chatbot">
+                    <TbMessageDots className="attach_icon_chatbot" />
+                  </div>
+                  <div className="input_bottom_icon_container_chatbot">
+                    <BsEmojiSmile className="attach_icon_chatbot" />
+                  </div>
+                  <div className="input_bottom_icon_container_chatbot">
+                    <BsTable className="attach_icon_chatbot" />
+                  </div>
+                  <div className="input_bottom_icon_container_chatbot">
+                    <IoMdThumbsUp className="attach_icon_chatbot" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+          </div>
+         )}
 
         </div>:""
       }
