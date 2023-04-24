@@ -8,7 +8,7 @@ import DashboardDoctor from "./UserDoctor/DashboardDoctor";
 // import AddInternshipCompany from "./UserCompany/AddInternshipCompany";
 // import ApplicantsCompany from "./UserCompany/ApplicantsCompany";
 
-const InfoDoctor = ({theme, setTheme}) => {
+const  InfoDoctor = ({theme, setTheme}) => {
 
   return (
     <SidebarDoctor  theme={theme} setTheme={setTheme}>
