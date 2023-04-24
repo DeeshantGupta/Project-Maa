@@ -24,7 +24,7 @@ const ctgRoute = require("./routes/ctgRoutes");
 const CONSTANT = require("./utils/constants/appContants");
 
 app.use(cors({
-    origin: ["http://127.0.0.1:3000", "http://127.0.0.1:8000"],
+    origin: ["http://127.0.0.1:3000", "http://127.0.0.1:8000", "http://localhost:3000"],
     method: ["GET", "POST", "DELETE", "PUT"],
     credentials: true
 }));
