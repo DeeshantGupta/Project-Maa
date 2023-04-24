@@ -18,7 +18,7 @@ const port = 5000 || process.env.PORT;
 
 const connect = require("./db/connection");
 
-// const server = http.createServer(app);
+const server = http.createServer(app);
 
 const authRoute = require("./routes/authRoutes");
 const userRoute = require("./routes/userRoutes");
@@ -39,7 +39,7 @@ app.use(CONSTANT.ROUTES.AUTH, authRoute);
 app.use(CONSTANT.ROUTES.USER, userRoute);
 app.use("/scan", ctgRoute);
 
-// const io = new Server(server);
+const io = new Server(server);
 
 io.on("connection",(socket)=>{
     socket.on("send_message",async(data)=>{
