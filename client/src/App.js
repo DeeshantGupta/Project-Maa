@@ -23,17 +23,18 @@ import InfoDoctor from "./pages/Doctor/InfoDoctor";
 import Pricing from "./pages/Pricing";
 import Food2 from "./pages/Food2";
 import ChatForum from "./pages/ChatForum";
+import ChatBot from "./pages/ChatBot";
 
 const App = () => {
-  return (  
+  return (
     <BrowserRouter>
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route exact path="/signup" element={<SignUp />} />
-        <Route exact path="/login" element={<Login />} />  
-        <Route exact path="/emailverify/:type" element={<EmailVerify />} />  
-        <Route exact path="/otpverify/:email/:type" element={<OTPVerify />} /> 
-        <Route exact path="/forgotpassword/:email" element={<ForgotPassword />} />        
+        <Route exact path="/login" element={<Login />} />
+        <Route exact path="/emailverify/:type" element={<EmailVerify />} />
+        <Route exact path="/otpverify/:email/:type" element={<OTPVerify />} />
+        <Route exact path="/forgotpassword/:email" element={<ForgotPassword />} />
         <Route exact path="*" element={<Error404 />} />
         <Route exact path="/:id/food" element={<Food />} />
         <Route exact path="/foods" element={<Food2 />} />
@@ -48,6 +49,7 @@ const App = () => {
         <Route exact path="/ctgscan" element={<CTGScan />} />
         <Route exact path="/ctgresult" element={<CTGScanResult />} />
         <Route exact path="/articles" element={<Articles />} />
+        <Route exact path="/chatbot" element={<ChatBot />} />
         <Route exact path="/:id/chatforum" element={<ChatForum/>} />
 
         {/* <Route exact path="/doctor/info/:id/*" element={<InfoDoctor />} /> */}

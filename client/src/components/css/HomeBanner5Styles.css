@@ -8,6 +8,7 @@
     grid-gap: 40px;
     padding: 50px 100px;
     background-color: var(--primary-color);
+    margin-top: 60px;
 }
 
 .top_section_homebanner5 {
@@ -56,7 +57,7 @@
     /* grid-gap: 10px; */
 }
 
-.bottom_first_section_homebanner5 h3 {
+.bottom_first_section_homebanner5 h3, .bottom_first_section_h3_homebanner5 {
     font-family: 'Signika Negative', sans-serif;
     color: var(--primary-dark);
     /* margin-top: 24px; */

@@ -133,7 +133,7 @@ module.exports = {
   },
   async recommendFood(req , res){
      try{
-        axios.get("http://localhost:8000/recommend/food?dibeties=0").then((data)=>{
+        axios.get("http://localhost:8000/recommend/food?Diabetes=0").then((data)=>{
             console.log(data) ;
         })
      }catch(err){
