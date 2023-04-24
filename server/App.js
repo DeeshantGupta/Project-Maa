@@ -12,7 +12,7 @@ const cors = require("cors");
 
 const app = express();
 
-const ChatForum = require("./db/models/ChatForumModel") ;
+const ChatForum = require("./db/models/ChatForumModel");
 
 const port = 5000 || process.env.PORT;
 
@@ -26,7 +26,7 @@ const ctgRoute = require("./routes/ctgRoutes");
 const CONSTANT = require("./utils/constants/appContants");
 
 app.use(cors({
-    origin: ["http://127.0.0.1:3000", "http://127.0.0.1:8000", "http://localhost:3000"],
+    origin: ["http://localhost:3000", "http://127.0.0.1:8000"],
     method: ["GET", "POST", "DELETE", "PUT"],
     credentials: true
 }));
@@ -41,36 +41,36 @@ app.use("/scan", ctgRoute);
 
 const io = new Server(server);
 
-io.on("connection",(socket)=>{
-    socket.on("send_message",async(data)=>{
-        console.log(data) ;
-        let cf = await ChatForum.findOne({}) ;
-        if(cf == null){
-             cf =  ChatForum.create({
-                chats :{
-                    from :data.id ,
-                    message : data.message,
-                    name : data.name ,
-                    date : Date.now()
+io.on("connection", (socket) => {
+    socket.on("send_message", async (data) => {
+        console.log(data);
+        let cf = await ChatForum.findOne({});
+        if (cf == null) {
+            cf = ChatForum.create({
+                chats: {
+                    from: data.id,
+                    message: data.message,
+                    name: data.name,
+                    date: Date.now()
                 }
-               });
-        }else{
+            });
+        } else {
             cf.chats.push({
-                message : data.message , 
-                from : data.id ,
-                name : data.name ,
-                date : Date.now()
-            }) ;
-            cf.save() ; 
+                message: data.message,
+                from: data.id,
+                name: data.name,
+                date: Date.now()
+            });
+            cf.save();
         }
 
-        if(cf.chats == undefined){
-            data.date = Date.now() ; 
-            let arr = [data] ;
-            socket.broadcast.emit("receive_message",arr) ;
+        if (cf.chats == undefined) {
+            data.date = Date.now();
+            let arr = [data];
+            socket.broadcast.emit("receive_message", arr);
         }
-        else{
-            socket.broadcast.emit("receive_message",cf.chats) ;
+        else {
+            socket.broadcast.emit("receive_message", cf.chats);
         }
     })
 })
