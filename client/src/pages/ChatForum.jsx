@@ -32,7 +32,7 @@ const ChatForum = () => {
     const [error , setError] = useState("") ;
   
     const [userInfo,setUserInfo] = useState({});
-  
+
     const {id} = useParams();
 
     const sendMessage = () =>{
@@ -40,10 +40,17 @@ const ChatForum = () => {
         setError("Please type the message.") ;
       }
       else{
-        socket.emit("send_message",{ message }) ;
+        socket.emit("send_message",{ message , from : id , name :userInfo.name }) ;
       }
+      setMessage("") ;
     }
-  
+
+    const getChatForum = ()=>{
+      axios.get(`http://localhost:5000/user/chatforum`).then(({data})=>{
+        setMessageReceived(data);
+      })
+    }
+
     const getUser = async()=>{
       axios.get(`http://localhost:5000/user/getuser/${id}`).then(({data})=>{
         setUserInfo(data);
@@ -66,8 +73,9 @@ const ChatForum = () => {
             navigate('/login');
           }else{
             if(data.flag){
-              navigate(`/${data.id}/checkforum`);
+              navigate(`/${data.id}/chatforum`);
               getUser();
+              getChatForum() ;
             } 
           }
         })
@@ -77,8 +85,9 @@ const ChatForum = () => {
     verifyUser() ;
 
     socket.on("receive_message",(data) =>{
-      console.log(data) ;
+      console.log(data)  ;
       setMessageReceived(data) ;
+      getChatForum() ;
     })
   },[socket])
 
@@ -110,7 +119,7 @@ const ChatForum = () => {
         <div className="second_section_message">
           <div className="second_top_section_message">
             <div className="second_top_left_section_message">
-              <h3>Inbox</h3>
+              <h3>Chat Forum</h3>
             </div>
 
             <div className="second_top_right_section_message">
@@ -150,10 +159,14 @@ const ChatForum = () => {
                       {/* <p>1:50 AM</p> */}
                     </div>
 
-                    <div className="message_middle_section_message">
-                            <ParentComment myself="true"  />
-                            <ParentComment myself="false"  />
-                    </div>
+                      {
+                        messageReceived.map((messages , index)=>(
+                            <div className="message_middle_section_message" key={index}>
+                              {(messages.from == id) ? <ParentComment myself="true" msg={messages}/> :  <ParentComment myself="false" msg={messages} />}
+                            </div>
+                        ))
+                      }
+                        
 
                     <div className="message_bottom_section_message">
                       <div className="input_container_message">
