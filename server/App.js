@@ -75,7 +75,7 @@ io.on("connection",(socket)=>{
     })
 })
 
-app.listen(port, () => {
+server.listen(port, () => {
     console.log(`Server is listening on ${port}`);
     connect(process.env.MONGO_URI);
 });
