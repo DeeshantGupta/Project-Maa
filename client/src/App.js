@@ -21,17 +21,9 @@ import CTGScanResult from "./pages/CTGScanResult";
 import Articles from "./pages/Articles";
 import InfoDoctor from "./pages/Doctor/InfoDoctor";
 import Pricing from "./pages/Pricing";
-<<<<<<< HEAD
-// import chatForum from "./components/jsx/chatForum/chatForum";
-=======
 import Food2 from "./pages/Food2";
 import ChatForum from "./pages/ChatForum";
-<<<<<<< HEAD
 import ChatBot from "./pages/ChatBot";
-// import ChatForum from "./components/jsx/chatForum/ChatForum";
-=======
->>>>>>> 720892eda2e70889147ec5e36359fdb32c37f93f
->>>>>>> 5beb39304359a38736656d7327e78a0a2ee12acd
 
 const App = () => {
   return (
@@ -59,16 +51,8 @@ const App = () => {
         <Route exact path="/articles" element={<Articles />} />
         <Route exact path="/chatforum" element={<ChatForum />} />
 
-<<<<<<< HEAD
-        <Route exact path="/chatforum" element={<ChatForum/>} />
         <Route exact path="/chatbot" element={<ChatBot />} />
-=======
-<<<<<<< HEAD
-        {/* <Route exact path="/chatforum" element={<chatForum/>} /> */}
-=======
         <Route exact path="/:id/chatforum" element={<ChatForum/>} />
->>>>>>> 720892eda2e70889147ec5e36359fdb32c37f93f
->>>>>>> 5beb39304359a38736656d7327e78a0a2ee12acd
 
         {/* <Route exact path="/doctor/info/:id/*" element={<InfoDoctor />} /> */}
         <Route exact path="/doctor/info/*" element={<InfoDoctor />} />

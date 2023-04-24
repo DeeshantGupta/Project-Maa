@@ -82,7 +82,10 @@ const Dashboard = () => {
     }
 
     const submitMessage = () => {
-      
+      console.log(inputMessage)
+      axios.post(`http://127.0.0.1:8000/bot/${inputMessage}`).then((res) => {
+        console.log(res)
+      }).catch((err) => console.log(err))
     }
 
     useEffect(()=>{
