@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState , useEffect} from "react";
 import "../components/css/ChatForumStyles.css";
 import { AiFillMessage, AiFillSetting } from "react-icons/ai";
 import { BsBarChartFill, BsClock, BsCalendarDateFill, BsMegaphoneFill, BsFillQuestionCircleFill, BsSliders, BsThreeDots, BsTable, BsEmojiSmile } from "react-icons/bs";
@@ -11,11 +11,77 @@ import { BiCheck } from "react-icons/bi";
 import { IoMdThumbsUp } from "react-icons/io";
 import { ImAttachment } from "react-icons/im";
 import Logo from "../img/logo.png";
-import { Link } from "react-router-dom";
+import { Link , useParams , useNavigate} from "react-router-dom";
 import ParentComment from "../components/jsx/ParentComment";
+import io from  "socket.io-client";
+import axios from "axios" ;
+import {useCookies} from 'react-cookie';
+const socket = io.connect("http://localhost:5000") ;
 
 const ChatForum = () => {
     const [myself, setMyself] = useState(true);
+
+    const navigate = useNavigate() ;
+
+    const [message , setMessage] = useState("") ;
+  
+    const [cookies,setCookie,removeCookie] = useCookies([]);
+  
+    const [messageReceived , setMessageReceived] = useState([]) ;
+  
+    const [error , setError] = useState("") ;
+  
+    const [userInfo,setUserInfo] = useState({});
+  
+    const {id} = useParams();
+
+    const sendMessage = () =>{
+      if(message.length == 0){
+        setError("Please type the message.") ;
+      }
+      else{
+        socket.emit("send_message",{ message }) ;
+      }
+    }
+  
+    const getUser = async()=>{
+      axios.get(`http://localhost:5000/user/getuser/${id}`).then(({data})=>{
+        setUserInfo(data);
+      })
+    }
+    
+  useEffect(() =>{
+
+    // const verifyUser = ()=>{
+    //   if(!cookies.jwt){
+    //     console.log("In Login") ;
+    //     navigate('/login');
+    //   }else{
+    //     axios.post(`http://localhost:5000/user/checkuser`,{},{
+    //       withCredentials:true,
+    //     }).then(({data})=>{
+    //       if(data.id != id){
+    //         console.log("In Login 2") ;
+    //         removeCookie("jwt");
+    //         navigate('/login');
+    //       }else{
+    //         if(data.flag){
+    //           navigate(`/${data.id}/checkforum`);
+    //           getUser();
+    //         } 
+    //       }
+    //     })
+    //   }
+    // }
+  
+    // verifyUser() ;
+
+    socket.on("receive_message",(data) =>{
+      console.log(data) ;
+      
+      setMessageReceived(data) ;
+    })
+  },[socket])
 
   return (
     <div>
@@ -94,13 +160,13 @@ const ChatForum = () => {
                       <div className="input_container_message">
                         <div className="input_top_section">
                           <input
-                            // onChange={handleMessage}
+                             onChange={(e) => setMessage(e.target.value)}
                             // value={inputMessage}
                             type="text"
                             placeholder="Reply in Messenger..."
                           />
                           <IoSend
-                            // onClick={() => submitMessage(ps_id)}
+                            onClick={sendMessage}
                             className="send_icon_message"
                           />
                         </div>

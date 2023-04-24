@@ -48,6 +48,7 @@ const io = new Server(server , {
 
 io.on("connection",(socket)=>{
     socket.on("send_message",async(data)=>{
+        console.log(data) ;
         let cf = await ChatForum.findOne({}) ;
         if(cf == null){
              cf =  ChatForum.create({
@@ -59,7 +60,15 @@ io.on("connection",(socket)=>{
             cf.chats.push({message : data.message});
             cf.save();
         }
-       socket.broadcast.emit("receive_message",cf.chats.reverse()) ;
+
+        if(cf.chats == undefined){
+            console.log("No reverse") ;
+            socket.broadcast.emit("receive_message",data) ;
+        }
+        else{
+            console.log("In reverse") ;
+            socket.broadcast.emit("receive_message",cf.chats.reverse()) ;
+        }
     })
 })
 
