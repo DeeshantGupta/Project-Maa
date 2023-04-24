@@ -53,7 +53,7 @@ io.on("connection",(socket)=>{
                     name : data.name ,
                     date : Date.now()
                 }
-               }) ;
+               });
         }else{
             cf.chats.push({
                 message : data.message , 
@@ -61,7 +61,7 @@ io.on("connection",(socket)=>{
                 name : data.name ,
                 date : Date.now()
             }) ;
-            cf.save();
+            cf.save() ; 
         }
 
         if(cf.chats == undefined){
