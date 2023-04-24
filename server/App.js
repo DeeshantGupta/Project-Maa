@@ -4,9 +4,9 @@ const express = require("express");
 
 const cookieParser = require("cookie-parser");
 
-const http = require("http") ;
+const http = require("http");
 
-const {Server} = require("socket.io") 
+const { Server } = require("socket.io")
 
 const cors = require("cors");
 
@@ -18,7 +18,7 @@ const port = 5000 || process.env.PORT;
 
 const connect = require("./db/connection");
 
-const server = http.createServer(app) ;
+// const server = http.createServer(app);
 
 const authRoute = require("./routes/authRoutes");
 const userRoute = require("./routes/userRoutes");
@@ -26,7 +26,7 @@ const ctgRoute = require("./routes/ctgRoutes");
 const CONSTANT = require("./utils/constants/appContants");
 
 app.use(cors({
-    origin: ["http://localhost:3000","http://127.0.0.1:8000"],
+    origin: ["http://127.0.0.1:3000", "http://127.0.0.1:8000", "http://localhost:3000"],
     method: ["GET", "POST", "DELETE", "PUT"],
     credentials: true
 }));
@@ -39,15 +39,18 @@ app.use(CONSTANT.ROUTES.AUTH, authRoute);
 app.use(CONSTANT.ROUTES.USER, userRoute);
 app.use("/scan", ctgRoute);
 
-const io = new Server(server , {
-    cors :{
-        origin:"http://localhost:3000",
-        methods:["GET","POST"]
-    }
-});
+// const io = new Server(server);
 
+<<<<<<< HEAD
+// io.on("connection", (socket) => {
+//     socket.on("send_message", (data) => {
+//         socket.broadcast.emit("receive_message", data);
+//     })
+// })
+=======
 io.on("connection",(socket)=>{
     socket.on("send_message",async(data)=>{
+        console.log(data) ;
         let cf = await ChatForum.findOne({}) ;
         if(cf == null){
              cf =  ChatForum.create({
@@ -59,11 +62,20 @@ io.on("connection",(socket)=>{
             cf.chats.push({message : data.message});
             cf.save();
         }
-       socket.broadcast.emit("receive_message",cf.chats.reverse()) ;
+
+        if(cf.chats == undefined){
+            console.log("No reverse") ;
+            socket.broadcast.emit("receive_message",data) ;
+        }
+        else{
+            console.log("In reverse") ;
+            socket.broadcast.emit("receive_message",cf.chats.reverse()) ;
+        }
     })
 })
+>>>>>>> 720892eda2e70889147ec5e36359fdb32c37f93f
 
-server.listen(port, () => {
+app.listen(port, () => {
     console.log(`Server is listening on ${port}`);
     connect(process.env.MONGO_URI);
 });
