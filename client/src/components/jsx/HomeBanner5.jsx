@@ -21,7 +21,7 @@ const HomeBanner5 = () => {
         <div className="bottom_section_homebanner5">
           <div className="bottom_first_section_homebanner5">
             <h3>
-              { counterOn && <CountUp start={0} end={25000000} duration={2.5} delay={0} className="bottom_first_section_h3_homebanner5" />}
+              { counterOn && <CountUp start={0} end={25000000} duration={2} delay={0} className="bottom_first_section_h3_homebanner5" />}
                &nbsp;+
               </h3>
             <p>
@@ -33,7 +33,7 @@ const HomeBanner5 = () => {
 
           <div className="bottom_first_section_homebanner5">
             <h3>
-              { counterOn && <CountUp start={0} end={300000} duration={2.5} delay={0} className="bottom_first_section_h3_homebanner5" />}
+              { counterOn && <CountUp start={0} end={300000} duration={2} delay={0} className="bottom_first_section_h3_homebanner5" />}
               &nbsp;+
             </h3>
             <p>
@@ -44,7 +44,7 @@ const HomeBanner5 = () => {
 
           <div className="bottom_first_section_homebanner5">
             <h3>             
-              { counterOn && <CountUp start={0} end={93000000} duration={2.5} delay={0} className="bottom_first_section_h3_homebanner5" />} 
+              { counterOn && <CountUp start={0} end={93000000} duration={2} delay={0} className="bottom_first_section_h3_homebanner5" />} 
               &nbsp;+
             </h3>
             <p>

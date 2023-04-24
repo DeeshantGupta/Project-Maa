@@ -12,7 +12,7 @@ const cors = require("cors");
 
 const app = express();
 
-const ChatForum = require("./db/models/ChatForumModel") ;
+const ChatForum = require("./db/models/ChatForumModel");
 
 const port = 5000 || process.env.PORT;
 
@@ -41,28 +41,28 @@ app.use("/scan", ctgRoute);
 
 // const io = new Server(server);
 
-io.on("connection",(socket)=>{
-    socket.on("send_message",async(data)=>{
-        console.log(data) ;
-        let cf = await ChatForum.findOne({}) ;
-        if(cf == null){
-             cf =  ChatForum.create({
-                chats :{
-                    message : data.message
+io.on("connection", (socket) => {
+    socket.on("send_message", async (data) => {
+        console.log(data);
+        let cf = await ChatForum.findOne({});
+        if (cf == null) {
+            cf = ChatForum.create({
+                chats: {
+                    message: data.message
                 }
-               }) ;
-        }else{
-            cf.chats.push({message : data.message});
+            });
+        } else {
+            cf.chats.push({ message: data.message });
             cf.save();
         }
 
-        if(cf.chats == undefined){
-            console.log("No reverse") ;
-            socket.broadcast.emit("receive_message",data) ;
+        if (cf.chats == undefined) {
+            console.log("No reverse");
+            socket.broadcast.emit("receive_message", data);
         }
-        else{
-            console.log("In reverse") ;
-            socket.broadcast.emit("receive_message",cf.chats.reverse()) ;
+        else {
+            console.log("In reverse");
+            socket.broadcast.emit("receive_message", cf.chats.reverse());
         }
     })
 })
