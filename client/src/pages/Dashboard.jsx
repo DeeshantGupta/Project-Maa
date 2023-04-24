@@ -82,10 +82,10 @@ const Dashboard = () => {
     }
 
     const submitMessage = () => {
-      console.log(inputMessage)
-      axios.post(`http://127.0.0.1:8000/bot/${inputMessage}`).then((res) => {
-        console.log(res)
-      }).catch((err) => console.log(err))
+      // console.log(inputMessage)
+      // axios.get(`http://localhost:8000/bot/?inputMessage=${inputMessage}`).then((res) => {
+      //   console.log("data", res)
+      // }).catch((err) => console.log(err))
     }
 
     useEffect(()=>{
@@ -274,7 +274,7 @@ const Dashboard = () => {
 
           <div className="message_section_chatbot">
             <div className="message_top_section_chatbot">
-              <p>1:50 AM</p>
+              {/* <p>1:50 AM</p> */}
             </div>
 
             <div className="message_middle_section_chatbot">
