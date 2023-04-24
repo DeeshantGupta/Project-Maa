@@ -48,8 +48,6 @@ const App = () => {
         <Route exact path="/ctgscan" element={<CTGScan />} />
         <Route exact path="/ctgresult" element={<CTGScanResult />} />
         <Route exact path="/articles" element={<Articles />} />
-        <Route exact path="/chatforum" element={<ChatForum />} />
-
         <Route exact path="/:id/chatforum" element={<ChatForum/>} />
 
         {/* <Route exact path="/doctor/info/:id/*" element={<InfoDoctor />} /> */}

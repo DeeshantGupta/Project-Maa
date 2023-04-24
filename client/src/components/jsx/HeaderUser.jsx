@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link, useNavigate , useParams} from "react-router-dom";
 import Logo from "../../img/logo.png";
 import { RiArrowDropDownLine, RiArrowDropUpLine } from "react-icons/ri";
 import { MdLogout } from "react-icons/md";
@@ -7,7 +7,10 @@ import "../css/HeaderUserStyles.css";
 import {useCookies} from 'react-cookie'
 import axios from "axios"
 const HeaderUser = ({name}) => {
+
   const navigate = useNavigate();
+
+  const {id} = useParams() ;
 
   const initials = name
   const name_initials=typeof initials==="string" ?initials.split('')[0]:""
@@ -20,12 +23,12 @@ const HeaderUser = ({name}) => {
 
   const LogOut = async()=>{
     console.log(cookies.session)
-    removeCookie("jwt")
-    navigate('/login')
+    removeCookie("jwt") 
+    navigate('/login') 
     window.location.reload(true);
 
   }
-
+   console.log("Header User : "+id) ;
   return (
     <div className="headerUser">
       <div className="left_section_headerUser">
@@ -40,9 +43,7 @@ const HeaderUser = ({name}) => {
           <Link to="/" className="intern_headerUser">
             Home
           </Link>
-
-          <Link to="/chatforum">Chat Forum</Link>
-
+          <Link to={`/${id}/chatforum`}>Chat Forum</Link>
           <div className="user_details_container_headerUser" onClick={() => setIsLogoutMenu(!isLogoutMenu)}>
             <div className="user_avavtar_headerUser">{name_initials}</div>
             <p>{name}</p>

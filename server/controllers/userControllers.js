@@ -4,6 +4,7 @@ const Mother = require("../db/models/motherModel");
 // const { response } = require("express");
 const twilio = require("twilio");
 const axios = require("axios");
+const ChatForum = require("../db/models/ChatForumModel") ;
 
 module.exports = {
   async getUser(req, res) {
@@ -138,5 +139,20 @@ module.exports = {
      }catch(err){
       console.log(err) ;
      }
+  },
+  async getChatForum(req,res){
+    try{
+
+        const chats = await ChatForum.find({}) ;
+       
+        if(chats.length == 0){
+          return res.send([]) ;
+        }else{
+          return res.send(chats[0].chats) ;
+        }
+
+    }catch(err){
+      console.log(err) ;
+    }
   }
 };

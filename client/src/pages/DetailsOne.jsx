@@ -12,6 +12,8 @@ const DetailsOne = () => {
 
   const {id} = useParams();
 
+  console.log(id) ;
+
   const [cookies,setCookie,removeCookie] = useCookies([]);
 
    const [userInfo,setUserInfo] = useState({});

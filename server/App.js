@@ -53,21 +53,29 @@ io.on("connection",(socket)=>{
         if(cf == null){
              cf =  ChatForum.create({
                 chats :{
-                    message : data.message
+                    from :data.id ,
+                    message : data.message,
+                    name : data.name ,
+                    date : Date.now()
                 }
                }) ;
         }else{
-            cf.chats.push({message : data.message});
+            cf.chats.push({
+                message : data.message , 
+                from : data.id ,
+                name : data.name ,
+                date : Date.now()
+            }) ;
             cf.save();
         }
 
         if(cf.chats == undefined){
-            console.log("No reverse") ;
-            socket.broadcast.emit("receive_message",data) ;
+            data.date = Date.now() ; 
+            let arr = [data] ;
+            socket.broadcast.emit("receive_message",arr) ;
         }
         else{
-            console.log("In reverse") ;
-            socket.broadcast.emit("receive_message",cf.chats.reverse()) ;
+            socket.broadcast.emit("receive_message",cf.chats) ;
         }
     })
 })

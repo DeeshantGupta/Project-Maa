@@ -30,4 +30,6 @@ router.route(CONSTANTS.USER.CALL).post(CTRLS.call);
 
 router.route(CONSTANTS.USER.RECOMMEND).post(CTRLS.recommendFood);
 
+router.route("/chatforum").get(CTRLS.getChatForum);
+
 module.exports = router;
