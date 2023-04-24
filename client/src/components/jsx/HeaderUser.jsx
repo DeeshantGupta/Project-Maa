@@ -41,6 +41,8 @@ const HeaderUser = ({name}) => {
             Home
           </Link>
 
+          <Link to="/chatforum">Chat Forum</Link>
+
           <div className="user_details_container_headerUser" onClick={() => setIsLogoutMenu(!isLogoutMenu)}>
             <div className="user_avavtar_headerUser">{name_initials}</div>
             <p>{name}</p>
